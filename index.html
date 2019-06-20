@@ -1,0 +1,4988 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.0">
+    
+    
+      
+        <title>Cybex使用手册</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/application.0284f74d.css">
+      
+        <link rel="stylesheet" href="assets/stylesheets/application-palette.01803549.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#ff7043">
+      
+    
+    
+      <script src="assets/javascripts/modernizr.74668098.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="assets/fonts/material-icons.css">
+    
+      <link rel="manifest" href="manifest.webmanifest">
+    
+    
+      <link rel="stylesheet" href="css/extra.css">
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="deep-orange" data-md-color-accent="grey">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#api" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="." title="Cybex使用手册" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              Cybex使用手册
+            </span>
+            <span class="md-header-nav__topic">
+              
+                API
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="." title="Cybex使用手册" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    Cybex使用手册
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="cybex/" title="Cybex" class="md-nav__link">
+      Cybex
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        API
+      </label>
+    
+    <a href="." title="API" class="md-nav__link md-nav__link--active">
+      API
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" title="搭建非见证人节点" class="md-nav__link">
+    搭建非见证人节点
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" title="安装预编译版本" class="md-nav__link">
+    安装预编译版本
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" title="节点插件" class="md-nav__link">
+    节点插件
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#account_history" title="account_history" class="md-nav__link">
+    account_history
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#market_history" title="market_history" class="md-nav__link">
+    market_history
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#snapshot" title="snapshot" class="md-nav__link">
+    snapshot
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#delayed_node" title="delayed_node" class="md-nav__link">
+    delayed_node
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" title="连接测试节点" class="md-nav__link">
+    连接测试节点
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#json-rpc-api" title="JSON-RPC API连接" class="md-nav__link">
+    JSON-RPC API连接
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#http" title="HTTP调用" class="md-nav__link">
+    HTTP调用
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#websocket" title="Websocket调用" class="md-nav__link">
+    Websocket调用
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#api_1" title="发起API请求" class="md-nav__link">
+    发起API请求
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" title="数据库通知" class="md-nav__link">
+    数据库通知
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" title="常见问题" class="md-nav__link">
+    常见问题
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#python" title="Python库" class="md-nav__link">
+    Python库
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_7" title="安装" class="md-nav__link">
+    安装
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" title="基本使用" class="md-nav__link">
+    基本使用
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" title="获取行情信息" class="md-nav__link">
+    获取行情信息
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" title="获取账户信息" class="md-nav__link">
+    获取账户信息
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" title="下单" class="md-nav__link">
+    下单
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" title="转账" class="md-nav__link">
+    转账
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" title="提现" class="md-nav__link">
+    提现
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_14" title="其他操作" class="md-nav__link">
+    其他操作
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javascript" title="JavaScript库" class="md-nav__link">
+    JavaScript库
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_15" title="安装" class="md-nav__link">
+    安装
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" title="引入" class="md-nav__link">
+    引入
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_17" title="初始化" class="md-nav__link">
+    初始化
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_18" title="查询接口" class="md-nav__link">
+    查询接口
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_19" title="管理密钥" class="md-nav__link">
+    管理密钥
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_20" title="实现交易" class="md-nav__link">
+    实现交易
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_21" title="区块链对象及标识" class="md-nav__link">
+    区块链对象及标识
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#id" title="标准数据结构与三段式ID" class="md-nav__link">
+    标准数据结构与三段式ID
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_22" title="常用对象列表" class="md-nav__link">
+    常用对象列表
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="paper/" title="Paper" class="md-nav__link">
+      Paper
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" title="搭建非见证人节点" class="md-nav__link">
+    搭建非见证人节点
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" title="安装预编译版本" class="md-nav__link">
+    安装预编译版本
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" title="节点插件" class="md-nav__link">
+    节点插件
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#account_history" title="account_history" class="md-nav__link">
+    account_history
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#market_history" title="market_history" class="md-nav__link">
+    market_history
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#snapshot" title="snapshot" class="md-nav__link">
+    snapshot
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#delayed_node" title="delayed_node" class="md-nav__link">
+    delayed_node
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" title="连接测试节点" class="md-nav__link">
+    连接测试节点
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#json-rpc-api" title="JSON-RPC API连接" class="md-nav__link">
+    JSON-RPC API连接
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#http" title="HTTP调用" class="md-nav__link">
+    HTTP调用
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#websocket" title="Websocket调用" class="md-nav__link">
+    Websocket调用
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#api_1" title="发起API请求" class="md-nav__link">
+    发起API请求
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" title="数据库通知" class="md-nav__link">
+    数据库通知
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" title="常见问题" class="md-nav__link">
+    常见问题
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#python" title="Python库" class="md-nav__link">
+    Python库
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_7" title="安装" class="md-nav__link">
+    安装
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" title="基本使用" class="md-nav__link">
+    基本使用
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" title="获取行情信息" class="md-nav__link">
+    获取行情信息
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" title="获取账户信息" class="md-nav__link">
+    获取账户信息
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" title="下单" class="md-nav__link">
+    下单
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" title="转账" class="md-nav__link">
+    转账
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" title="提现" class="md-nav__link">
+    提现
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_14" title="其他操作" class="md-nav__link">
+    其他操作
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#javascript" title="JavaScript库" class="md-nav__link">
+    JavaScript库
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_15" title="安装" class="md-nav__link">
+    安装
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" title="引入" class="md-nav__link">
+    引入
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_17" title="初始化" class="md-nav__link">
+    初始化
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_18" title="查询接口" class="md-nav__link">
+    查询接口
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_19" title="管理密钥" class="md-nav__link">
+    管理密钥
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_20" title="实现交易" class="md-nav__link">
+    实现交易
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_21" title="区块链对象及标识" class="md-nav__link">
+    区块链对象及标识
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#id" title="标准数据结构与三段式ID" class="md-nav__link">
+    标准数据结构与三段式ID
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_22" title="常用对象列表" class="md-nav__link">
+    常用对象列表
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="api">API开发接入<a class="headerlink" href="#api" title="Permanent link">&para;</a></h1>
+<h2 id="_1">搭建非见证人节点<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<p>Cybex非见证人节点可以在Linux系统上架设。如果您使用的是64位的Linux，您可以使用我预编译的程序启动节点。在您启动节点前，需要遵循以下步骤。此外，您也可以选择从源代码自行编译。</p>
+<h3 id="_2">安装预编译版本<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h3>
+<p><strong>第一步</strong> 编译您的工作目录。</p>
+<div class="codehilite"><pre><span></span><span class="nb">export</span> <span class="nv">Cybex_ROOT_DIR</span><span class="o">=</span><span class="si">${</span><span class="nv">PATH</span><span class="p"> TO YOUR NEWLY BUILT DIRECTORY</span><span class="si">}</span>
+</pre></div>
+
+
+<p><strong>第二步</strong> 编译子目录。</p>
+<div class="codehilite"><pre><span></span><span class="nb">cd</span> <span class="nv">$Cybex_ROOT_DIR</span>
+mkdir bin
+mkdir data
+</pre></div>
+
+
+<p><strong>第三步</strong> 下载预编译好的节点、钱包文件至bin目录</p>
+<div class="codehilite"><pre><span></span>wget https://github.com/CybexDEX/how-to-run-Cybex-node/raw/master/bin/witness_node -O bin/witness_node
+wget https://github.com/CybexDEX/how-to-run-Cybex-node/raw/master/bin/cli_wallet -O bin/cli_wallet
+md5sum witness_node <span class="c1"># will output &quot;c5d10757a7d913eb88f162ba5318a80e  witness_node&quot;</span>
+md5sum cli_wallet <span class="c1"># will output &quot;3a68465978b81690fc3c6849616cfff4  cli_wallet&quot;</span>
+</pre></div>
+
+
+<p><strong>第四步</strong> 下载Download genesis.json，config.ini。</p>
+<p>如果您连接的是测试链</p>
+<div class="codehilite"><pre><span></span><span class="nb">cd</span> <span class="nv">$Cybex_ROOT_DIR</span>
+wget https://raw.githubusercontent.com/CybexDEX/how-to-run-Cybex-node/master/testchain/genesis.json -O genesis.json
+wget https://raw.githubusercontent.com/CybexDEX/how-to-run-Cybex-node/master/testchain/config.ini -O data/config.ini
+</pre></div>
+
+
+<p>如果您连接的生产链</p>
+<div class="codehilite"><pre><span></span><span class="nb">cd</span> <span class="nv">$Cybex_ROOT_DIR</span>
+wget https://raw.githubusercontent.com/CybexDEX/how-to-run-Cybex-node/master/mainchain/genesis.json -O genesis.json
+wget https://raw.githubusercontent.com/CybexDEX/how-to-run-Cybex-node/master/mainchain/config.ini -O data/config.ini
+</pre></div>
+
+
+<p>您可以能会需要将bit转为二进制</p>
+<div class="codehilite"><pre><span></span><span class="nb">cd</span> <span class="nv">$Cybex_ROOT_DIR</span>
+chmod u+x bin/cli_wallet bin/witness_node
+</pre></div>
+
+
+<p><strong>第五步</strong> 启动非见证人节点</p>
+<div class="codehilite"><pre><span></span><span class="nb">cd</span> <span class="nv">$Cybex_ROOT_DIR</span>
+./bin/witness_node -d data --genesis-json genesis.json --max-ops-per-account <span class="m">500</span> --resync-blockchain --replay-blockchain
+</pre></div>
+
+
+<p><strong>注意事项</strong></p>
+<p>如果您使用的是MAC系统，请使用以下代码</p>
+<div class="codehilite"><pre><span></span>wget https://github.com/CybexDEX/how-to-run-Cybex-node/raw/master/mac-bin/witness_node -O bin/witness_node
+wget https://github.com/CybexDEX/how-to-run-Cybex-node/raw/master/mac-bin/cli_wallet -O bin/cli_wallet
+</pre></div>
+
+
+<p>校验二进制总和</p>
+<div class="codehilite"><pre><span></span>$ md5sum witness_node
+c8929ef1c61c8f060785552c2b059fd4   witness_node
+534faa2613003a2b842554c0aacdf692   cli_wallet
+</pre></div>
+
+
+<h3 id="_3">节点插件<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h3>
+<h4 id="account_history">account_history<a class="headerlink" href="#account_history" title="Permanent link">&para;</a></h4>
+<p>提供账户历史记录相关查询</p>
+<p>参数：<br />
+<strong>track-account</strong> 
+设置跟踪哪些账号，可以指定多次。例如track-account = "1.2.100"  <br />
+<strong>partial-operations</strong>
+只有设置了track-account的账号的相关操作保存。例如partial-operations=true  <br />
+<strong>max-ops-per-account</strong>
+为每个账号保存多少条记录。 例如max-ops-per-account=500    </p>
+<h4 id="market_history">market_history<a class="headerlink" href="#market_history" title="Permanent link">&para;</a></h4>
+<p>作用：提供市场行情历史信息查询</p>
+<p>参数：<br />
+<strong>bucket-size</strong>
+设置跟踪哪些k线，以秒为计时单位，可设置多个。例如bucket-size = [60,300] 表示追踪1分钟和5分钟k线  <br />
+<strong>max-order-his-records-per-market</strong> 
+设置为每个交易对最多保存多少条成交记录， 默认1000条。  <br />
+<strong>max-order-his-seconds-per-market</strong>
+设置为每个交易对最多保存多少秒的成交记录，默认259200秒。    </p>
+<h4 id="snapshot">snapshot<a class="headerlink" href="#snapshot" title="Permanent link">&para;</a></h4>
+<p>作用：提供数据库全量快照   </p>
+<p>参数：<br />
+<strong>snapshot-at-block</strong>
+设置在第几个区块时快照  <br />
+<strong>snapshot-at-time</strong>
+设置在哪个时刻快照  <br />
+<strong>snapshot-to</strong>
+设置快照文件的文件名    </p>
+<h4 id="delayed_node">delayed_node<a class="headerlink" href="#delayed_node" title="Permanent link">&para;</a></h4>
+<p>作用：提供基于不可逆区块的数据库查询功能</p>
+<p>参数：<br />
+<strong>trusted-node</strong>
+设置上连节点作为区块获取节点。例如trusted-node="127.0.0.1:8090"</p>
+<h3 id="_4">连接测试节点<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<p>Cybex的测试链，开放以下两个测试节点供开发者社区调用：</p>
+<ol>
+<li>Hangzhou</li>
+</ol>
+<p>wss://hangzhou.51nebula.com/</p>
+<ol>
+<li>Shenzhen</li>
+</ol>
+<p>wss://shenzhen.51nebula.com/</p>
+<h2 id="json-rpc-api">JSON-RPC API连接<a class="headerlink" href="#json-rpc-api" title="Permanent link">&para;</a></h2>
+<p>Cybex中任意节点包含两种API接⼝，所有API数据均使用JSON-RPC2.0形式。可以选择使用HTTP或Websocket⽅式进⾏访问。两种方式的params参数结构均为：</p>
+<p><code>[API-identifier, Method-to-Call, Call-Parameters]</code></p>
+<h3 id="http">HTTP调用<a class="headerlink" href="#http" title="Permanent link">&para;</a></h3>
+<p>HTTP⽅式仅允许只读的查询数据库，如: </p>
+<div class="codehilite"><pre><span></span>$ curl --data &#39;{&quot;jsonrpc&quot;: &quot;2.0&quot;, &quot;method&quot;: &quot;call&quot;, &quot;params&quot;: [0, &quot;get_accounts&quot;, [[&quot;1.2.0&quot;]]], &quot;id&quot;: 1}&#39; http://127.0.0.1:8090/rpc
+</pre></div>
+
+
+<p>返回结果</p>
+<div class="codehilite"><pre><span></span>{
+    &quot;id&quot;: 1,
+    &quot;result&quot;: [{
+        &quot;id&quot;: &quot;1.2.0&quot;,
+        &quot;annotations&quot;: [],
+        &quot;membership_expiration_date&quot;: &quot;1969-12-31T23:59:59&quot;,
+        &quot;registrar&quot;: &quot;1.2.0&quot;,
+        &quot;referrer&quot;: &quot;1.2.0&quot;,
+        &quot;lifetime_referrer&quot;: &quot;1.2.0&quot;,
+        &quot;network_fee_percentage&quot;: 2000,
+        &quot;lifetime_referrer_fee_percentage&quot;: 8000,
+        &quot;referrer_rewards_percentage&quot;: 0,
+        &quot;name&quot;: &quot;committee-account&quot;,
+        &quot;owner&quot;: {
+            &quot;weight_threshold&quot;: 1,
+            &quot;account_autos&quot;: [],
+            &quot;key_auths&quot;: [],
+            &quot;address_auths&quot;: []
+        },
+        &quot;active&quot;: {
+            &quot;weight_threshold&quot;: 6,
+            &quot;account_auths&quot;: [
+                [&quot;1.2.5&quot;, 1],
+                [&quot;1.2.6&quot;, 1],
+                [&quot;1.2.7&quot;, 1],
+                [&quot;1.2.8&quot;, 1],
+                [&quot;1.2.9&quot;, 1],
+                [&quot;1.2.10&quot;, 1],
+                [&quot;1.2.11&quot;, 1],
+                [&quot;1.2.12&quot;, 1],
+                [&quot;1.2.13&quot;, 1],
+                [&quot;1.2.14&quot;, 1]
+            ],
+            &quot;key_auths&quot;: [],
+            &quot;address_auths&quot;: []
+        },
+        &quot;options&quot;: {
+            &quot;memo_key&quot;: &quot;GPH1111111111111111111111111111111114T1Anm&quot;,
+            &quot;voting_account&quot;: &quot;1.2.0&quot;,
+            &quot;num_witness&quot;: 0,
+            &quot;num_committee&quot;: 0,
+            &quot;votes&quot;: [],
+            &quot;extensions&quot;: []
+        },
+        &quot;statistics&quot;: &quot;2.7.0&quot;,
+        &quot;whitelisting_accounts&quot;: [],
+        &quot;blacklisting_accounts&quot;: []
+    }]
+}
+</pre></div>
+
+
+<h3 id="websocket">Websocket调用<a class="headerlink" href="#websocket" title="Permanent link">&para;</a></h3>
+<p>Websocket⽅式需要登录（链上执行⼴播需要会话信息）并可执行查询和修改操作。wscat调用示例：</p>
+<div class="codehilite"><pre><span></span>$ npm install -g wscat
+$ wscat -c ws://127.0.0.1:8090   
+&gt; {&quot;id&quot;:1, &quot;method&quot;:&quot;call&quot;, &quot;params&quot;:[0,&quot;get_accounts&quot;,[[&quot;1.2.0&quot;]]]}  
+</pre></div>
+
+
+<p>返回结果</p>
+<div class="codehilite"><pre><span></span>{
+    &quot;id&quot;: 1,
+    &quot;result&quot;: [{
+        &quot;id&quot;: &quot;1.2.0&quot;,
+        &quot;annotations&quot;: [],
+        &quot;membership_expiration_date&quot;: &quot;1969-12-31T23:59:59&quot;,
+        &quot;registrar&quot;: &quot;1.2.0&quot;,
+        &quot;referrer&quot;: &quot;1.2.0&quot;,
+        &quot;lifetime_referrer&quot;: &quot;1.2.0&quot;,
+        &quot;network_fee_percentage&quot;: 2000,
+        &quot;lifetime_referrer_fee_percentage&quot;: 8000,
+        &quot;referrer_rewards_percentage&quot;: 0,
+        &quot;name&quot;: &quot;committee-account&quot;,
+        &quot;owner&quot;: {
+            &quot;weight_threshold&quot;: 1,
+            &quot;account_autos&quot;: [],
+            &quot;key_auths&quot;: [],
+            &quot;address_auths&quot;: []
+        },
+        &quot;active&quot;: {
+            &quot;weight_threshold&quot;: 6,
+            &quot;account_auths&quot;: [
+                [&quot;1.2.5&quot;, 1],
+                [&quot;1.2.6&quot;, 1],
+                [&quot;1.2.7&quot;, 1],
+                [&quot;1.2.8&quot;, 1],
+                [&quot;1.2.9&quot;, 1],
+                [&quot;1.2.10&quot;, 1],
+                [&quot;1.2.11&quot;, 1],
+                [&quot;1.2.12&quot;, 1],
+                [&quot;1.2.13&quot;, 1],
+                [&quot;1.2.14&quot;, 1]
+            ],
+            &quot;key_auths&quot;: [],
+            &quot;address_auths&quot;: []
+        },
+        &quot;options&quot;: {
+            &quot;memo_key&quot;: &quot;GPH1111111111111111111111111111111114T1Anm&quot;,
+            &quot;voting_account&quot;: &quot;1.2.0&quot;,
+            &quot;num_witness&quot;: 0,
+            &quot;num_committee&quot;: 0,
+            &quot;votes&quot;: [],
+            &quot;extensions&quot;: []
+        },
+        &quot;statistics&quot;: &quot;2.7.0&quot;,
+        &quot;whitelisting_accounts&quot;: [],
+        &quot;blacklisting_accounts&quot;: []
+    }]
+}
+</pre></div>
+
+
+<h3 id="api_1">发起API请求<a class="headerlink" href="#api_1" title="Permanent link">&para;</a></h3>
+<p>Cybex的API分为两类：</p>
+<ol>
+<li>查询操作，可以直接访问</li>
+<li>修改操作，需要通过广播交易broadcast_transaction方式进行，⼴播交易时，需要进行签名。</li>
+</ol>
+<p>进⾏查询时，可以使⽤curl的普通HTTP形式访问节点端⼝下的/rpc路路径来执⾏，或者使用辅助库的工具类来进行，工具类使用Websocket方式连接节点。</p>
+<ul>
+<li>发起API请求</li>
+</ul>
+<p>Cybex节点提供了许多可以通过Websocket进行连接的API，包括：Database API、Account History API、Network Broadcast API、Network Nodes API。</p>
+<p>请求API的具体步骤如下：</p>
+<ol>
+<li>登录全节点</li>
+<li>获得API访问权限</li>
+<li>获取API标识</li>
+<li>
+<p>提供获取的标识，调用某个具体的API方法</p>
+</li>
+<li>
+<p>登录</p>
+</li>
+</ol>
+<p>首先，我们需要完成登录操作:</p>
+<div class="codehilite"><pre><span></span>&gt; {&quot;id&quot;:2,&quot;method&quot;:&quot;call&quot;,&quot;params&quot;:[1,&quot;login&quot;,[&quot;&quot;,&quot;&quot;]]}
+&lt; {&quot;id&quot;:2,&quot;result&quot;:true}
+</pre></div>
+
+
+<p>对于需要登录后才能调用的API，调用方需要填写用户名和密码。节点在验证通过后，将会返回登录成功的信息。</p>
+<ol>
+<li>获得API访问权限</li>
+</ol>
+<p>数据库API提供了大部分常用的查询接口，以此为例，我们可以通过以下方式注册Database API：</p>
+<div class="codehilite"><pre><span></span>&gt; {&quot;id&quot;:2,&quot;method&quot;:&quot;call&quot;,&quot;params&quot;:[1,&quot;database&quot;,[]]}
+</pre></div>
+
+
+<ol>
+<li>获取API标识</li>
+</ol>
+<p>在发起连接请求后，全节点会驳回该请求或返回一个唯一标识：</p>
+<div class="codehilite"><pre><span></span>&lt; {&quot;id&quot;:2,&quot;result&quot;:2}
+</pre></div>
+
+
+<p>这个返回结果代表了我们之前对Database API发出请求被允许了，这个id被称为DATABASE API ID。</p>
+<ol>
+<li>提供获取的标识，调用某个具体的API方法</li>
+</ol>
+<p>现在，我们就可以调用Database API的某个具体方法了:</p>
+<div class="codehilite"><pre><span></span>&gt; {&quot;id&quot;:1, &quot;method&quot;:&quot;call&quot;, &quot;params&quot;:[DATABASE_API_ID,&quot;get_accounts&quot;,[[&quot;1.2.0&quot;]]]}
+</pre></div>
+
+
+<ul>
+<li>广播交易</li>
+</ul>
+<p>Cybex原生的操作（Operations）需要通过广播的方式执行，广播操作通过<code>broadcast_transaction</code>完成。</p>
+<div class="codehilite"><pre><span></span>void graphene::app::network_broadcast_api::broadcast_transaction(const signed_transaction &amp;trx)
+</pre></div>
+
+
+<p>其中，trx参数用来包裹Operation。</p>
+<p>⼴播并执⾏⼀个交易，⼤致的步骤是：</p>
+<p>1）构造交易体   <br />
+2）向交易体中添加操作   <br />
+3）添加签名   <br />
+4）⼴播交易     </p>
+<p>前两个步骤是需要手动进行的，后两个步骤可以通过辅助库的工具类协助执行。</p>
+<p>注册用户是一个常见的业务操作，我们以这个操作和JavaScript库为例，详细讲解一下广播的交易步骤。</p>
+<p>首先，判断这是一个数据修改（新增）操作，所以需要通过广播交易<code>broadcast_transaction</code>方式进行。创建账户使用的是<code>account_create_operation</code>，因此，我们通过以下方式实现：</p>
+<div class="codehilite"><pre><span></span>let tr = new TransactionBuilder(); // 构造一个交易体，TransactionBuilder可从Cybexjs库中获得。
+tr.add_type_operation(&quot;account_create&quot;, { // 向交易中添加所需广播的操作，操作名称为 account_create.
+    fee: { 
+        amount: 0,
+        asset_id: &quot;1.3.0&quot;
+    }, // 该笔交易的手续费字段。
+    registrar: chain_registrar.get(&quot;id&quot;), // 注册人ID
+    referrer: chain_referrer.get(&quot;id&quot;), // 引荐人ID
+    referrer_percent: referrer_percent, // 引荐人返利额度
+    name: new_account_name, // 用户名
+    owner: { // 用户的Owner权限设置
+        weight_threshold: 1, // Owner权限的域限
+        account_auths: [], // 占有权限的用户列表
+        key_auths: [[owner_pubkey, 1]], // 占有权限的公钥列表
+        address_auths: [] // 占有权限的地址列表
+    },
+    active: { // 活跃权限配置
+        weight_threshold: 1,
+        account_auths: [],
+        key_auths: [[active_pubkey, 1]],
+        address_auths: []
+    },
+    options: { //其他配置
+        memo_key: active_pubkey, // Memo公钥，其他人向该用户发送Memo时，将使用该公钥进行加密
+        voting_account: &quot;1.2.5&quot;, // 默认投票代理
+        num_witness: 0, // 初始投票的证人数量
+        num_committee: 0, // 初始投票的委员会数量
+        votes: [] //初始投票的ID集合
+    }
+ });
+ tr.add_signer(privKey); // 向交易添加签名，传入私钥
+ await tr.broadcast(); // 广播交易，异步操作
+</pre></div>
+
+
+<p>Cybex原生operation的具体参数描述，请参考使用手册相关章节。</p>
+<h3 id="_5">数据库通知<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
+<p>在Cybex中，通过websocket连接的方式监听数据库变更或事件发生。</p>
+<p>Cybex运行通过以下方式进行订阅：</p>
+<div class="codehilite"><pre><span></span>set_subscribe_callback( int identifier, bool clear_filter ): ```  
+
+简单的全局监听回调可以通过该方法实现。
+
+每个通知经由全节点初始化的通知都会具有一个唯一的ID，用户通过identifier参数为ID赋值。 
+</pre></div>
+
+
+<p>set_pending_transaction_callback(int identifier):</p>
+<div class="codehilite"><pre><span></span> _待确认_的事务回调。
+
+``` subscribe_to_market(int identifier, asset_id a, asset_id b)):
+</pre></div>
+
+
+<p>订阅市场上关于<code>a:b</code>交易对的变更并使用<code>identifier</code>的ID进行通知。</p>
+<p><code>get_full_accounts(array account_ids, bool subscribe):</code></p>
+<p>根据指定<code>account_ids</code>查询该账户所有相关信息，并通过将<code>subscribe</code>设置为<code>True</code>订阅该账户的更新。</p>
+<p>让我们通过一个全局订阅的回调将通知与通常的RPC调用做一下区分：</p>
+<div class="codehilite"><pre><span></span>&gt; {&quot;id&quot;:4,&quot;method&quot;:&quot;call&quot;,&quot;params&quot;:[DATABASE_API_ID,&quot;set_subscribe_callback&quot;,[SUBSCRIPTION_ID, true]]}
+</pre></div>
+
+
+<p>上述调用需要将SUBSCRIPTION_ID注册为ID来获取通知.</p>
+<p>自此，你从见证人节点获取的对象都会自动订阅该对象未来的所有变更。</p>
+<p>在调用set_subscribe_callback方法之后，见证人节点会将该对象的每一次变更都以通知的形式发送给你：</p>
+<div class="codehilite"><pre><span></span>&lt; {
+    &quot;method&quot;: &quot;notice&quot;
+    &quot;params&quot;: [
+        SUBSCRIPTION_ID,
+        [[
+            { &quot;id&quot;: &quot;2.1.0&quot;, ...  },
+            { &quot;id&quot;: ...  },
+            { &quot;id&quot;: ...  },
+            { &quot;id&quot;: ...  }
+        ]]
+    ],
+}
+</pre></div>
+
+
+<p><strong>Session示例</strong></p>
+<p>以下是一个完整seesion的示例:</p>
+<div class="codehilite"><pre><span></span>&gt; {&quot;method&quot;: &quot;call&quot;, &quot;params&quot;: [1, &quot;login&quot;, [&quot;&quot;, &quot;&quot;]], &quot;id&quot;: 2}
+&lt; {&quot;id&quot;:2,&quot;result&quot;:true}
+&gt; {&quot;method&quot;: &quot;call&quot;, &quot;params&quot;: [1, &quot;database&quot;, []], &quot;id&quot;: 3}
+&lt; {&quot;id&quot;:3,&quot;result&quot;:2}
+&gt; {&quot;method&quot;: &quot;call&quot;, &quot;params&quot;: [1, &quot;history&quot;, []], &quot;id&quot;: 4}
+&lt; {&quot;id&quot;:4,&quot;result&quot;:3}
+&gt; {&quot;method&quot;: &quot;call&quot;, &quot;params&quot;: [2, &quot;set_subscribe_callback&quot;, [5, false]], &quot;id&quot;: 6}
+&lt; {&quot;id&quot;:6,&quot;result&quot;:null}
+&gt; {&quot;method&quot;: &quot;call&quot;, &quot;params&quot;: [2, &quot;get_objects&quot;, [[&quot;2.1.0&quot;]]], &quot;id&quot;: 7}
+(plenty of data coming in from this point on)
+</pre></div>
+
+
+<h3 id="_6">常见问题<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
+<ol>
+<li>金额和价格如何表示？</li>
+</ol>
+<p>Cybex网络的所有费用，均使用<code>整数</code>计数，即<code>amount</code>类型，其价值value（或价格price）根据以下公式计算:</p>
+<p><strong>value = amount / 10^precision</strong></p>
+<p>其中，<em>precision</em> 为资产类型对应的精度。</p>
+<ol>
+<li>如何获取手续费信息？</li>
+</ol>
+<p>在Cybex网络内，所有需要广播的操作都需要缴纳手续费，手续费用<code>fee</code>字段表示。消耗的手续费会部分燃烧，燃烧的手续费进入系统预算池。<code>fee</code>包含的参数如下：</p>
+<table>
+<thead>
+<tr>
+<th><strong>参数</strong></th>
+<th><strong>类型</strong></th>
+<th><strong>描述</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>amount</td>
+<td>share_type</td>
+<td>手续费金额</td>
+</tr>
+<tr>
+<td>asset_id</td>
+<td>asset_id_type</td>
+<td>用来缴纳手续费的资产ID</td>
+</tr>
+</tbody>
+</table>
+<p>在添加operation时，可以先将<code>amount</code>设为0，然后通过调用database_api中的get_required_fees接口获取该交易所需的最低手续费。</p>
+<p>一旦手续费不足，交易广播会失败。手续费可以填写等于或高于最低手续费的任意值，多出的手续费会被系统销毁。</p>
+<ol>
+<li>手续费如何计算？</li>
+</ol>
+<p>Cybex网络内的所有操作，都需要向网络缴付手续费。手续费默认以CYB计算，对于不持有CYB的操作发起者，可以使用其他Cybex网络内的资产支付手续费，换算公式为：</p>
+<p><strong>操作手续费 = 操作手续费(以CYB计) * 用来支付的资产与CYB的汇率</strong></p>
+<p>其中，后者是资产创建时，与CYB之间设置的初始汇率，该汇率可以通过get_assets接口查询。</p>
+<p>以一般转账为例，当前transfer_operation的费率为0.01 CYB，手续费希望以BAT计算。CYB/BAT的初始汇率为0.4，则<code>一般转账用BAT支付的收费 = 0.01 * 0.4 = 0.004 BAT</code>。</p>
+<ol>
+<li>为什么提现手续费高于普通转账手续费？</li>
+</ol>
+<p>Cybex的提现操作，是指将账户余额从Cybex网络转出至外部网络（账户）。提现操作需要通过Cybex网关，完成内盘资产到外盘的汇兑。实际上，资金经由网关出入Cybex网络，都会产生服务手续费，只是一般情况下，网关免除了充值操作（从外盘转入Cybex内盘）的手续费，仅收取提现手续费。</p>
+<p>通过Cybex网关，将从将Cybex账户余额提现至外部账户（地址）的手续费计算公式为</p>
+<p><strong>提现手续费 = 网关手续费 + 提现操作手续费</strong></p>
+<p>其中，前者由提供充提服务的网关收取，一般以提现资产计费。后者与其他Cybex网络内的操作一样，由Cybex网络收取，默认使用CYB支付。如果提现账户未持有CYB，则可以选择使用提现资产进行支付。</p>
+<p>注：提现操作手续费会因为备注内容的字数而增加，每千字节手续费为0.00555 CYB。如以提现币种计，则按以上规则换算。</p>
+<h2 id="python">Python库<a class="headerlink" href="#python" title="Permanent link">&para;</a></h2>
+<h3 id="_7">安装<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
+<p>使用pip安装，支持python3
+<code>pip install PyCybex</code></p>
+<h3 id="_8">基本使用<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><span class="kn">import</span> <span class="nn">cybex</span>
+
+<span class="n">NODE_URL</span> <span class="o">=</span> <span class="s1">&#39;ws://127.0.0.1:8090&#39;</span>
+<span class="n">ACCOUNT_NAME</span> <span class="o">=</span> <span class="s1">&#39;nathan&#39;</span>
+
+<span class="n">instance</span> <span class="o">=</span> <span class="n">cybex</span><span class="o">.</span><span class="n">Cybex</span><span class="p">(</span><span class="n">NODE_URL</span><span class="p">)</span>
+</pre></div>
+
+
+<p>使用时需要配置连接的node的url和账户名以初始化对象。</p>
+<h3 id="_9">获取行情信息<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><span class="kn">import</span> <span class="nn">cybex</span>
+<span class="o">...</span>
+<span class="n">ASSET_NAME</span> <span class="o">=</span> <span class="s1">&#39;JADE.ETH&#39;</span>
+
+<span class="c1"># 创建两个资产对象</span>
+<span class="n">base</span> <span class="o">=</span> <span class="n">cybex</span><span class="o">.</span><span class="n">asset</span><span class="o">.</span><span class="n">Asset</span><span class="p">(</span><span class="s1">&#39;JADE.ETH&#39;</span><span class="p">,</span> <span class="n">cybex_instance</span> <span class="o">=</span> <span class="n">instance</span><span class="p">)</span>
+<span class="n">quote</span> <span class="o">=</span> <span class="n">cybex</span><span class="o">.</span><span class="n">asset</span><span class="o">.</span><span class="n">Asset</span><span class="p">(</span><span class="s1">&#39;CYB&#39;</span><span class="p">,</span> <span class="n">cybex_instance</span> <span class="o">=</span> <span class="n">instance</span><span class="p">)</span>
+
+<span class="c1"># 创建市场对象</span>
+<span class="n">market</span> <span class="o">=</span> <span class="n">cybex</span><span class="o">.</span><span class="n">market</span><span class="o">.</span><span class="n">Market</span><span class="p">(</span><span class="n">base</span> <span class="o">=</span> <span class="n">base</span><span class="p">,</span> <span class="n">quote</span> <span class="o">=</span> <span class="n">quote</span><span class="p">,</span> <span class="n">cybex_instance</span> <span class="o">=</span> <span class="n">instance</span><span class="p">)</span>
+
+<span class="c1">##### 最新tick #####</span>
+<span class="c1"># 每次调用market对象的tick函数，会去链上查询最新的tick。</span>
+<span class="n">t</span> <span class="o">=</span> <span class="n">market</span><span class="o">.</span><span class="n">tick</span><span class="p">()</span>
+
+<span class="c1">##### 深度行情 #####</span>
+<span class="c1"># 每次调用market对象的orderbook函数，会去链上查询最新的orderbook。</span>
+<span class="n">order_book</span> <span class="o">=</span> <span class="n">market</span><span class="o">.</span><span class="n">orderbook</span><span class="p">()</span>
+
+<span class="c1"># 获取卖单队列</span>
+<span class="k">for</span> <span class="n">ask_order</span> <span class="ow">in</span> <span class="n">order_book</span><span class="p">[</span><span class="s1">&#39;asks&#39;</span><span class="p">]:</span>
+    <span class="c1"># 订单价格，为以base计价的quote的价值</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">ask_order</span><span class="p">[</span><span class="s1">&#39;price&#39;</span><span class="p">])</span>
+    <span class="c1"># 卖单中，出售quote资产的数量</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">ask_order</span><span class="p">[</span><span class="s1">&#39;quote&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">amount</span><span class="p">)</span>
+    <span class="c1"># 卖单中，收购base资产的数量</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">ask_order</span><span class="p">[</span><span class="s1">&#39;base&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">amount</span><span class="p">)</span>
+
+<span class="c1"># 获取买单队列</span>
+<span class="k">for</span> <span class="n">bid_orders</span> <span class="ow">in</span> <span class="n">order_book</span><span class="p">[</span><span class="s1">&#39;bids&#39;</span><span class="p">]:</span>
+    <span class="c1"># 订单价格，为以base计价的quote的价值</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">ask_order</span><span class="p">[</span><span class="s1">&#39;price&#39;</span><span class="p">])</span>
+    <span class="c1"># 买单中，收购quote资产的数量</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">ask_order</span><span class="p">[</span><span class="s1">&#39;quote&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">amount</span><span class="p">)</span>
+    <span class="c1"># 买单中，出售base资产的数量</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">ask_order</span><span class="p">[</span><span class="s1">&#39;base&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">amount</span><span class="p">)</span>
+
+<span class="c1">##### 获取K线 #####</span>
+<span class="c1"># 赛贝是一个全球部署的去中心化交易所，系统使用UTC时间，</span>
+<span class="c1"># 获取K线需要使用UTC时间</span>
+<span class="c1"># 以下例子获取开始时间在UTC时间2018-08-31日，5:59:00到6:01:00之间的3600秒k线，</span>
+<span class="c1"># 将会返回UTC时间2018-08-31 06:00:00的小时K线</span>
+<span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span>
+<span class="n">start</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">strptime</span><span class="p">(</span><span class="s1">&#39;2018-08-31 05:59:00&#39;</span><span class="p">,</span> <span class="s1">&#39;%Y-%m-</span><span class="si">%d</span><span class="s1"> %H:%M:%S&#39;</span><span class="p">)</span>
+<span class="n">end</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">strptime</span><span class="p">(</span><span class="s1">&#39;2018-08-31 06:01:00&#39;</span><span class="p">,</span> <span class="s1">&#39;%Y-%m-</span><span class="si">%d</span><span class="s1"> %H:%M:%S&#39;</span><span class="p">)</span>
+
+<span class="c1"># 返回一个kline的序列，所有开始时间在start到end之间的K线</span>
+<span class="c1"># 如果在某个时间段内没有成交，则对应的K线不存在，也不会返回。</span>
+<span class="n">kline_arr</span> <span class="o">=</span> <span class="n">market</span><span class="o">.</span><span class="n">get_market_history</span><span class="p">(</span><span class="mi">3600</span><span class="p">,</span> <span class="n">start</span><span class="p">,</span> <span class="n">end</span><span class="p">)</span>
+<span class="n">kline</span> <span class="o">=</span> <span class="n">kline_arr</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+
+<span class="c1"># 开盘价格</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="n">kline</span><span class="p">[</span><span class="s1">&#39;openPrice&#39;</span><span class="p">]))</span>
+<span class="c1"># 收盘价格</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="n">kline</span><span class="p">[</span><span class="s1">&#39;closePrice&#39;</span><span class="p">]))</span>
+<span class="c1"># 最高价格</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="n">kline</span><span class="p">[</span><span class="s1">&#39;highPrice&#39;</span><span class="p">]))</span>
+<span class="c1"># 最低价格</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="n">kline</span><span class="p">[</span><span class="s1">&#39;lowPrice&#39;</span><span class="p">]))</span>
+</pre></div>
+
+
+<h3 id="_10">获取账户信息<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><span class="kn">import</span> <span class="nn">cybex</span>
+<span class="o">...</span>
+<span class="n">account</span> <span class="o">=</span> <span class="n">cybex</span><span class="o">.</span><span class="n">account</span><span class="o">.</span><span class="n">Account</span><span class="p">(</span><span class="n">ACCOUNT_NAME</span><span class="p">,</span> <span class="n">cybex_instance</span> <span class="o">=</span> <span class="n">instance</span><span class="p">)</span>
+
+<span class="c1"># 查看账户id</span>
+<span class="k">print</span><span class="p">(</span><span class="n">account</span><span class="p">[</span><span class="s2">&quot;id&quot;</span><span class="p">])</span>
+
+<span class="c1"># 查看账户在链上活跃权限对应的公钥</span>
+<span class="k">print</span><span class="p">(</span><span class="n">account</span><span class="p">[</span><span class="s1">&#39;active&#39;</span><span class="p">][</span><span class="s1">&#39;key_auths&#39;</span><span class="p">])</span>
+
+<span class="c1"># 查看账户在链上账户权限对应的公钥</span>
+<span class="k">print</span><span class="p">(</span><span class="n">account</span><span class="p">[</span><span class="s1">&#39;owner&#39;</span><span class="p">][</span><span class="s1">&#39;key_auths&#39;</span><span class="p">])</span>
+
+<span class="c1"># 查看账户余额</span>
+<span class="k">for</span> <span class="n">bal</span> <span class="ow">in</span> <span class="n">account</span><span class="o">.</span><span class="n">balances</span><span class="p">:</span>
+    <span class="c1"># 资产名</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">bal</span><span class="o">.</span><span class="n">asset</span><span class="o">.</span><span class="n">symbol</span><span class="p">)</span>
+    <span class="c1"># 资产id</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">bal</span><span class="o">.</span><span class="n">asset</span><span class="p">[</span><span class="s2">&quot;id&quot;</span><span class="p">])</span>
+    <span class="c1"># 资产数量</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">bal</span><span class="o">.</span><span class="n">amount</span><span class="p">)</span> <span class="c1"># 不含精度的浮点数</span>
+</pre></div>
+
+
+<h3 id="_11">下单<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h3>
+<p>报单操作可以向赛贝去中心化交易所发送订单。在赛贝中，一个交易市场由两种资产组成，用户报单即提交订单，付出一些资产A，期望获得一些资产B的行为。 为了方便用户理解，赛贝交易所的常用客户端没有采用资产交换的方式来表示订单和价格，而是采用与传统交易所相似的价格+数量的方式，Python库也使用这种模式报单，本demo会同时在注释中说明报单的实际资产交换值。 报单操作前，需要将报单账户的私钥提前加入Python库的本地钱包中，并解锁钱包。钱包操作详见钱包操作。 赛贝交易所的资产由瑶池(JADE)托管，所有由瑶池托管的资产以JADE.作为资产前缀，比如以太坊的资产名为JADE.ETH，此外还有JADE.EOS, JADE.BTC, JADE.USDT等。赛贝的网页前端为了照顾用户使用习惯，在显示时去除了JADE前缀，在使用Python库时，资产名需要加JADE.前缀。</p>
+<div class="codehilite"><pre><span></span><span class="kn">import</span> <span class="nn">cybex</span>
+<span class="kn">from</span> <span class="nn">cybex</span> <span class="kn">import</span> <span class="n">Market</span><span class="p">,</span> <span class="n">Asset</span><span class="p">,</span> <span class="n">Account</span>
+
+<span class="n">NODE_URL</span> <span class="o">=</span> <span class="s1">&#39;ws://127.0.0.1:8090&#39;</span>
+<span class="n">WALLET_PWD</span> <span class="o">=</span> <span class="s1">&#39;123456&#39;</span>
+
+<span class="n">instance</span> <span class="o">=</span> <span class="n">cybex</span><span class="o">.</span><span class="n">Cybex</span><span class="p">(</span><span class="n">NODE_URL</span><span class="p">)</span>
+<span class="n">instance</span><span class="o">.</span><span class="n">wallet</span><span class="o">.</span><span class="n">unlock</span><span class="p">(</span><span class="n">WALLET_PWD</span><span class="p">)</span>
+
+<span class="n">asset1</span> <span class="o">=</span> <span class="n">Asset</span><span class="p">(</span><span class="s1">&#39;CYB&#39;</span><span class="p">)</span>
+<span class="n">asset2</span> <span class="o">=</span> <span class="n">Asset</span><span class="p">(</span><span class="s1">&#39;JADE.ETH&#39;</span><span class="p">)</span>
+<span class="n">m</span> <span class="o">=</span> <span class="n">Market</span><span class="p">(</span><span class="n">base</span> <span class="o">=</span> <span class="n">asset1</span><span class="p">,</span> <span class="n">quote</span> <span class="o">=</span> <span class="n">asset2</span><span class="p">,</span>
+    <span class="n">cybex_instance</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">instance</span><span class="p">)</span>
+
+<span class="c1"># 下面的buy操作表示:</span>
+<span class="c1"># 以1000的单价购买1个asset2，交易超时时间为3600秒，超时自动撤销</span>
+<span class="c1"># 希望付出1000个CYB，希望至少获得1个JADE.ETH</span>
+<span class="c1"># 用户下单时，账户中会立刻扣除1000个CYB，如果账户中CYB不足，会造成下单失败</span>
+<span class="n">m</span><span class="o">.</span><span class="n">buy</span><span class="p">(</span><span class="mi">1000</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">3600</span><span class="p">,</span> <span class="n">killfill</span> <span class="o">=</span> <span class="bp">False</span><span class="p">,</span> <span class="n">account</span> <span class="o">=</span> <span class="s1">&#39;seller-account&#39;</span><span class="p">)</span>
+
+<span class="c1"># 下面的sell操作表示:</span>
+<span class="n">m</span><span class="o">.</span><span class="n">sell</span><span class="p">(</span><span class="mi">1200</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">3600</span><span class="p">,</span> <span class="n">killfill</span> <span class="o">=</span> <span class="bp">False</span><span class="p">,</span> <span class="n">account</span> <span class="o">=</span> <span class="s1">&#39;seller-account&#39;</span><span class="p">)</span>
+
+<span class="c1"># 下面的cancel操作表示:</span>
+<span class="c1"># 通过account.openorders接口获取订单id</span>
+<span class="n">instance</span><span class="o">.</span><span class="n">cancel</span><span class="p">(</span><span class="n">order_id</span><span class="p">,</span> <span class="n">account</span> <span class="o">=</span> <span class="s1">&#39;seller-account&#39;</span><span class="p">)</span>
+</pre></div>
+
+
+<h3 id="_12">转账<a class="headerlink" href="#_12" title="Permanent link">&para;</a></h3>
+<p>转账操作可用于将资产从一个账户转移到另一个账户或地址。转账分为普通转账和锁定期转账。锁定期资产与接收方的公钥关联，只有该公钥对应的私钥持有者，才能申领该锁定期资产。锁定期资产的申领操作详见<a href="https://github.com/NebulaCybexDEX/cybex-node-doc/blob/master/transaction/python/balance.md">资产操作</a></p>
+<div class="codehilite"><pre><span></span><span class="kn">import</span> <span class="nn">cybex</span>
+
+<span class="n">NODE_URL</span> <span class="o">=</span> <span class="s1">&#39;ws://127.0.0.1:8090&#39;</span>
+<span class="n">WALLET_PWD</span> <span class="o">=</span> <span class="s1">&#39;123456&#39;</span>
+
+<span class="n">instance</span> <span class="o">=</span> <span class="n">cybex</span><span class="o">.</span><span class="n">Cybex</span><span class="p">(</span><span class="n">NODE_URL</span><span class="p">)</span>
+<span class="n">instance</span><span class="o">.</span><span class="n">wallet</span><span class="o">.</span><span class="n">unlock</span><span class="p">(</span><span class="n">WALLET_PWD</span><span class="p">)</span>
+
+<span class="c1"># 从from-account转10CYB到to-account，并带有附言memo string，</span>
+<span class="c1"># 如果不需要填写附言，传入&#39;&#39;作为附言字符串即可</span>
+<span class="n">instance</span><span class="o">.</span><span class="n">transfer</span><span class="p">(</span><span class="s1">&#39;to-account&#39;</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="s1">&#39;CYB&#39;</span><span class="p">,</span> <span class="s1">&#39;memo string&#39;</span><span class="p">,</span> <span class="s1">&#39;from-account&#39;</span><span class="p">)</span>
+
+<span class="c1"># 获取收款账号的公钥</span>
+<span class="c1"># 这里使用收款账号活跃权限的第一把公钥，使用者也可视情况选择其他公钥</span>
+<span class="n">account</span> <span class="o">=</span> <span class="n">cybex</span><span class="o">.</span><span class="n">account</span><span class="o">.</span><span class="n">Account</span><span class="p">(</span><span class="s1">&#39;to-account&#39;</span><span class="p">,</span> <span class="n">cybex_instance</span> <span class="o">=</span> <span class="n">instance</span><span class="p">)</span>
+<span class="n">to</span><span class="o">-</span><span class="n">account</span><span class="o">-</span><span class="n">pubkey</span> <span class="o">=</span> <span class="n">account</span><span class="p">[</span><span class="s1">&#39;active&#39;</span><span class="p">][</span><span class="s1">&#39;key_auths&#39;</span><span class="p">][</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
+
+<span class="c1"># 从from-account转10CYB到to-account，并锁定600秒</span>
+<span class="n">instance</span><span class="o">.</span><span class="n">transfer</span><span class="p">(</span><span class="s1">&#39;to-account&#39;</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="s1">&#39;CYB&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="s1">&#39;from-account&#39;</span><span class="p">,</span> <span class="n">extensions</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">1</span><span class="p">,</span> <span class="p">{</span>
+    <span class="s1">&#39;vesting_period&#39;</span><span class="p">:</span> <span class="mi">600</span><span class="p">,</span>
+    <span class="s1">&#39;public_key&#39;</span><span class="p">:</span> <span class="n">to</span><span class="o">-</span><span class="n">account</span><span class="o">-</span><span class="n">pubkey</span>
+<span class="p">}]])</span>
+</pre></div>
+
+
+<h3 id="_13">提现<a class="headerlink" href="#_13" title="Permanent link">&para;</a></h3>
+<p>提现操作可用于将资产从赛贝交易所提现到外部链。</p>
+<ul>
+<li>瑶池（Jadepool）作为Cybex推荐的网关将为您提供这一服务 </li>
+<li>网关服务需要一定的手续费支持运行，其中需要执行一次Cybex内盘转账，该部分手续费您可选择使用CYB支付或ETH支付 </li>
+<li>网关执行手续费将以您希望取出的目标资产支付，并从您提取金额中扣除 </li>
+<li>请务必确认您的提币地址正确，一旦填写错误，您的提币将丢失 </li>
+<li>所有出入金到账需要一定时限，请耐心等待 </li>
+<li>提币操作请使用您的个人钱包地址, 提币到合约地址、交易所地址、ICO项目地址可能会发生合约执行失败，将导致转账失败，资产将退回到您的Cybex账户，处理时间较长，请您谅解。</li>
+<li>目前支持提现的币种有
+JADE.ETH  JADE.BTC  JADE.LTC  JADE.EOS  JADE.USDT
+JADE.MT   JADE.SNT  JADE.PAY  JADE.GET  JADE.MVP
+JADE.DPY  JADE.MVP  JADE.LHT  JADE.INK  JADE.BAT
+JADE.OMG  JADE.NAS  JADE.KNC  JADE.MAD  JADE.TCT
+JADE.GNT  JADE.GNX</li>
+<li>提现EOS时，如果需要在链上转账中填入附言，请使用to-account[memo]作为目标地址。如不需要填入附言，请使用to-account[]作为目标地址</li>
+</ul>
+<div class="codehilite"><pre><span></span><span class="kn">import</span> <span class="nn">cybex</span>
+
+<span class="n">NODE_URL</span> <span class="o">=</span> <span class="s1">&#39;ws://127.0.0.1:8090&#39;</span>
+<span class="n">WALLET_PWD</span> <span class="o">=</span> <span class="s1">&#39;123456&#39;</span>
+
+<span class="n">instance</span> <span class="o">=</span> <span class="n">cybex</span><span class="o">.</span><span class="n">Cybex</span><span class="p">(</span><span class="n">NODE_URL</span><span class="p">)</span>
+<span class="n">instance</span><span class="o">.</span><span class="n">wallet</span><span class="o">.</span><span class="n">unlock</span><span class="p">(</span><span class="n">WALLET_PWD</span><span class="p">)</span>
+
+<span class="c1"># 不同资产使用不同的目标地址作为提现地址</span>
+<span class="c1"># asset-name为您希望提现的资产名字，请使用JADE.作为资产前缀，如JADE.ETH</span>
+<span class="c1"># withdraw-account-name为您在赛贝交易所的账号名</span>
+<span class="n">instance</span><span class="o">.</span><span class="n">withdraw</span><span class="p">(</span><span class="n">to_addr</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="s1">&#39;asset-name&#39;</span><span class="p">,</span> <span class="s1">&#39;withdraw-account-name&#39;</span><span class="p">)</span>
+</pre></div>
+
+
+<h3 id="_14">其他操作<a class="headerlink" href="#_14" title="Permanent link">&para;</a></h3>
+<p><a href="https://github.com/NebulaCybexDEX/Cybex-node-doc/blob/master/transaction/python/balance.md">申领资产</a><br />
+<a href="https://github.com/NebulaCybexDEX/Cybex-node-doc/blob/master/transaction/python/advanced">高级操作</a></p>
+<h2 id="javascript">JavaScript库<a class="headerlink" href="#javascript" title="Permanent link">&para;</a></h2>
+<p>CybexJS库用于包装直接Cybex链进行交互接口与逻辑。其中包含两个独立的NPM包——<strong>Cybexjs</strong>与<strong>Cybexjs-ws</strong>。其中Cybexjs-ws包用以管理客户端与Cybex节点之间的Websocket链接，以提供底层的<strong>API查询</strong>/<strong>消息订阅</strong>与<strong>Transaction广播上链</strong>的实现；而Cybexjs库则提供了与ECC/Serialize有关的方法，并提供了相关的辅助工具，用以完成<strong>公私钥生成管理</strong>/<strong>Transaction构造</strong>/<strong>签名验签</strong>等基础功能。此外还提供了工具类<strong>ChainStore</strong>，用以提供链上信息的快捷查询和本地化缓存。</p>
+<h3 id="_15">安装<a class="headerlink" href="#_15" title="Permanent link">&para;</a></h3>
+<p>通过npm或yarn安装 
+<code>yarn add Cybexjs</code></p>
+<h3 id="_16">引入<a class="headerlink" href="#_16" title="Permanent link">&para;</a></h3>
+<p>可以通过CommonJS或ES import方式获取所需的工具类，如</p>
+<div class="codehilite"><pre><span></span><span class="kr">import</span> <span class="p">{</span> <span class="nx">Apis</span> <span class="p">}</span> <span class="nx">from</span> <span class="s2">&quot;Cybexjs-ws&quot;</span><span class="p">;</span>  
+<span class="kr">import</span> <span class="p">{</span> <span class="nx">ChainStore</span> <span class="p">}</span> <span class="nx">from</span> <span class="s2">&quot;Cybexjs&quot;</span><span class="p">;</span>
+
+<span class="c1">// or</span>
+<span class="kr">const</span> <span class="p">{</span> <span class="nx">CybexStore</span> <span class="p">}</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s2">&quot;Cybexjs&quot;</span><span class="p">);</span>
+<span class="kr">const</span> <span class="p">{</span> <span class="nx">Apis</span> <span class="p">}</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s2">&quot;Cybexjs-ws&quot;</span><span class="p">);</span>
+</pre></div>
+
+
+<h3 id="_17">初始化<a class="headerlink" href="#_17" title="Permanent link">&para;</a></h3>
+<p>Cybexjs需要使用Cybexjs-ws库中的Apis工具类进行与Cybex节点的通讯，并进行Login操作：</p>
+<div class="codehilite"><pre><span></span>let instanceRes = await Apis.instance(&quot;ws://127.0.0.1:8090&quot;, true).init_promise;    
+</pre></div>
+
+
+<p>初次使用Apis.instance()方法并传入所需连接的节点地址，Cybexjs将会尝试链接节点并进行访问各类型API所需的准备工作。需要直接进行节点的访问查询时，再次调用Apis.instance()获取一个全局实例，使用该实例的方法db_api()/history_api()/network_api()/network_api()获得访问不同类型api的途径，并添加参数进行查询或广播，如：</p>
+<div class="codehilite"><pre><span></span>let globalDynamicObject = 
+    await this.Apis.instance()
+        .db_api()
+        .exec(&quot;get_dynamic_global_properties&quot;, []);
+</pre></div>
+
+
+<p>大多数情况下，对于链上数据的获取可以同过Cybexjs库中封装好的方法进行。在使用之前，需进行ChainStore的初始化工作：</p>
+<div class="codehilite"><pre><span></span>ChainStore.init().then(() =&gt; {
+   ChainStore.subscribe(updateState);
+});
+
+let dynamicGlobal = null;
+function updateState(object) {
+    dynamicGlobal = ChainStore.getObject(&quot;2.1.0&quot;);
+    console.log(&quot;ChainStore object update\n&quot;, dynamicGlobal ? dynamicGlobal.toJS() : dynamicGlobal);
+        }
+</pre></div>
+
+
+<p>初始化过程中，会自动调用<code>set_subscribe_callback</code>方法订阅链上notice通知，并通过<code>subscribe</code>方法传入的更新回调同步链上状态的更新。</p>
+<h3 id="_18">查询接口<a class="headerlink" href="#_18" title="Permanent link">&para;</a></h3>
+<p>Cybexjs库中的 <strong>ChainStore</strong> 类提供了若干用以获取常用数据的辅助方法，可直接按需加以调用。并提供了工具函数 <strong>FetchChain</strong> 用来执行更加一般的数据获取。</p>
+<div class="codehilite"><pre><span></span><span class="c1">// example</span>
+<span class="kd">let</span> <span class="nx">name</span> <span class="o">=</span> <span class="s2">&quot;harley&quot;</span><span class="p">;</span>
+<span class="nx">FetchChain</span><span class="p">(</span>
+    <span class="s2">&quot;getAccount&quot;</span><span class="p">,</span> 
+    <span class="nx">name</span><span class="p">,</span> 
+    <span class="kc">undefined</span><span class="p">,</span> 
+    <span class="p">{</span> <span class="p">[</span><span class="nx">name</span><span class="p">]</span><span class="o">:</span> <span class="kc">true</span> <span class="p">}</span>
+<span class="p">).</span><span class="nx">then</span><span class="p">(([</span><span class="nx">harley</span><span class="p">])</span> <span class="p">=&gt;</span> <span class="p">{</span>
+   <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">harley</span><span class="p">);</span>
+<span class="p">});</span>
+</pre></div>
+
+
+<p>方法参数：</p>
+<table>
+<thead>
+<tr>
+<th align="center">参数</th>
+<th align="center">类型</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>methodName</strong></td>
+<td align="center">string</td>
+<td>用以传入希望调用的接口的方法名</td>
+</tr>
+<tr>
+<td align="center"><strong>objectIds</strong></td>
+<td align="center">string[]</td>
+<td>希望获取的Cybex数据标识，通常是某一记录的id。但对于用户或资产这类语义话数据，也可能是用户名或资产全称。</td>
+</tr>
+<tr>
+<td align="center"><strong>timeout</strong></td>
+<td align="center">number(可选)</td>
+<td>希望的超时时间。可选参数，默认为1900毫秒</td>
+</tr>
+<tr>
+<td align="center"><strong>subMap</strong></td>
+<td align="center">Object(可选)</td>
+<td>用以管理查询更新订阅的对象，默认为空对象</td>
+</tr>
+</tbody>
+</table>
+<p><strong>methodName</strong> 支持的部分方法名</p>
+<table>
+<thead>
+<tr>
+<th>接口方法名</th>
+<th>接口参数</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>getObject</td>
+<td>Cybex object ID</td>
+</tr>
+<tr>
+<td>getAsset</td>
+<td>ID or symbol</td>
+</tr>
+<tr>
+<td>getAccountRefsOfKey</td>
+<td>key</td>
+</tr>
+<tr>
+<td>getAccountRefsOfAccount</td>
+<td>account ID</td>
+</tr>
+<tr>
+<td>getBalanceObjects</td>
+<td>address</td>
+</tr>
+<tr>
+<td>getAccount</td>
+<td>account ID</td>
+</tr>
+</tbody>
+</table>
+<p>更多接口可查看ChainStore实现。</p>
+<h3 id="_19">管理密钥<a class="headerlink" href="#_19" title="Permanent link">&para;</a></h3>
+<p>Cybexjs库提供了有关公私钥及签名管理的操作。通过<strong>PrivateKey</strong>/<strong>PublicKey</strong>/<strong>Signature</strong>等工具类实现。并提供了<strong>Login</strong>类来简化一般的私钥管理签名操作。</p>
+<p>Login类使用如下格式生成私钥种子</p>
+<p><code>keySeed = accountName + role + password</code></p>
+<p>通过<code>generateKeys(account, password, [roles])</code>方法将生成对应不同roles的私钥。在需要使用时，需要提供私钥，并调用<code>checkKeys(account, password, auths)</code>方法验证其有效性，一旦验证成功，即可使用<code>signTransaction(tr)</code>方法对Transaction进行签名。</p>
+<p>更加一般的方法私钥管理和签名方法，可以使用<strong>Transaction</strong>与<strong>Privatekey</strong>配合实现。</p>
+<h3 id="_20">实现交易<a class="headerlink" href="#_20" title="Permanent link">&para;</a></h3>
+<ul>
+<li>关于广播并执行一个交易，大致的步骤是 <strong>构造交易体 - 向交易体中添加操作 - 添加签名 - 广播交易</strong>，其中需要手动进行的主要是<strong>构造和添加交易中的操作</strong>，其他主要可以由<strong>TransacitonBuilder</strong>类协助执行。</li>
+<li>
+<p>Cybex中的所有标准数据结构都有唯一ID进行标识。CybexID采用三段式的形式标记（如x.x.xxxx的形式）。    </p>
+<ul>
+<li>其中第一段为数据大类，目前Cybex中有0/1/2三类ID：<ul>
+<li><strong>0</strong> 目前仅用来表示撮合成交</li>
+<li><strong>1</strong> 表示链上协议中定义的数据结构，用来进行交易和操作的验证，钱包与数据库都需遵循该结构；</li>
+<li><strong>2</strong> 表示系统当前运行中所采用的动态数据，不需要在客户端和节点之间进行通讯，仅存在于链上，用于执行业务逻辑。如某一资产现有的资金池状况/智能资产的抵押状况/当前系统的区块数据等。</li>
+</ul>
+</li>
+<li>ID第二段表示具体的数据类型，第三段表示在该类型中的序号。</li>
+</ul>
+</li>
+<li>
+<p>可以添加的操作列表，以及操作结构的数据说明可以在 <a href="https://github.com/CybexDex/Cybexjs/blob/master/serializer/src/operations.js">https://github.com/CybexDex/Cybexjs/blob/master/serializer/src/operations.js</a> 和 <a href="https://github.com/CybexDex/Cybexjs/blob/master/serializer/src/types.js">https://github.com/CybexDex/Cybexjs/blob/master/serializer/src/types.js</a> 查询。</p>
+</li>
+</ul>
+<p>注册用户是一个典型的需要广播来修改链上信息的交易，用以创建链上新的用户。其他需要广播的交易步骤也与此类似。</p>
+<div class="codehilite"><pre><span></span>        <span class="kd">let</span> <span class="nx">tr</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">TransactionBuilder</span><span class="p">();</span> <span class="c1">// 构造一个交易体，TransactionBuilder可从Cybexjs库中获得。</span>
+        <span class="nx">tr</span><span class="p">.</span><span class="nx">add_type_operation</span><span class="p">(</span><span class="s2">&quot;account_create&quot;</span><span class="p">,</span> <span class="p">{</span> <span class="c1">// 向交易中添加所需广播的操作，操作名称为 account_create.</span>
+        <span class="nx">fee</span><span class="o">:</span> <span class="p">{</span> 
+              <span class="nx">amount</span><span class="o">:</span> <span class="mi">0</span><span class="p">,</span>
+            <span class="nx">asset_id</span><span class="o">:</span> <span class="s2">&quot;1.3.0&quot;</span>
+          <span class="p">},</span> <span class="c1">// 该笔交易的手续费字段。</span>
+          <span class="nx">registrar</span><span class="o">:</span> <span class="nx">chain_registrar</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s2">&quot;id&quot;</span><span class="p">),</span> <span class="c1">// 注册人ID</span>
+          <span class="nx">referrer</span><span class="o">:</span> <span class="nx">chain_referrer</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s2">&quot;id&quot;</span><span class="p">),</span> <span class="c1">// 引荐人ID</span>
+          <span class="nx">referrer_percent</span><span class="o">:</span> <span class="nx">referrer_percent</span><span class="p">,</span> <span class="c1">// 引荐人返利额度</span>
+          <span class="nx">name</span><span class="o">:</span> <span class="nx">new_account_name</span><span class="p">,</span> <span class="c1">// 用户名</span>
+          <span class="nx">owner</span><span class="o">:</span> <span class="p">{</span> <span class="c1">// 用户的Owner权限设置</span>
+            <span class="nx">weight_threshold</span><span class="o">:</span> <span class="mi">1</span><span class="p">,</span> <span class="c1">// Owner权限的域限</span>
+            <span class="nx">account_auths</span><span class="o">:</span> <span class="p">[],</span> <span class="c1">// 占有权限的用户列表</span>
+            <span class="nx">key_auths</span><span class="o">:</span> <span class="p">[[</span><span class="nx">owner_pubkey</span><span class="p">,</span> <span class="mi">1</span><span class="p">]],</span> <span class="c1">// 占有权限的公钥列表</span>
+            <span class="nx">address_auths</span><span class="o">:</span> <span class="p">[]</span> <span class="c1">// 占有权限的地址列表</span>
+          <span class="p">},</span>
+          <span class="nx">active</span><span class="o">:</span> <span class="p">{</span> <span class="c1">// 活跃权限配置</span>
+            <span class="nx">weight_threshold</span><span class="o">:</span> <span class="mi">1</span><span class="p">,</span>
+            <span class="nx">account_auths</span><span class="o">:</span> <span class="p">[],</span>
+            <span class="nx">key_auths</span><span class="o">:</span> <span class="p">[[</span><span class="nx">active_pubkey</span><span class="p">,</span> <span class="mi">1</span><span class="p">]],</span>
+            <span class="nx">address_auths</span><span class="o">:</span> <span class="p">[]</span>
+          <span class="p">},</span>
+          <span class="nx">options</span><span class="o">:</span> <span class="p">{</span> <span class="c1">//其他配置</span>
+            <span class="nx">memo_key</span><span class="o">:</span> <span class="nx">active_pubkey</span><span class="p">,</span> <span class="c1">// Memo公钥，其他人向该用户发送Memo时，将使用该公钥进行加密</span>
+            <span class="nx">voting_account</span><span class="o">:</span> <span class="s2">&quot;1.2.5&quot;</span><span class="p">,</span> <span class="c1">// 默认投票代理</span>
+            <span class="nx">num_witness</span><span class="o">:</span> <span class="mi">0</span><span class="p">,</span> <span class="c1">// 初始投票的证人数量</span>
+            <span class="nx">num_committee</span><span class="o">:</span> <span class="mi">0</span><span class="p">,</span> <span class="c1">// 初始投票的委员会数量</span>
+            <span class="nx">votes</span><span class="o">:</span> <span class="p">[]</span> <span class="c1">//初始投票的ID集合</span>
+          <span class="p">}</span>
+        <span class="p">});</span>
+        <span class="nx">tr</span><span class="p">.</span><span class="nx">add_signer</span><span class="p">(</span><span class="nx">privKey</span><span class="p">);</span> <span class="c1">// 向交易添加签名，传入私钥</span>
+        <span class="nx">await</span> <span class="nx">tr</span><span class="p">.</span><span class="nx">broadcast</span><span class="p">();</span> <span class="c1">// 广播交易，异步操作</span>
+</pre></div>
+
+
+<ul>
+<li>本接口数据结构可查询 <a href="https://github.com/NebulaCybexDEX/Cybex-core/blob/master/libraries/chain/include/graphene/chain/protocol/account.hpp">https://github.com/NebulaCybexDEX/Cybex-core/blob/master/libraries/chain/include/graphene/chain/protocol/account.hpp</a> 获得基本说明。</li>
+</ul>
+<h2 id="_21">区块链对象及标识<a class="headerlink" href="#_21" title="Permanent link">&para;</a></h2>
+<p>我们将简单介绍一下Cybex对象的有关概念，以便各个客户端在调用之前有一个大致的了解。</p>
+<p>石墨烯技术对协议和实现空间的对象进行了区分。在协议层面，有诸如账户、资产、委员会成员、订单、余额等原始对象。而实现层面的对象，则是为了访问更高的抽象层，比如获取数据库当前状态（包括当前区块链全局属性、动态资产数据、事务历史记录、账户统计和预算记录等等）。</p>
+<h3 id="id">标准数据结构与三段式ID<a class="headerlink" href="#id" title="Permanent link">&para;</a></h3>
+<p>Cybex中的所有标准数据结构都由唯一ID进行标识，ID采用三段式的格式，即<code>xx.xx.xx</code>：</p>
+<ol>
+<li>第一段为数据大类，目前仅1/2/3三类ID，其中：<br />
+    0 ⽬目前仅⽤用来表示撮合成交；<br />
+    1 表示链上协议中定义的数据结构，⽤用来进⾏交易和操作的验证，钱包与数据库都需遵循该结构;<br />
+    2 表示系统当前运⾏中所采用的动态数据，不需要在客户端和节点之间进行通讯，仅存在于链上，⽤于执⾏业务 逻辑。如某⼀资产现有的资⾦池状况/智能资产的抵押状况/当前系统的区块数据等。  </li>
+<li>第二段为数据类型；</li>
+<li>第三段为数据在该类型中的序号。</li>
+</ol>
+<h3 id="_22">常用对象列表<a class="headerlink" href="#_22" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>对象类型</th>
+<th>区块链定义的基础数据ID</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.1.x</td>
+<td>base object</td>
+<td></td>
+</tr>
+<tr>
+<td>1.2.x</td>
+<td>account object</td>
+<td><em>1.2.0（理事会成员账户详细信息）</em></td>
+</tr>
+<tr>
+<td>1.3.x</td>
+<td>asset object</td>
+<td><em>1.3.0（核心资产，即CYB）</em></td>
+</tr>
+<tr>
+<td>1.4.x</td>
+<td>force settlement object</td>
+<td></td>
+</tr>
+<tr>
+<td>1.5.x</td>
+<td>committee member object</td>
+<td></td>
+</tr>
+<tr>
+<td>1.6.x</td>
+<td>witness object</td>
+<td></td>
+</tr>
+<tr>
+<td>1.7.x</td>
+<td>limit order object</td>
+<td></td>
+</tr>
+<tr>
+<td>1.8.x</td>
+<td>call order object</td>
+<td></td>
+</tr>
+<tr>
+<td>1.9.x</td>
+<td>custom object</td>
+<td></td>
+</tr>
+<tr>
+<td>1.10.x</td>
+<td>proposal object</td>
+<td></td>
+</tr>
+<tr>
+<td>1.11.x</td>
+<td>operation history object</td>
+<td></td>
+</tr>
+<tr>
+<td>1.12.x</td>
+<td>withdraw permission object</td>
+<td></td>
+</tr>
+<tr>
+<td>1.13.x</td>
+<td>vesting balance object</td>
+<td></td>
+</tr>
+<tr>
+<td>1.14.x</td>
+<td>worker object</td>
+<td></td>
+</tr>
+<tr>
+<td>1.15.x</td>
+<td>balance object</td>
+<td></td>
+</tr>
+<tr>
+<td>2.0.x</td>
+<td>global_property_object</td>
+<td><em>2.0.0（区块链全局参数）</em></td>
+</tr>
+<tr>
+<td>2.1.x</td>
+<td>dynamic_global_property_object</td>
+<td><em>2.1.0（当前区块链数据）</em></td>
+</tr>
+<tr>
+<td>2.3.x</td>
+<td>asset_dynamic_data</td>
+<td></td>
+</tr>
+<tr>
+<td>2.4.x</td>
+<td>asset_bitasset_data</td>
+<td></td>
+</tr>
+<tr>
+<td>2.5.x</td>
+<td>account_balance_object</td>
+<td></td>
+</tr>
+<tr>
+<td>2.6.x</td>
+<td>account_statistics_object</td>
+<td></td>
+</tr>
+<tr>
+<td>2.7.x</td>
+<td>transaction_object</td>
+<td></td>
+</tr>
+<tr>
+<td>2.8.x</td>
+<td>block_summary_object</td>
+<td></td>
+</tr>
+<tr>
+<td>2.9.x</td>
+<td>account_transaction_history_object</td>
+<td></td>
+</tr>
+<tr>
+<td>2.10.x</td>
+<td>blinded_balance_object</td>
+<td></td>
+</tr>
+<tr>
+<td>2.11.x</td>
+<td>chain_property_object</td>
+<td></td>
+</tr>
+<tr>
+<td>2.12.x</td>
+<td>witness_schedule_object</td>
+<td></td>
+</tr>
+<tr>
+<td>2.13.x</td>
+<td>budget_record_object</td>
+<td></td>
+</tr>
+<tr>
+<td>2.14.x</td>
+<td>special_authority_object</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h1 id="api_2">API文档<a class="headerlink" href="#api_2" title="Permanent link">&para;</a></h1>
+<h2 id="api_3">数据库API<a class="headerlink" href="#api_3" title="Permanent link">&para;</a></h2>
+<h3 id="1">1. 对象<a class="headerlink" href="#1" title="Permanent link">&para;</a></h3>
+<h4 id="get_objects">get_objects<a class="headerlink" href="#get_objects" title="Permanent link">&para;</a></h4>
+<p><code>Return the details of objects retrieved, in the order they are mentioned in ids</code></p>
+<ul>
+<li>
+<p>Requesst:</p>
+<div class="codehilite"><pre><span></span>curl --data &#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;get_objects&quot;,&quot;params&quot;:[[&quot;1.2.7&quot;, &quot;1.3.0&quot;]],&quot;id&quot;:1}&#39; https://apihk.cybex.io
+</pre></div>
+
+
+<ul>
+<li>
+<p>Parameters:</p>
+<p>ids: IDs of the objects to retrieve</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Response:</p>
+<div class="codehilite"><pre><span></span>{
+    &quot;id&quot;: 1,
+    &quot;jsonrpc&quot;: &quot;2.0&quot;,
+    &quot;result&quot;: [{
+        &quot;id&quot;: &quot;1.2.7&quot;,                      // id of account
+        &quot;membership_expiration_date&quot;: &quot;1969-12-31T23:59:59&quot;,
+        &quot;registrar&quot;: &quot;1.2.7&quot;,
+        &quot;referrer&quot;: &quot;1.2.7&quot;,
+        &quot;lifetime_referrer&quot;: &quot;1.2.7&quot;,
+        &quot;network_fee_percentage&quot;: 2000,
+        &quot;lifetime_referrer_fee_percentage&quot;: 8000,
+        &quot;referrer_rewards_percentage&quot;: 0,
+        &quot;name&quot;: &quot;harley&quot;,
+        &quot;owner&quot;: {
+            &quot;weight_threshold&quot;: 1,
+            &quot;account_auths&quot;: [],
+            &quot;key_auths&quot;: [
+                [&quot;CYB8jM4e1z1xS63xxVhuperU1VvusQz8Ye8CrnTBigFUaErpigpPL&quot;, 1]
+            ],
+            &quot;address_auths&quot;: []
+        },
+        &quot;active&quot;: {
+            &quot;weight_threshold&quot;: 1,
+            &quot;account_auths&quot;: [],
+            &quot;key_auths&quot;: [
+                [&quot;CYB7UdEEgrFYAR4DfSi8svfUUzE2E2twSFqAx66LqmgxXJjk5h7LR&quot;, 1]
+            ],
+            &quot;address_auths&quot;: []
+        },
+        &quot;options&quot;: {
+            &quot;memo_key&quot;: &quot;CYB7UdEEgrFYAR4DfSi8svfUUzE2E2twSFqAx66LqmgxXJjk5h7LR&quot;,
+            &quot;voting_account&quot;: &quot;1.2.5&quot;,
+            &quot;num_witness&quot;: 0,
+            &quot;num_committee&quot;: 0,
+            &quot;votes&quot;: [],
+            &quot;extensions&quot;: []
+        },
+        &quot;statistics&quot;: &quot;2.6.7&quot;,
+        &quot;whitelisting_accounts&quot;: [],
+        &quot;blacklisting_accounts&quot;: [],
+        &quot;whitelisted_accounts&quot;: [],
+        &quot;blacklisted_accounts&quot;: [],
+        &quot;cashback_vb&quot;: &quot;1.13.0&quot;,
+        &quot;owner_special_authority&quot;: [0, {}],
+        &quot;active_special_authority&quot;: [0, {}],
+        &quot;top_n_control_flags&quot;: 0
+    }, {
+        &quot;id&quot;: &quot;1.3.0&quot;,                   // id of asset
+        &quot;symbol&quot;: &quot;CYB&quot;,
+        &quot;precision&quot;: 5,
+        &quot;issuer&quot;: &quot;1.2.3&quot;,
+        &quot;options&quot;: {
+            &quot;max_supply&quot;: &quot;100000000000000&quot;,
+            &quot;market_fee_percent&quot;: 0,
+            &quot;max_market_fee&quot;: &quot;1000000000000000&quot;,
+            &quot;issuer_permissions&quot;: 0,
+            &quot;flags&quot;: 0,
+            &quot;core_exchange_rate&quot;: {
+                &quot;base&quot;: {
+                    &quot;amount&quot;: 1,
+                    &quot;asset_id&quot;: &quot;1.3.0&quot;
+                },
+                &quot;quote&quot;: {
+                    &quot;amount&quot;: 1,
+                    &quot;asset_id&quot;: &quot;1.3.0&quot;
+                }
+            },
+            &quot;whitelist_authorities&quot;: [],
+            &quot;blacklist_authorities&quot;: [],
+            &quot;whitelist_markets&quot;: [],
+            &quot;blacklist_markets&quot;: [],
+            &quot;description&quot;: &quot;&quot;,
+            &quot;extensions&quot;: []
+        },
+        &quot;dynamic_asset_data_id&quot;: &quot;2.3.0&quot;
+    }]
+}
+</pre></div>
+
+
+</li>
+</ul>
+<h3 id="2">2. 区块和事务<a class="headerlink" href="#2" title="Permanent link">&para;</a></h3>
+<h4 id="get_block_header">get_block_header<a class="headerlink" href="#get_block_header" title="Permanent link">&para;</a></h4>
+<p><code>Return the header of referenced block, or null if no matching block was found</code></p>
+<ul>
+<li>
+<p>Request:</p>
+<div class="codehilite"><pre><span></span>curl --data &#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;get_block_header&quot;,&quot;params&quot;:[&quot;4427000&quot;],&quot;id&quot;:1}&#39; https://apihk.cybex.io
+</pre></div>
+
+
+</li>
+<li>
+<p>Parameters:</p>
+<div class="codehilite"><pre><span></span>block_num: height of the block to be returned
+</pre></div>
+
+
+</li>
+<li>
+<p>Response:</p>
+<div class="codehilite"><pre><span></span>{
+    &quot;id&quot;: 1,
+    &quot;jsonrpc&quot;: &quot;2.0&quot;,
+    &quot;result&quot;: {
+        &quot;previous&quot;: &quot;00438cf7e5e52236bf61d15740449cfee84c257b&quot;,
+        &quot;timestamp&quot;: &quot;2018-07-30T09:49:03&quot;,
+        &quot;witness&quot;: &quot;1.6.8&quot;,
+        &quot;transaction_merkle_root&quot;: &quot;7a9f852c737b442ce42d3f239f723994aad82fa7&quot;,
+        &quot;extensions&quot;: []
+    }
+}
+</pre></div>
+
+
+</li>
+</ul>
+<h4 id="get_block">get_block<a class="headerlink" href="#get_block" title="Permanent link">&para;</a></h4>
+<p><code>Return the referenced block, or null if no matching block was found</code></p>
+<ul>
+<li>
+<p>Request:</p>
+<div class="codehilite"><pre><span></span>curl --data &#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;get_block&quot;,&quot;params&quot;:[&quot;4427000&quot;],&quot;id&quot;:1}&#39; https://apihk.cybex.io
+</pre></div>
+
+
+</li>
+<li>
+<p>Parameters:</p>
+<div class="codehilite"><pre><span></span>block_num: height of the block to be returned
+</pre></div>
+
+
+</li>
+<li>
+<p>Response:</p>
+<div class="codehilite"><pre><span></span>{
+    &quot;id&quot;: 1,
+    &quot;jsonrpc&quot;: &quot;2.0&quot;,
+    &quot;result&quot;: {
+        &quot;previous&quot;: &quot;00438cf7e5e52236bf61d15740449cfee84c257b&quot;,
+        &quot;timestamp&quot;: &quot;2018-07-30T09:49:03&quot;,
+        &quot;witness&quot;: &quot;1.6.8&quot;,
+        &quot;transaction_merkle_root&quot;: &quot;7a9f852c737b442ce42d3f239f723994aad82fa7&quot;,
+        &quot;extensions&quot;: [],
+        &quot;witness_signature&quot;: &quot;2037dac761871e52abf2e58669e23ad2e07732f1a808cae794e5503f11a004f29d3d8689eb922fdce556034cc3cd6b6785da3109f5ec6aa0ae21368a84e54db296&quot;,
+        &quot;transactions&quot;: [{
+            &quot;ref_block_num&quot;: 36086,
+            &quot;ref_block_prefix&quot;: 1500000766,
+            &quot;expiration&quot;: &quot;2018-07-30T09:49:29&quot;,
+            &quot;operations&quot;: [
+                [1, {
+                    &quot;fee&quot;: {
+                        &quot;amount&quot;: 55,
+                        &quot;asset_id&quot;: &quot;1.3.0&quot;
+                    },
+                    &quot;seller&quot;: &quot;1.2.31042&quot;,
+                    &quot;amount_to_sell&quot;: {
+                        &quot;amount&quot;: 17977820,
+                        &quot;asset_id&quot;: &quot;1.3.27&quot;
+                    },
+                    &quot;min_to_receive&quot;: {
+                        &quot;amount&quot;: 7340834,
+                        &quot;asset_id&quot;: &quot;1.3.0&quot;
+                    },
+                    &quot;expiration&quot;: &quot;2018-07-30T09:54:59&quot;,
+                    &quot;fill_or_kill&quot;: false,
+                    &quot;extensions&quot;: []
+                }]
+            ],
+            &quot;extensions&quot;: [],
+            &quot;signatures&quot;: [&quot;1f696c3e532e163b4860a39da54f89c81c37f850a012b46767919ff6436e008fd939d992df4442894205a1582452dfd23aae8c2446d4ea0ef9e031fc0d036cfe80&quot;],
+            &quot;operation_results&quot;: [
+                [1, &quot;1.7.61886713&quot;]
+            ]
+        }, {
+            &quot;ref_block_num&quot;: 36086,
+            &quot;ref_block_prefix&quot;: 1500000766,
+            &quot;expiration&quot;: &quot;2018-07-30T09:49:29&quot;,
+            &quot;operations&quot;: [
+                [1, {
+                    &quot;fee&quot;: {
+                        &quot;amount&quot;: 55,
+                        &quot;asset_id&quot;: &quot;1.3.0&quot;
+                    },
+                    &quot;seller&quot;: &quot;1.2.31085&quot;,
+                    &quot;amount_to_sell&quot;: {
+                        &quot;amount&quot;: 10474665,
+                        &quot;asset_id&quot;: &quot;1.3.27&quot;
+                    },
+                    &quot;min_to_receive&quot;: {
+                        &quot;amount&quot;: 1259669,
+                        &quot;asset_id&quot;: &quot;1.3.26&quot;
+                    },
+                    &quot;expiration&quot;: &quot;2018-07-30T09:53:59&quot;,
+                    &quot;fill_or_kill&quot;: false,
+                    &quot;extensions&quot;: []
+                }]
+            ],
+            &quot;extensions&quot;: [],
+            &quot;signatures&quot;: [&quot;1f2b5b86599c7dd7e22525f18bed562cc82e21b03e2fdf26dbf4a40b37239c403a014d3086cbee64f3f114372ed36dce75b3a45e2d2b48a1b5dfcbfe825a7d9cc5&quot;],
+            &quot;operation_results&quot;: [
+                [1, &quot;1.7.61886714&quot;]
+            ]
+        }, {
+            &quot;ref_block_num&quot;: 36086,
+            &quot;ref_block_prefix&quot;: 1500000766,
+            &quot;expiration&quot;: &quot;2018-07-30T09:49:29&quot;,
+            &quot;operations&quot;: [
+                [1, {
+                    &quot;fee&quot;: {
+                        &quot;amount&quot;: 55,
+                        &quot;asset_id&quot;: &quot;1.3.0&quot;
+                    },
+                    &quot;seller&quot;: &quot;1.2.31102&quot;,
+                    &quot;amount_to_sell&quot;: {
+                        &quot;amount&quot;: 123926,
+                        &quot;asset_id&quot;: &quot;1.3.3&quot;
+                    },
+                    &quot;min_to_receive&quot;: {
+                        &quot;amount&quot;: 1212338,
+                        &quot;asset_id&quot;: &quot;1.3.26&quot;
+                    },
+                    &quot;expiration&quot;: &quot;2018-07-30T09:53:59&quot;,
+                    &quot;fill_or_kill&quot;: false,
+                    &quot;extensions&quot;: []
+                }]
+            ],
+            &quot;extensions&quot;: [],
+            &quot;signatures&quot;: [&quot;1f107e8f2f499566972a6d8a7d504ac30f2fe6d71d9b7ff3a4374dec6ff1907bfb4b8ef2ab06695a7c15baa386a24c4400fcd577a3b0fc54172e038755bd9d674b&quot;],
+            &quot;operation_results&quot;: [
+                [1, &quot;1.7.61886715&quot;]
+            ]
+        }, {
+            &quot;ref_block_num&quot;: 36086,
+            &quot;ref_block_prefix&quot;: 1500000766,
+            &quot;expiration&quot;: &quot;2018-07-30T09:49:29&quot;,
+            &quot;operations&quot;: [
+                [1, {
+                    &quot;fee&quot;: {
+                        &quot;amount&quot;: 55,
+                        &quot;asset_id&quot;: &quot;1.3.0&quot;
+                    },
+                    &quot;seller&quot;: &quot;1.2.10641&quot;,
+                    &quot;amount_to_sell&quot;: {
+                        &quot;amount&quot;: 2660695,
+                        &quot;asset_id&quot;: &quot;1.3.0&quot;
+                    },
+                    &quot;min_to_receive&quot;: {
+                        &quot;amount&quot;: 14157,
+                        &quot;asset_id&quot;: &quot;1.3.2&quot;
+                    },
+                    &quot;expiration&quot;: &quot;2018-07-30T09:53:59&quot;,
+                    &quot;fill_or_kill&quot;: false,
+                    &quot;extensions&quot;: []
+                }]
+            ],
+            &quot;extensions&quot;: [],
+            &quot;signatures&quot;: [&quot;1f041a5aa35f798776cf668c2b4bbaeefe0fb3762607bb454fe73aa8dd3cfb4e9b3a386cc2e2a2e47e575ab9f173d8931acbedf65547a244c9ee65b2f48dc7cf8b&quot;],
+            &quot;operation_results&quot;: [
+                [1, &quot;1.7.61886716&quot;]
+            ]
+        },
+        .....
+        ]
+    }
+}
+</pre></div>
+
+
+</li>
+</ul>
+<h4 id="get_transaction">get_transaction<a class="headerlink" href="#get_transaction" title="Permanent link">&para;</a></h4>
+<p><code>Used to fetch an individual transaction</code></p>
+<ul>
+<li>
+<p>Request:</p>
+<div class="codehilite"><pre><span></span>curl --data &#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;get_transaction&quot;,&quot;params&quot;:[&quot;4427000&quot;,&quot;2&quot;],&quot;id&quot;:1}&#39; https://apihk.cybex.io
+</pre></div>
+
+
+</li>
+<li>
+<p>Parameters:</p>
+<div class="codehilite"><pre><span></span>block_num: block number
+
+trx_in_block: subscript number of transaction in block, starting from zero
+</pre></div>
+
+
+</li>
+<li>
+<p>Response:</p>
+<div class="codehilite"><pre><span></span>{
+    &quot;id&quot;: 1,
+    &quot;jsonrpc&quot;: &quot;2.0&quot;,
+    &quot;result&quot;: {
+        &quot;ref_block_num&quot;: 36086,
+        &quot;ref_block_prefix&quot;: 1500000766,
+        &quot;expiration&quot;: &quot;2018-07-30T09:49:29&quot;,
+        &quot;operations&quot;: [
+            [1, {
+                &quot;fee&quot;: {
+                    &quot;amount&quot;: 55,
+                    &quot;asset_id&quot;: &quot;1.3.0&quot;
+                },
+                &quot;seller&quot;: &quot;1.2.31102&quot;,
+                &quot;amount_to_sell&quot;: {
+                    &quot;amount&quot;: 123926,
+                    &quot;asset_id&quot;: &quot;1.3.3&quot;
+                },
+                &quot;min_to_receive&quot;: {
+                    &quot;amount&quot;: 1212338,
+                    &quot;asset_id&quot;: &quot;1.3.26&quot;
+                },
+                &quot;expiration&quot;: &quot;2018-07-30T09:53:59&quot;,
+                &quot;fill_or_kill&quot;: false,
+                &quot;extensions&quot;: []
+            }]
+        ],
+        &quot;extensions&quot;: [],
+        &quot;signatures&quot;: [&quot;1f107e8f2f499566972a6d8a7d504ac30f2fe6d71d9b7ff3a4374dec6ff1907bfb4b8ef2ab06695a7c15baa386a24c4400fcd577a3b0fc54172e038755bd9d674b&quot;],
+        &quot;operation_results&quot;: [
+            [1, &quot;1.7.61886715&quot;]
+        ]
+    }
+}
+</pre></div>
+
+
+</li>
+</ul>
+<h3 id="3">3. 区块链全局<a class="headerlink" href="#3" title="Permanent link">&para;</a></h3>
+<h4 id="get95chain95properties">get_chain_properties()<a class="headerlink" href="#get95chain95properties" title="Permanent link">&para;</a></h4>
+<p><code>Retrieve the chain property object associated with the chain</code></p>
+<ul>
+<li>
+<p>Request:</p>
+<div class="codehilite"><pre><span></span>curl --data &#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;get_chain_properties&quot;,&quot;params&quot;:[],&quot;id&quot;:1}&#39; https://apihk.cybex.io
+</pre></div>
+
+
+</li>
+<li>
+<p>Response:</p>
+<div class="codehilite"><pre><span></span>{
+    &quot;id&quot;: 1,
+    &quot;jsonrpc&quot;: &quot;2.0&quot;,
+    &quot;result&quot;: {
+        &quot;id&quot;: &quot;2.11.0&quot;,
+        &quot;chain_id&quot;: &quot;90be01e82b981c8f201c9a78a3d31f655743b29ff3274727b1439b093d04aa23&quot;,
+        &quot;immutable_parameters&quot;: {
+            &quot;min_committee_member_count&quot;: 21,
+            &quot;min_witness_count&quot;: 11,
+            &quot;num_special_accounts&quot;: 0,
+            &quot;num_special_assets&quot;: 0
+        }
+    }
+}
+</pre></div>
+
+
+</li>
+</ul>
+<p><strong>get_global_properties()</strong></p>
+<p><code>Retrieve the current global property object</code></p>
+<ul>
+<li>
+<p>Request:</p>
+<div class="codehilite"><pre><span></span>curl --data &#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;get_global_properties&quot;,&quot;params&quot;:[],&quot;id&quot;:1}&#39; https://apihk.cybex.io
+</pre></div>
+
+
+</li>
+<li>
+<p>Response:</p>
+<div class="codehilite"><pre><span></span>{
+    &quot;id&quot;: 1,
+    &quot;jsonrpc&quot;: &quot;2.0&quot;,
+    &quot;result&quot;: {
+        &quot;id&quot;: &quot;2.0.0&quot;,
+        &quot;parameters&quot;: {
+            &quot;current_fees&quot;: {
+                &quot;parameters&quot;: [
+                    [0, {
+                        &quot;fee&quot;: 1000,
+                        &quot;price_per_kbyte&quot;: 555
+                    }],
+                    [1, {
+                        &quot;fee&quot;: 55
+                    }],
+                    [2, {
+                        &quot;fee&quot;: 5
+                    }],
+                    [3, {
+                        &quot;fee&quot;: 55
+                    }],
+                    [4, {}],
+                    [5, {
+                        &quot;basic_fee&quot;: 1000000,
+                        &quot;premium_fee&quot;: &quot;7500000000&quot;,
+                        &quot;price_per_kbyte&quot;: 5000
+                    }],
+                    [6, {
+                        &quot;fee&quot;: 55,
+                        &quot;price_per_kbyte&quot;: 389
+                    }],
+                    [7, {
+                        &quot;fee&quot;: 5555
+                    }],
+                    [8, {
+                        &quot;membership_annual_fee&quot;: &quot;60168000000000&quot;,
+                        &quot;membership_lifetime_fee&quot;: 100000000
+                    }],
+                    [9, {
+                        &quot;fee&quot;: 277784
+                    }],
+                    [10, {
+                        &quot;symbol3&quot;: &quot;100000000000&quot;,
+                        &quot;symbol4&quot;: &quot;100000000000&quot;,
+                        &quot;long_symbol&quot;: 50000000,
+                        &quot;price_per_kbyte&quot;: 100000
+                    }],
+                    [11, {
+                        &quot;fee&quot;: 111114,
+                        &quot;price_per_kbyte&quot;: 389
+                    }],
+                    [12, {
+                        &quot;fee&quot;: 277784
+                    }],
+                    [13, {
+                        &quot;fee&quot;: 277784
+                    }],
+                    [14, {
+                        &quot;fee&quot;: 1000,
+                        &quot;price_per_kbyte&quot;: 555
+                    }],
+                    [15, {
+                        &quot;fee&quot;: 55
+                    }],
+                    [16, {
+                        &quot;fee&quot;: 27778
+                    }],
+                    [17, {
+                        &quot;fee&quot;: 2777
+                    }],
+                    [18, {
+                        &quot;fee&quot;: 277784
+                    }],
+                    [19, {
+                        &quot;fee&quot;: 5
+                    }],
+                    [20, {
+                        &quot;fee&quot;: 2777844
+                    }],
+                    [21, {
+                        &quot;fee&quot;: 555
+                    }],
+                    [22, {
+                        &quot;fee&quot;: 8333,
+                        &quot;price_per_kbyte&quot;: 2777
+                    }],
+                    [23, {
+                        &quot;fee&quot;: 277,
+                        &quot;price_per_kbyte&quot;: 389
+                    }],
+                    [24, {
+                        &quot;fee&quot;: 0
+                    }],
+                    [25, {
+                        &quot;fee&quot;: 8333
+                    }],
+                    [26, {
+                        &quot;fee&quot;: 555
+                    }],
+                    [27, {
+                        &quot;fee&quot;: 800,
+                        &quot;price_per_kbyte&quot;: 389
+                    }],
+                    [28, {
+                        &quot;fee&quot;: 0
+                    }],
+                    [29, {
+                        &quot;fee&quot;: 277784
+                    }],
+                    [30, {
+                        &quot;fee&quot;: 555569
+                    }],
+                    [31, {
+                        &quot;fee&quot;: 0
+                    }],
+                    [32, {
+                        &quot;fee&quot;: 55557
+                    }],
+                    [33, {
+                        &quot;fee&quot;: 111114
+                    }],
+                    [34, {
+                        &quot;fee&quot;: 2777844
+                    }],
+                    [35, {
+                        &quot;fee&quot;: 555,
+                        &quot;price_per_kbyte&quot;: 2777
+                    }],
+                    [36, {
+                        &quot;fee&quot;: 27778
+                    }],
+                    [37, {}],
+                    [38, {
+                        &quot;fee&quot;: 55557,
+                        &quot;price_per_kbyte&quot;: 389
+                    }],
+                    [39, {
+                        &quot;fee&quot;: 11667,
+                        &quot;price_per_output&quot;: 3889
+                    }],
+                    [40, {
+                        &quot;fee&quot;: 11667,
+                        &quot;price_per_output&quot;: 3889
+                    }],
+                    [41, {
+                        &quot;fee&quot;: 11667
+                    }],
+                    [42, {}],
+                    [43, {
+                        &quot;fee&quot;: 55557
+                    }],
+                    [44, {}],
+                    [45, {
+                        &quot;fee&quot;: 10000,
+                        &quot;price_per_kbyte&quot;: 10
+                    }],
+                    [46, {
+                        &quot;fee&quot;: 10000,
+                        &quot;price_per_kbyte&quot;: 10
+                    }],
+                    [47, {
+                        &quot;fee&quot;: 10000,
+                        &quot;price_per_kbyte&quot;: 10
+                    }]
+                ],
+                &quot;scale&quot;: 10000
+            },
+            &quot;block_interval&quot;: 3,
+            &quot;maintenance_interval&quot;: 86400,
+            &quot;maintenance_skip_slots&quot;: 3,
+            &quot;committee_proposal_review_period&quot;: 0,
+            &quot;maximum_transaction_size&quot;: 2048,
+            &quot;maximum_block_size&quot;: 2048000000,
+            &quot;maximum_time_until_expiration&quot;: 86400,
+            &quot;maximum_proposal_lifetime&quot;: 62208000,
+            &quot;maximum_asset_whitelist_authorities&quot;: 10,
+            &quot;maximum_asset_feed_publishers&quot;: 10,
+            &quot;maximum_witness_count&quot;: 1001,
+            &quot;maximum_committee_count&quot;: 1001,
+            &quot;maximum_authority_membership&quot;: 10,
+            &quot;reserve_percent_of_fee&quot;: 2000,
+            &quot;network_percent_of_fee&quot;: 2000,
+            &quot;lifetime_referrer_percent_of_fee&quot;: 3000,
+            &quot;cashback_vesting_period_seconds&quot;: 31536000,
+            &quot;cashback_vesting_threshold&quot;: 10000000,
+            &quot;count_non_member_votes&quot;: true,
+            &quot;allow_non_member_whitelists&quot;: false,
+            &quot;witness_pay_per_block&quot;: 10000,
+            &quot;worker_budget_per_day&quot;: &quot;50000000000&quot;,
+            &quot;max_predicate_opcode&quot;: 1,
+            &quot;fee_liquidation_threshold&quot;: 10000000,
+            &quot;accounts_per_fee_scale&quot;: 1000,
+            &quot;account_fee_scale_bitshifts&quot;: 4,
+            &quot;max_authority_depth&quot;: 2,
+            &quot;extensions&quot;: []
+        },
+        &quot;next_available_vote_id&quot;: 37,
+        &quot;active_committee_members&quot;: [&quot;1.5.11&quot;, &quot;1.5.3&quot;, &quot;1.5.12&quot;, &quot;1.5.13&quot;, &quot;1.5.6&quot;, &quot;1.5.1&quot;, &quot;1.5.2&quot;, &quot;1.5.4&quot;, &quot;1.5.5&quot;, &quot;1.5.7&quot;, &quot;1.5.8&quot;, &quot;1.5.9&quot;, &quot;1.5.10&quot;, &quot;1.5.14&quot;, &quot;1.5.15&quot;, &quot;1.5.16&quot;, &quot;1.5.17&quot;, &quot;1.5.18&quot;, &quot;1.5.19&quot;, &quot;1.5.20&quot;, &quot;1.5.21&quot;],
+        &quot;active_witnesses&quot;: [&quot;1.6.1&quot;, &quot;1.6.2&quot;, &quot;1.6.3&quot;, &quot;1.6.4&quot;, &quot;1.6.5&quot;, &quot;1.6.6&quot;, &quot;1.6.7&quot;, &quot;1.6.8&quot;, &quot;1.6.9&quot;, &quot;1.6.10&quot;, &quot;1.6.11&quot;]
+    }
+}
+</pre></div>
+
+
+</li>
+</ul>
+<h4 id="get95config">get_config<a class="headerlink" href="#get95config" title="Permanent link">&para;</a></h4>
+<p><code>Retrieve the current global property object</code></p>
+<ul>
+<li>
+<p>Request:</p>
+<div class="codehilite"><pre><span></span>curl --data &#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;get_config&quot;,&quot;params&quot;:[],&quot;id&quot;:1}&#39; https://apihk.cybex.io
+</pre></div>
+
+
+</li>
+<li>
+<p>Response:</p>
+<div class="codehilite"><pre><span></span>{
+    &quot;id&quot;: 1,
+    &quot;jsonrpc&quot;: &quot;2.0&quot;,
+    &quot;result&quot;: {
+        &quot;GRAPHENE_SYMBOL&quot;: &quot;CYB&quot;,
+        &quot;GRAPHENE_ADDRESS_PREFIX&quot;: &quot;CYB&quot;,
+        &quot;GRAPHENE_MIN_ACCOUNT_NAME_LENGTH&quot;: 1,
+        &quot;GRAPHENE_MAX_ACCOUNT_NAME_LENGTH&quot;: 63,
+        &quot;GRAPHENE_MIN_ASSET_SYMBOL_LENGTH&quot;: 3,
+        &quot;GRAPHENE_MAX_ASSET_SYMBOL_LENGTH&quot;: 16,
+        &quot;GRAPHENE_MAX_SHARE_SUPPLY&quot;: &quot;1000000000000000&quot;,
+        &quot;GRAPHENE_MAX_PAY_RATE&quot;: 10000,
+        &quot;GRAPHENE_MAX_SIG_CHECK_DEPTH&quot;: 2,
+        &quot;GRAPHENE_MIN_TRANSACTION_SIZE_LIMIT&quot;: 1024,
+        &quot;GRAPHENE_MIN_BLOCK_INTERVAL&quot;: 1,
+        &quot;GRAPHENE_MAX_BLOCK_INTERVAL&quot;: 30,
+        &quot;GRAPHENE_DEFAULT_BLOCK_INTERVAL&quot;: 5,
+        &quot;GRAPHENE_DEFAULT_MAX_TRANSACTION_SIZE&quot;: 2048,
+        &quot;GRAPHENE_DEFAULT_MAX_BLOCK_SIZE&quot;: 2000000,
+        &quot;GRAPHENE_DEFAULT_MAX_TIME_UNTIL_EXPIRATION&quot;: 86400,
+        &quot;GRAPHENE_DEFAULT_MAINTENANCE_INTERVAL&quot;: 86400,
+        &quot;GRAPHENE_DEFAULT_MAINTENANCE_SKIP_SLOTS&quot;: 3,
+        &quot;GRAPHENE_MIN_UNDO_HISTORY&quot;: 10,
+        &quot;GRAPHENE_MAX_UNDO_HISTORY&quot;: 10000,
+        &quot;GRAPHENE_MIN_BLOCK_SIZE_LIMIT&quot;: 5120,
+        &quot;GRAPHENE_MIN_TRANSACTION_EXPIRATION_LIMIT&quot;: 150,
+        &quot;GRAPHENE_BLOCKCHAIN_PRECISION&quot;: 100000,
+        &quot;GRAPHENE_BLOCKCHAIN_PRECISION_DIGITS&quot;: 5,
+        &quot;GRAPHENE_DEFAULT_TRANSFER_FEE&quot;: 100000,
+        &quot;GRAPHENE_MAX_INSTANCE_ID&quot;: &quot;281474976710655&quot;,
+        &quot;GRAPHENE_100_PERCENT&quot;: 10000,
+        &quot;GRAPHENE_1_PERCENT&quot;: 100,
+        &quot;GRAPHENE_MAX_MARKET_FEE_PERCENT&quot;: 10000,
+        &quot;GRAPHENE_DEFAULT_FORCE_SETTLEMENT_DELAY&quot;: 86400,
+        &quot;GRAPHENE_DEFAULT_FORCE_SETTLEMENT_OFFSET&quot;: 0,
+        &quot;GRAPHENE_DEFAULT_FORCE_SETTLEMENT_MAX_VOLUME&quot;: 2000,
+        &quot;GRAPHENE_DEFAULT_PRICE_FEED_LIFETIME&quot;: 86400,
+        &quot;GRAPHENE_MAX_FEED_PRODUCERS&quot;: 200,
+        &quot;GRAPHENE_DEFAULT_MAX_AUTHORITY_MEMBERSHIP&quot;: 10,
+        &quot;GRAPHENE_DEFAULT_MAX_ASSET_WHITELIST_AUTHORITIES&quot;: 10,
+        &quot;GRAPHENE_DEFAULT_MAX_ASSET_FEED_PUBLISHERS&quot;: 10,
+        &quot;GRAPHENE_COLLATERAL_RATIO_DENOM&quot;: 1000,
+        &quot;GRAPHENE_MIN_COLLATERAL_RATIO&quot;: 1001,
+        &quot;GRAPHENE_MAX_COLLATERAL_RATIO&quot;: 32000,
+        &quot;GRAPHENE_DEFAULT_MAINTENANCE_COLLATERAL_RATIO&quot;: 1750,
+        &quot;GRAPHENE_DEFAULT_MAX_SHORT_SQUEEZE_RATIO&quot;: 1500,
+        &quot;GRAPHENE_DEFAULT_MARGIN_PERIOD_SEC&quot;: 2592000,
+        &quot;GRAPHENE_DEFAULT_MAX_WITNESSES&quot;: 1001,
+        &quot;GRAPHENE_DEFAULT_MAX_COMMITTEE&quot;: 1001,
+        &quot;GRAPHENE_DEFAULT_MAX_PROPOSAL_LIFETIME_SEC&quot;: 2419200,
+        &quot;GRAPHENE_DEFAULT_COMMITTEE_PROPOSAL_REVIEW_PERIOD_SEC&quot;: 1209600,
+        &quot;GRAPHENE_DEFAULT_NETWORK_PERCENT_OF_FEE&quot;: 2000,
+        &quot;GRAPHENE_DEFAULT_LIFETIME_REFERRER_PERCENT_OF_FEE&quot;: 3000,
+        &quot;GRAPHENE_DEFAULT_MAX_BULK_DISCOUNT_PERCENT&quot;: 5000,
+        &quot;GRAPHENE_DEFAULT_BULK_DISCOUNT_THRESHOLD_MIN&quot;: 100000000,
+        &quot;GRAPHENE_DEFAULT_BULK_DISCOUNT_THRESHOLD_MAX&quot;: &quot;10000000000&quot;,
+        &quot;GRAPHENE_DEFAULT_CASHBACK_VESTING_PERIOD_SEC&quot;: 31536000,
+        &quot;GRAPHENE_DEFAULT_CASHBACK_VESTING_THRESHOLD&quot;: 10000000,
+        &quot;GRAPHENE_DEFAULT_BURN_PERCENT_OF_FEE&quot;: 2000,
+        &quot;GRAPHENE_WITNESS_PAY_PERCENT_PRECISION&quot;: 1000000000,
+        &quot;GRAPHENE_DEFAULT_MAX_ASSERT_OPCODE&quot;: 1,
+        &quot;GRAPHENE_DEFAULT_FEE_LIQUIDATION_THRESHOLD&quot;: 10000000,
+        &quot;GRAPHENE_DEFAULT_ACCOUNTS_PER_FEE_SCALE&quot;: 1000,
+        &quot;GRAPHENE_DEFAULT_ACCOUNT_FEE_SCALE_BITSHIFTS&quot;: 4,
+        &quot;GRAPHENE_MAX_WORKER_NAME_LENGTH&quot;: 63,
+        &quot;GRAPHENE_MAX_URL_LENGTH&quot;: 127,
+        &quot;GRAPHENE_NEAR_SCHEDULE_CTR_IV&quot;: &quot;7640891576956012808&quot;,
+        &quot;GRAPHENE_FAR_SCHEDULE_CTR_IV&quot;: &quot;13503953896175478587&quot;,
+        &quot;GRAPHENE_CORE_ASSET_CYCLE_RATE&quot;: 17,
+        &quot;GRAPHENE_CORE_ASSET_CYCLE_RATE_BITS&quot;: 32,
+        &quot;GRAPHENE_DEFAULT_WITNESS_PAY_PER_BLOCK&quot;: 1000000,
+        &quot;GRAPHENE_DEFAULT_WITNESS_PAY_VESTING_SECONDS&quot;: 86400,
+        &quot;GRAPHENE_DEFAULT_WORKER_BUDGET_PER_DAY&quot;: &quot;50000000000&quot;,
+        &quot;GRAPHENE_MAX_INTEREST_APR&quot;: 10000,
+        &quot;GRAPHENE_COMMITTEE_ACCOUNT&quot;: &quot;1.2.0&quot;,
+        &quot;GRAPHENE_WITNESS_ACCOUNT&quot;: &quot;1.2.1&quot;,
+        &quot;GRAPHENE_RELAXED_COMMITTEE_ACCOUNT&quot;: &quot;1.2.2&quot;,
+        &quot;GRAPHENE_NULL_ACCOUNT&quot;: &quot;1.2.3&quot;,
+        &quot;GRAPHENE_TEMP_ACCOUNT&quot;: &quot;1.2.4&quot;
+    }
+}
+</pre></div>
+
+
+</li>
+</ul>
+<h4 id="get95chain95id">get_chain_id<a class="headerlink" href="#get95chain95id" title="Permanent link">&para;</a></h4>
+<p><code>Get the chain ID</code></p>
+<ul>
+<li>
+<p>Request:</p>
+<div class="codehilite"><pre><span></span>curl --data &#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;get_chain_id&quot;,&quot;params&quot;:[],&quot;id&quot;:1}&#39; https://apihk.cybex.io
+</pre></div>
+
+
+</li>
+<li>
+<p>Response:</p>
+<div class="codehilite"><pre><span></span>{
+    &quot;id&quot;: 1,
+    &quot;jsonrpc&quot;: &quot;2.0&quot;,
+    &quot;result&quot;: &quot;90be01e82b981c8f201c9a78a3d31f655743b29ff3274727b1439b093d04aa23&quot;
+}
+</pre></div>
+
+
+</li>
+</ul>
+<h4 id="get95dynamic95global95properties">get_dynamic_global_properties<a class="headerlink" href="#get95dynamic95global95properties" title="Permanent link">&para;</a></h4>
+<p><code>Retrieve the current dynamic global property object</code></p>
+<ul>
+<li>
+<p>Request:</p>
+<div class="codehilite"><pre><span></span>curl --data &#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;get_dynamic_global_properties&quot;,&quot;params&quot;:[],&quot;id&quot;:1}&#39; https://apihk.cybex.io
+</pre></div>
+
+
+</li>
+<li>
+<p>Response:</p>
+<div class="codehilite"><pre><span></span>{
+    &quot;id&quot;: 1,
+    &quot;jsonrpc&quot;: &quot;2.0&quot;,
+    &quot;result&quot;: {
+        &quot;id&quot;: &quot;2.1.0&quot;,
+        &quot;head_block_number&quot;: 4514733,
+        &quot;head_block_id&quot;: &quot;0044e3ad4f9edb64dfad7dfd42a000edac77ce9e&quot;,
+        &quot;time&quot;: &quot;2018-08-02T10:56:33&quot;,
+        &quot;current_witness&quot;: &quot;1.6.6&quot;,
+        &quot;next_maintenance_time&quot;: &quot;2018-08-02T19:00:00&quot;,
+        &quot;last_budget_time&quot;: &quot;2018-08-01T19:00:03&quot;,
+        &quot;witness_budget&quot;: 96720000,
+        &quot;accounts_registered_this_interval&quot;: 70,
+        &quot;recently_missed_count&quot;: 0,
+        &quot;current_aslot&quot;: 10499027,
+        &quot;recent_slots_filled&quot;: &quot;340282366920938463463374607431768211455&quot;,
+        &quot;dynamic_flags&quot;: 0,
+        &quot;last_irreversible_block_num&quot;: 4514724
+    }
+}
+</pre></div>
+
+
+</li>
+</ul>
+<h3 id="4">4. 账户<a class="headerlink" href="#4" title="Permanent link">&para;</a></h3>
+<h4 id="get_accounts">get_accounts<a class="headerlink" href="#get_accounts" title="Permanent link">&para;</a></h4>
+<p><code>Get a list of accounts by ID</code></p>
+<ul>
+<li>
+<p>Request:</p>
+<div class="codehilite"><pre><span></span>curl --data &#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;get_accounts&quot;,&quot;params&quot;:[[&quot;1.2.7&quot;]],&quot;id&quot;:1}&#39; https://apihk.cybex.io
+</pre></div>
+
+
+</li>
+<li>
+<p>Parameters:</p>
+<div class="codehilite"><pre><span></span>account_ids: IDs of the accounts to retrieve
+</pre></div>
+
+
+</li>
+<li>
+<p>Response:</p>
+<div class="codehilite"><pre><span></span>{
+    &quot;id&quot;: 1,
+    &quot;jsonrpc&quot;: &quot;2.0&quot;,
+    &quot;result&quot;: [{
+        &quot;id&quot;: &quot;1.2.7&quot;,
+        &quot;membership_expiration_date&quot;: &quot;1969-12-31T23:59:59&quot;,
+        &quot;registrar&quot;: &quot;1.2.7&quot;,
+        &quot;referrer&quot;: &quot;1.2.7&quot;,
+        &quot;lifetime_referrer&quot;: &quot;1.2.7&quot;,
+        &quot;network_fee_percentage&quot;: 2000,
+        &quot;lifetime_referrer_fee_percentage&quot;: 8000,
+        &quot;referrer_rewards_percentage&quot;: 0,
+        &quot;name&quot;: &quot;harley&quot;,
+        &quot;owner&quot;: {
+            &quot;weight_threshold&quot;: 1,
+            &quot;account_auths&quot;: [],
+            &quot;key_auths&quot;: [
+                [&quot;CYB8jM4e1z1xS63xxVhuperU1VvusQz8Ye8CrnTBigFUaErpigpPL&quot;, 1]
+            ],
+            &quot;address_auths&quot;: []
+        },
+        &quot;active&quot;: {
+            &quot;weight_threshold&quot;: 1,
+            &quot;account_auths&quot;: [],
+            &quot;key_auths&quot;: [
+                [&quot;CYB7UdEEgrFYAR4DfSi8svfUUzE2E2twSFqAx66LqmgxXJjk5h7LR&quot;, 1]
+            ],
+            &quot;address_auths&quot;: []
+        },
+        &quot;options&quot;: {
+            &quot;memo_key&quot;: &quot;CYB7UdEEgrFYAR4DfSi8svfUUzE2E2twSFqAx66LqmgxXJjk5h7LR&quot;,
+            &quot;voting_account&quot;: &quot;1.2.5&quot;,
+            &quot;num_witness&quot;: 0,
+            &quot;num_committee&quot;: 0,
+            &quot;votes&quot;: [],
+            &quot;extensions&quot;: []
+        },
+        &quot;statistics&quot;: &quot;2.6.7&quot;,
+        &quot;whitelisting_accounts&quot;: [],
+        &quot;blacklisting_accounts&quot;: [],
+        &quot;whitelisted_accounts&quot;: [],
+        &quot;blacklisted_accounts&quot;: [],
+        &quot;cashback_vb&quot;: &quot;1.13.0&quot;,
+        &quot;owner_special_authority&quot;: [0, {}],
+        &quot;active_special_authority&quot;: [0, {}],
+        &quot;top_n_control_flags&quot;: 0
+    }]
+}
+</pre></div>
+
+
+</li>
+</ul>
+<h4 id="get95full95accounts">get_full_accounts<a class="headerlink" href="#get95full95accounts" title="Permanent link">&para;</a></h4>
+<p><code>Map of string from names_or_ids to the corresponding account</code></p>
+<ul>
+<li>
+<p>Request:</p>
+<div class="codehilite"><pre><span></span>    curl --data &#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;get_full_accounts&quot;,&quot;params&quot;:[[&quot;1.2.7&quot;], false],&quot;id&quot;:1}&#39; https://apihk.cybex.io
+</pre></div>
+
+
+</li>
+<li>
+<p>Parameters:</p>
+<div class="codehilite"><pre><span></span>names_or_ids: Each item must be the name or ID of an account to retrieve
+callback: Bool, function to call with updates
+</pre></div>
+
+
+</li>
+<li>
+<p>Response:</p>
+<div class="codehilite"><pre><span></span>{
+    &quot;id&quot;: 1,
+    &quot;jsonrpc&quot;: &quot;2.0&quot;,
+    &quot;result&quot;: [
+        [&quot;1.2.7&quot;, {
+            &quot;account&quot;: {
+                &quot;id&quot;: &quot;1.2.7&quot;,
+                &quot;membership_expiration_date&quot;: &quot;1969-12-31T23:59:59&quot;,
+                &quot;registrar&quot;: &quot;1.2.7&quot;,
+                &quot;referrer&quot;: &quot;1.2.7&quot;,
+                &quot;lifetime_referrer&quot;: &quot;1.2.7&quot;,
+                &quot;network_fee_percentage&quot;: 2000,
+                &quot;lifetime_referrer_fee_percentage&quot;: 8000,
+                &quot;referrer_rewards_percentage&quot;: 0,
+                &quot;name&quot;: &quot;harley&quot;,
+                &quot;owner&quot;: {
+                    &quot;weight_threshold&quot;: 1,
+                    &quot;account_auths&quot;: [],
+                    &quot;key_auths&quot;: [
+                        [&quot;CYB8jM4e1z1xS63xxVhuperU1VvusQz8Ye8CrnTBigFUaErpigpPL&quot;, 1]
+                    ],
+                    &quot;address_auths&quot;: []
+                },
+                &quot;active&quot;: {
+                    &quot;weight_threshold&quot;: 1,
+                    &quot;account_auths&quot;: [],
+                    &quot;key_auths&quot;: [
+                        [&quot;CYB7UdEEgrFYAR4DfSi8svfUUzE2E2twSFqAx66LqmgxXJjk5h7LR&quot;, 1]
+                    ],
+                    &quot;address_auths&quot;: []
+                },
+                &quot;options&quot;: {
+                    &quot;memo_key&quot;: &quot;CYB7UdEEgrFYAR4DfSi8svfUUzE2E2twSFqAx66LqmgxXJjk5h7LR&quot;,
+                    &quot;voting_account&quot;: &quot;1.2.5&quot;,
+                    &quot;num_witness&quot;: 0,
+                    &quot;num_committee&quot;: 0,
+                    &quot;votes&quot;: [],
+                    &quot;extensions&quot;: []
+                },
+                &quot;statistics&quot;: &quot;2.6.7&quot;,
+                &quot;whitelisting_accounts&quot;: [],
+                &quot;blacklisting_accounts&quot;: [],
+                &quot;whitelisted_accounts&quot;: [],
+                &quot;blacklisted_accounts&quot;: [],
+                &quot;cashback_vb&quot;: &quot;1.13.0&quot;,
+                &quot;owner_special_authority&quot;: [0, {}],
+                &quot;active_special_authority&quot;: [0, {}],
+                &quot;top_n_control_flags&quot;: 0
+            },
+            &quot;statistics&quot;: {
+                &quot;id&quot;: &quot;2.6.7&quot;,
+                &quot;owner&quot;: &quot;1.2.7&quot;,
+                &quot;most_recent_op&quot;: &quot;2.9.176217607&quot;,
+                &quot;total_ops&quot;: 36289,
+                &quot;removed_ops&quot;: 35789,
+                &quot;total_core_in_orders&quot;: 0,
+                &quot;lifetime_fees_paid&quot;: &quot;73433177259&quot;,
+                &quot;pending_fees&quot;: 0,
+                &quot;pending_vested_fees&quot;: 4002933
+            },
+            &quot;registrar_name&quot;: &quot;harley&quot;,
+            &quot;referrer_name&quot;: &quot;harley&quot;,
+            &quot;lifetime_referrer_name&quot;: &quot;harley&quot;,
+            &quot;votes&quot;: [],
+            &quot;cashback_balance&quot;: {
+                &quot;id&quot;: &quot;1.13.0&quot;,
+                &quot;owner&quot;: &quot;1.2.7&quot;,
+                &quot;balance&quot;: {
+                    &quot;amount&quot;: &quot;112298566510&quot;,
+                    &quot;asset_id&quot;: &quot;1.3.0&quot;
+                },
+                &quot;policy&quot;: [1, {
+                    &quot;vesting_seconds&quot;: 31536000,
+                    &quot;start_claim&quot;: &quot;1970-01-01T00:00:00&quot;,
+                    &quot;coin_seconds_earned&quot;: &quot;1045287256041805458&quot;,
+                    &quot;coin_seconds_earned_last_update&quot;: &quot;2018-08-02T19:00:00&quot;
+                }]
+            },
+            &quot;balances&quot;: [{
+                &quot;id&quot;: &quot;2.5.11&quot;,
+                &quot;owner&quot;: &quot;1.2.7&quot;,
+                &quot;asset_type&quot;: &quot;1.3.0&quot;,
+                &quot;balance&quot;: 1226976574
+            }],
+            &quot;vesting_balances&quot;: [{
+                &quot;id&quot;: &quot;1.13.0&quot;,
+                &quot;owner&quot;: &quot;1.2.7&quot;,
+                &quot;balance&quot;: {
+                    &quot;amount&quot;: &quot;112298566510&quot;,
+                    &quot;asset_id&quot;: &quot;1.3.0&quot;
+                },
+                &quot;policy&quot;: [1, {
+                    &quot;vesting_seconds&quot;: 31536000,
+                    &quot;start_claim&quot;: &quot;1970-01-01T00:00:00&quot;,
+                    &quot;coin_seconds_earned&quot;: &quot;1045287256041805458&quot;,
+                    &quot;coin_seconds_earned_last_update&quot;: &quot;2018-08-02T19:00:00&quot;
+                }]
+            }, {
+                &quot;id&quot;: &quot;1.13.10&quot;,
+                &quot;owner&quot;: &quot;1.2.7&quot;,
+                &quot;balance&quot;: {
+                    &quot;amount&quot;: &quot;2622780000&quot;,
+                    &quot;asset_id&quot;: &quot;1.3.0&quot;
+                },
+                &quot;policy&quot;: [1, {
+                    &quot;vesting_seconds&quot;: 86400,
+                    &quot;start_claim&quot;: &quot;1970-01-01T00:00:00&quot;,
+                    &quot;coin_seconds_earned&quot;: &quot;226607328000000&quot;,
+                    &quot;coin_seconds_earned_last_update&quot;: &quot;2018-08-03T03:13:54&quot;
+                }]
+            }],
+            &quot;limit_orders&quot;: [],
+            &quot;call_orders&quot;: [],
+            &quot;settle_orders&quot;: [],
+            &quot;proposals&quot;: [],
+            &quot;assets&quot;: [],
+            &quot;withdraws&quot;: []
+        }]
+    ]
+}
+</pre></div>
+
+
+</li>
+</ul>
+<h4 id="get95account95by95name">get_account_by_name<a class="headerlink" href="#get95account95by95name" title="Permanent link">&para;</a></h4>
+<p><code>Return the detail of account by name</code></p>
+<ul>
+<li>
+<p>Request:</p>
+<div class="codehilite"><pre><span></span>curl --data &#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;get_account_by_name&quot;,&quot;params&quot;:[&quot;nathan&quot;],&quot;id&quot;:1}&#39; https://apihk.cybex.io
+</pre></div>
+
+
+</li>
+<li>
+<p>Parameters:</p>
+<div class="codehilite"><pre><span></span>name: account name
+</pre></div>
+
+
+</li>
+<li>
+<p>Response:</p>
+<div class="codehilite"><pre><span></span>{
+    &quot;id&quot;: 1,
+    &quot;jsonrpc&quot;: &quot;2.0&quot;,
+    &quot;result&quot;: {
+        &quot;id&quot;: &quot;1.2.25&quot;,
+        &quot;membership_expiration_date&quot;: &quot;1969-12-31T23:59:59&quot;,
+        &quot;registrar&quot;: &quot;1.2.25&quot;,
+        &quot;referrer&quot;: &quot;1.2.25&quot;,
+        &quot;lifetime_referrer&quot;: &quot;1.2.25&quot;,
+        &quot;network_fee_percentage&quot;: 2000,
+        &quot;lifetime_referrer_fee_percentage&quot;: 8000,
+        &quot;referrer_rewards_percentage&quot;: 0,
+        &quot;name&quot;: &quot;nathan&quot;,
+        &quot;owner&quot;: {
+            &quot;weight_threshold&quot;: 1,
+            &quot;account_auths&quot;: [],
+            &quot;key_auths&quot;: [
+                [&quot;CYB6iPuTiBpghi4Dh8phPeAUTofNa3DZK4HjugTpduA48kLXxfKZd&quot;, 1]
+            ],
+            &quot;address_auths&quot;: []
+        },
+        &quot;active&quot;: {
+            &quot;weight_threshold&quot;: 1,
+            &quot;account_auths&quot;: [],
+            &quot;key_auths&quot;: [
+                [&quot;CYB7pb9B2J3D6NXRmsaXNnBZr5AVnH5nLNtrti3ADZfgYpRn7ihQQ&quot;, 1]
+            ],
+            &quot;address_auths&quot;: []
+        },
+        &quot;options&quot;: {
+            &quot;memo_key&quot;: &quot;CYB7pb9B2J3D6NXRmsaXNnBZr5AVnH5nLNtrti3ADZfgYpRn7ihQQ&quot;,
+            &quot;voting_account&quot;: &quot;1.2.5&quot;,
+            &quot;num_witness&quot;: 0,
+            &quot;num_committee&quot;: 0,
+            &quot;votes&quot;: [],
+            &quot;extensions&quot;: []
+        },
+        &quot;statistics&quot;: &quot;2.6.25&quot;,
+        &quot;whitelisting_accounts&quot;: [],
+        &quot;blacklisting_accounts&quot;: [],
+        &quot;whitelisted_accounts&quot;: [],
+        &quot;blacklisted_accounts&quot;: [],
+        &quot;cashback_vb&quot;: &quot;1.13.1&quot;,
+        &quot;owner_special_authority&quot;: [0, {}],
+        &quot;active_special_authority&quot;: [0, {}],
+        &quot;top_n_control_flags&quot;: 0
+    }
+}
+</pre></div>
+
+
+</li>
+</ul>
+<h4 id="get95account95references">get_account_references<a class="headerlink" href="#get95account95references" title="Permanent link">&para;</a></h4>
+<p><code>all accounts that referr to the key or account id in their owner or active authorities</code></p>
+<ul>
+<li>
+<p>Request:</p>
+<div class="codehilite"><pre><span></span>curl --data &#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;get_account_references&quot;,&quot;params&quot;:[&quot;1.2.7&quot;],&quot;id&quot;:1}&#39; https://apihk.cybex.io
+</pre></div>
+
+
+</li>
+<li>
+<p>Parameters:</p>
+<div class="codehilite"><pre><span></span>account_id : account id
+</pre></div>
+
+
+</li>
+<li>
+<p>Response:</p>
+<div class="codehilite"><pre><span></span>{
+    &quot;id&quot;: 1,
+    &quot;jsonrpc&quot;: &quot;2.0&quot;,
+    &quot;result&quot;: [&quot;1.2.0&quot;, &quot;1.2.1&quot;, &quot;1.2.2&quot;]
+}
+</pre></div>
+
+
+</li>
+</ul>
+<h4 id="lookup95account95names">lookup_account_names<a class="headerlink" href="#lookup95account95names" title="Permanent link">&para;</a></h4>
+<p><code>The accounts holding the provided names</code></p>
+<ul>
+<li>
+<p>Request:</p>
+<div class="codehilite"><pre><span></span>curl --data &#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;lookup_account_names&quot;,&quot;params&quot;:[[&quot;nathan&quot;, &quot;harley&quot;]],&quot;id&quot;:1}&#39; https://apihk.cybex.io
+</pre></div>
+
+
+</li>
+<li>
+<p>Parameters:</p>
+<div class="codehilite"><pre><span></span>account_names: Names of the accounts to retrieve
+</pre></div>
+
+
+</li>
+<li>
+<p>Response:</p>
+<div class="codehilite"><pre><span></span>{
+    &quot;id&quot;: 1,
+    &quot;jsonrpc&quot;: &quot;2.0&quot;,
+    &quot;result&quot;: [{
+        &quot;id&quot;: &quot;1.2.25&quot;,
+        &quot;membership_expiration_date&quot;: &quot;1969-12-31T23:59:59&quot;,
+        &quot;registrar&quot;: &quot;1.2.25&quot;,
+        &quot;referrer&quot;: &quot;1.2.25&quot;,
+        &quot;lifetime_referrer&quot;: &quot;1.2.25&quot;,
+        &quot;network_fee_percentage&quot;: 2000,
+        &quot;lifetime_referrer_fee_percentage&quot;: 8000,
+        &quot;referrer_rewards_percentage&quot;: 0,
+        &quot;name&quot;: &quot;nathan&quot;,
+        &quot;owner&quot;: {
+            &quot;weight_threshold&quot;: 1,
+            &quot;account_auths&quot;: [],
+            &quot;key_auths&quot;: [
+                [&quot;CYB6iPuTiBpghi4Dh8phPeAUTofNa3DZK4HjugTpduA48kLXxfKZd&quot;, 1]
+            ],
+            &quot;address_auths&quot;: []
+        },
+        &quot;active&quot;: {
+            &quot;weight_threshold&quot;: 1,
+            &quot;account_auths&quot;: [],
+            &quot;key_auths&quot;: [
+                [&quot;CYB7pb9B2J3D6NXRmsaXNnBZr5AVnH5nLNtrti3ADZfgYpRn7ihQQ&quot;, 1]
+            ],
+            &quot;address_auths&quot;: []
+        },
+        &quot;options&quot;: {
+            &quot;memo_key&quot;: &quot;CYB7pb9B2J3D6NXRmsaXNnBZr5AVnH5nLNtrti3ADZfgYpRn7ihQQ&quot;,
+            &quot;voting_account&quot;: &quot;1.2.5&quot;,
+            &quot;num_witness&quot;: 0,
+            &quot;num_committee&quot;: 0,
+            &quot;votes&quot;: [],
+            &quot;extensions&quot;: []
+        },
+        &quot;statistics&quot;: &quot;2.6.25&quot;,
+        &quot;whitelisting_accounts&quot;: [],
+        &quot;blacklisting_accounts&quot;: [],
+        &quot;whitelisted_accounts&quot;: [],
+        &quot;blacklisted_accounts&quot;: [],
+        &quot;cashback_vb&quot;: &quot;1.13.1&quot;,
+        &quot;owner_special_authority&quot;: [0, {}],
+        &quot;active_special_authority&quot;: [0, {}],
+        &quot;top_n_control_flags&quot;: 0
+    }, {
+        &quot;id&quot;: &quot;1.2.7&quot;,
+        &quot;membership_expiration_date&quot;: &quot;1969-12-31T23:59:59&quot;,
+        &quot;registrar&quot;: &quot;1.2.7&quot;,
+        &quot;referrer&quot;: &quot;1.2.7&quot;,
+        &quot;lifetime_referrer&quot;: &quot;1.2.7&quot;,
+        &quot;network_fee_percentage&quot;: 2000,
+        &quot;lifetime_referrer_fee_percentage&quot;: 8000,
+        &quot;referrer_rewards_percentage&quot;: 0,
+        &quot;name&quot;: &quot;harley&quot;,
+        &quot;owner&quot;: {
+            &quot;weight_threshold&quot;: 1,
+            &quot;account_auths&quot;: [],
+            &quot;key_auths&quot;: [
+                [&quot;CYB8jM4e1z1xS63xxVhuperU1VvusQz8Ye8CrnTBigFUaErpigpPL&quot;, 1]
+            ],
+            &quot;address_auths&quot;: []
+        },
+        &quot;active&quot;: {
+            &quot;weight_threshold&quot;: 1,
+            &quot;account_auths&quot;: [],
+            &quot;key_auths&quot;: [
+                [&quot;CYB7UdEEgrFYAR4DfSi8svfUUzE2E2twSFqAx66LqmgxXJjk5h7LR&quot;, 1]
+            ],
+            &quot;address_auths&quot;: []
+        },
+        &quot;options&quot;: {
+            &quot;memo_key&quot;: &quot;CYB7UdEEgrFYAR4DfSi8svfUUzE2E2twSFqAx66LqmgxXJjk5h7LR&quot;,
+            &quot;voting_account&quot;: &quot;1.2.5&quot;,
+            &quot;num_witness&quot;: 0,
+            &quot;num_committee&quot;: 0,
+            &quot;votes&quot;: [],
+            &quot;extensions&quot;: []
+        },
+        &quot;statistics&quot;: &quot;2.6.7&quot;,
+        &quot;whitelisting_accounts&quot;: [],
+        &quot;blacklisting_accounts&quot;: [],
+        &quot;whitelisted_accounts&quot;: [],
+        &quot;blacklisted_accounts&quot;: [],
+        &quot;cashback_vb&quot;: &quot;1.13.0&quot;,
+        &quot;owner_special_authority&quot;: [0, {}],
+        &quot;active_special_authority&quot;: [0, {}],
+        &quot;top_n_control_flags&quot;: 0
+    }]
+}
+</pre></div>
+
+
+</li>
+</ul>
+<h4 id="lookup95accounts">lookup_accounts<a class="headerlink" href="#lookup95accounts" title="Permanent link">&para;</a></h4>
+<p><code>Map of account names to corresponding IDs</code></p>
+<ul>
+<li>
+<p>Request:</p>
+<div class="codehilite"><pre><span></span>curl --data &#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;lookup_accounts&quot;,&quot;params&quot;:[&quot;nathan&quot;, 7],&quot;id&quot;:1}&#39; https://apihk.cybex.io
+</pre></div>
+
+
+</li>
+<li>
+<p>Parameters:</p>
+<div class="codehilite"><pre><span></span>lower_bound_name: Lower bound of the first name to return
+limit: Maximum number of results to return must not exceed 1000
+</pre></div>
+
+
+</li>
+<li>
+<p>Response:</p>
+<div class="codehilite"><pre><span></span>{
+    &quot;id&quot;: 1,
+    &quot;jsonrpc&quot;: &quot;2.0&quot;,
+    &quot;result&quot;: [
+        [&quot;nathan&quot;, &quot;1.2.25&quot;],
+        [&quot;natu61&quot;, &quot;1.2.10857&quot;],
+        [&quot;nau529&quot;, &quot;1.2.13494&quot;],
+        [&quot;nauhc6&quot;, &quot;1.2.36394&quot;],
+        [&quot;nawuh925&quot;, &quot;1.2.27623&quot;],
+        [&quot;naya1008&quot;, &quot;1.2.29372&quot;],
+        [&quot;nayayan12&quot;, &quot;1.2.16352&quot;]
+    ]
+}
+</pre></div>
+
+
+</li>
+</ul>
+<h4 id="get95account95count">get_account_count<a class="headerlink" href="#get95account95count" title="Permanent link">&para;</a></h4>
+<p><code>Get the total number of accounts registered with the blockchain.</code></p>
+<ul>
+<li>
+<p>Request:</p>
+<div class="codehilite"><pre><span></span>curl --data &#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;get_account_count&quot;,&quot;params&quot;:[],&quot;id&quot;:1}&#39; https://apihk.cybex.io
+</pre></div>
+
+
+</li>
+<li>
+<p>Response:</p>
+<div class="codehilite"><pre><span></span>{
+    &quot;id&quot;: 1,
+    &quot;jsonrpc&quot;: &quot;2.0&quot;,
+    &quot;result&quot;: 36884
+}
+</pre></div>
+
+
+</li>
+</ul>
+<h3 id="5">5. 余额<a class="headerlink" href="#5" title="Permanent link">&para;</a></h3>
+<h4 id="get95account95balances">get_account_balances**<a class="headerlink" href="#get95account95balances" title="Permanent link">&para;</a></h4>
+<p><code>Get an account’s balances in various assets.</code></p>
+<ul>
+<li>
+<p>Request:</p>
+<div class="codehilite"><pre><span></span>curl --data &#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;get_account_balances&quot;,&quot;params&quot;:[&quot;1.2.7&quot;, []],&quot;id&quot;:1}&#39; https://apihk.cybex.io
+</pre></div>
+
+
+</li>
+<li>
+<p>Parameters:</p>
+<div class="codehilite"><pre><span></span>id: ID of the account to get balances for
+assets: IDs of the assets to get balances of; if empty, get all assets account has a balance in
+</pre></div>
+
+
+</li>
+<li>
+<p>Response:</p>
+<div class="codehilite"><pre><span></span>{
+    &quot;id&quot;: 1,
+    &quot;jsonrpc&quot;: &quot;2.0&quot;,
+    &quot;result&quot;: [{
+        &quot;amount&quot;: 1225975847,
+        &quot;asset_id&quot;: &quot;1.3.0&quot;
+    }]
+}
+</pre></div>
+
+
+</li>
+</ul>
+<h4 id="get95named95account95balances">get_named_account_balances<a class="headerlink" href="#get95named95account95balances" title="Permanent link">&para;</a></h4>
+<p><code>Semantically equivalent to get_account_balances, but takes a name instead of an ID, return balances of the account</code></p>
+<ul>
+<li>
+<p>Request:</p>
+<div class="codehilite"><pre><span></span>curl --data &#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;get_named_account_balances&quot;,&quot;params&quot;:[&quot;harley&quot;, [&quot;1.3.0&quot;]],&quot;id&quot;:1}&#39; https://apihk.cybex.io
+</pre></div>
+
+
+</li>
+<li>
+<p>Parameters:</p>
+<div class="codehilite"><pre><span></span>name: account name
+asset_ids: asset ids
+</pre></div>
+
+
+</li>
+<li>
+<p>Response:</p>
+<div class="codehilite"><pre><span></span>{
+    &quot;id&quot;: 1,
+    &quot;jsonrpc&quot;: &quot;2.0&quot;,
+    &quot;result&quot;: [{
+        &quot;amount&quot;: 1224975115,
+        &quot;asset_id&quot;: &quot;1.3.0&quot;
+    }]
+}
+</pre></div>
+
+
+</li>
+</ul>
+<h4 id="get95vesting95balances">get_vesting_balances<a class="headerlink" href="#get95vesting95balances" title="Permanent link">&para;</a></h4>
+<p><code>Return vesting balances</code></p>
+<ul>
+<li>
+<p>Request:</p>
+<div class="codehilite"><pre><span></span>curl --data &#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;get_vesting_balances&quot;,&quot;params&quot;:[&quot;1.2.7&quot;],&quot;id&quot;:1}&#39; https://apihk.cybex.io
+</pre></div>
+
+
+</li>
+<li>
+<p>Parameters:</p>
+<div class="codehilite"><pre><span></span>account_id: account id
+</pre></div>
+
+
+</li>
+<li>
+<p>Response:</p>
+<div class="codehilite"><pre><span></span>{
+    &quot;id&quot;: 1,
+    &quot;jsonrpc&quot;: &quot;2.0&quot;,
+    &quot;result&quot;: [{
+        &quot;id&quot;: &quot;1.13.0&quot;,
+        &quot;owner&quot;: &quot;1.2.7&quot;,
+        &quot;balance&quot;: {
+            &quot;amount&quot;: &quot;112298566510&quot;,
+            &quot;asset_id&quot;: &quot;1.3.0&quot;
+        },
+        &quot;policy&quot;: [1, {
+            &quot;vesting_seconds&quot;: 31536000,
+            &quot;start_claim&quot;: &quot;1970-01-01T00:00:00&quot;,
+            &quot;coin_seconds_earned&quot;: &quot;1045287256041805458&quot;,
+            &quot;coin_seconds_earned_last_update&quot;: &quot;2018-08-02T19:00:00&quot;
+        }]
+    }, {
+        &quot;id&quot;: &quot;1.13.10&quot;,
+        &quot;owner&quot;: &quot;1.2.7&quot;,
+        &quot;balance&quot;: {
+            &quot;amount&quot;: &quot;2623960000&quot;,
+            &quot;asset_id&quot;: &quot;1.3.0&quot;
+        },
+        &quot;policy&quot;: [1, {
+            &quot;vesting_seconds&quot;: 86400,
+            &quot;start_claim&quot;: &quot;1970-01-01T00:00:00&quot;,
+            &quot;coin_seconds_earned&quot;: &quot;226709280000000&quot;,
+            &quot;coin_seconds_earned_last_update&quot;: &quot;2018-08-03T04:18:30&quot;
+        }]
+    }]
+}
+</pre></div>
+
+
+</li>
+</ul>
+<h3 id="6">6. 资产<a class="headerlink" href="#6" title="Permanent link">&para;</a></h3>
+<h4 id="get95assets">get_assets<a class="headerlink" href="#get95assets" title="Permanent link">&para;</a></h4>
+<p><code>Return the detail of assets corresponding to the provided IDs</code></p>
+<ul>
+<li>
+<p>Request:</p>
+<div class="codehilite"><pre><span></span>curl --data &#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;get_assets&quot;,&quot;params&quot;:[[&quot;1.3.0&quot;]],&quot;id&quot;:1}&#39; https://apihk.cybex.io
+</pre></div>
+
+
+</li>
+<li>
+<p>Parameters:</p>
+<div class="codehilite"><pre><span></span>asset_ids: IDs of the assets to retrieve
+</pre></div>
+
+
+</li>
+<li>
+<p>Response:</p>
+<div class="codehilite"><pre><span></span>{
+    &quot;id&quot;: 1,
+    &quot;jsonrpc&quot;: &quot;2.0&quot;,
+    &quot;result&quot;: [{
+        &quot;id&quot;: &quot;1.3.0&quot;,
+        &quot;symbol&quot;: &quot;CYB&quot;,
+        &quot;precision&quot;: 5,
+        &quot;issuer&quot;: &quot;1.2.3&quot;,
+        &quot;options&quot;: {
+            &quot;max_supply&quot;: &quot;100000000000000&quot;,
+            &quot;market_fee_percent&quot;: 0,
+            &quot;max_market_fee&quot;: &quot;1000000000000000&quot;,
+            &quot;issuer_permissions&quot;: 0,
+            &quot;flags&quot;: 0,
+            &quot;core_exchange_rate&quot;: {
+                &quot;base&quot;: {
+                    &quot;amount&quot;: 1,
+                    &quot;asset_id&quot;: &quot;1.3.0&quot;
+                },
+                &quot;quote&quot;: {
+                    &quot;amount&quot;: 1,
+                    &quot;asset_id&quot;: &quot;1.3.0&quot;
+                }
+            },
+            &quot;whitelist_authorities&quot;: [],
+            &quot;blacklist_authorities&quot;: [],
+            &quot;whitelist_markets&quot;: [],
+            &quot;blacklist_markets&quot;: [],
+            &quot;description&quot;: &quot;&quot;,
+            &quot;extensions&quot;: []
+        },
+        &quot;dynamic_asset_data_id&quot;: &quot;2.3.0&quot;
+    }]
+}
+</pre></div>
+
+
+</li>
+</ul>
+<h4 id="list95assets">list_assets<a class="headerlink" href="#list95assets" title="Permanent link">&para;</a></h4>
+<p><code>Return the assets found</code></p>
+<ul>
+<li>
+<p>Request:</p>
+<div class="codehilite"><pre><span></span>curl --data &#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;list_assets&quot;,&quot;params&quot;:[&quot;CYB&quot;, 3],&quot;id&quot;:1}&#39; https://apihk.cybex.io
+</pre></div>
+
+
+</li>
+<li>
+<p>Parameters:</p>
+<div class="codehilite"><pre><span></span>lower_bound_symbol: Lower bound of symbol names to retrieve
+limit: Maximum number of assets to fetch (must not exceed 100)
+</pre></div>
+
+
+</li>
+<li>
+<p>Response:</p>
+<div class="codehilite"><pre><span></span>{
+    &quot;id&quot;: 1,
+    &quot;jsonrpc&quot;: &quot;2.0&quot;,
+    &quot;result&quot;: [{
+        &quot;id&quot;: &quot;1.3.0&quot;,             
+        &quot;symbol&quot;: &quot;CYB&quot;,           
+        &quot;precision&quot;: 5,
+        &quot;issuer&quot;: &quot;1.2.3&quot;,
+        &quot;options&quot;: {
+            &quot;max_supply&quot;: &quot;100000000000000&quot;,
+            &quot;market_fee_percent&quot;: 0,
+            &quot;max_market_fee&quot;: &quot;1000000000000000&quot;,
+            &quot;issuer_permissions&quot;: 0,
+            &quot;flags&quot;: 0,
+            &quot;core_exchange_rate&quot;: {
+                &quot;base&quot;: {
+                    &quot;amount&quot;: 1,
+                    &quot;asset_id&quot;: &quot;1.3.0&quot;
+                },
+                &quot;quote&quot;: {
+                    &quot;amount&quot;: 1,
+                    &quot;asset_id&quot;: &quot;1.3.0&quot;
+                }
+            },
+            &quot;whitelist_authorities&quot;: [],
+            &quot;blacklist_authorities&quot;: [],
+            &quot;whitelist_markets&quot;: [],
+            &quot;blacklist_markets&quot;: [],
+            &quot;description&quot;: &quot;&quot;,
+            &quot;extensions&quot;: []
+        },
+        &quot;dynamic_asset_data_id&quot;: &quot;2.3.0&quot;
+    }, {
+        &quot;id&quot;: &quot;1.3.503&quot;,
+        &quot;symbol&quot;: &quot;Cybex&quot;,
+        &quot;precision&quot;: 6,
+        &quot;issuer&quot;: &quot;1.2.29&quot;,
+        &quot;options&quot;: {
+            &quot;max_supply&quot;: &quot;100000000000&quot;,
+            &quot;market_fee_percent&quot;: 0,
+            &quot;max_market_fee&quot;: 0,
+            &quot;issuer_permissions&quot;: 79,
+            &quot;flags&quot;: 0,
+            &quot;core_exchange_rate&quot;: {
+                &quot;base&quot;: {
+                    &quot;amount&quot;: 100000,
+                    &quot;asset_id&quot;: &quot;1.3.0&quot;
+                },
+                &quot;quote&quot;: {
+                    &quot;amount&quot;: 1000000,
+                    &quot;asset_id&quot;: &quot;1.3.503&quot;
+                }
+            },
+            &quot;whitelist_authorities&quot;: [],
+            &quot;blacklist_authorities&quot;: [],
+            &quot;whitelist_markets&quot;: [],
+            &quot;blacklist_markets&quot;: [],
+            &quot;description&quot;: &quot;{\&quot;main\&quot;:\&quot;It&#39;s Cybex!\&quot;,\&quot;market\&quot;:\&quot;\&quot;}&quot;,
+            &quot;extensions&quot;: []
+        },
+        &quot;dynamic_asset_data_id&quot;: &quot;2.3.503&quot;
+    }, {
+        &quot;id&quot;: &quot;1.3.1&quot;,
+        &quot;symbol&quot;: &quot;JADE&quot;,
+        &quot;precision&quot;: 6,
+        &quot;issuer&quot;: &quot;1.2.29&quot;,
+        &quot;options&quot;: {
+            &quot;max_supply&quot;: &quot;1000000000000000&quot;,
+            &quot;market_fee_percent&quot;: 0,
+            &quot;max_market_fee&quot;: 0,
+            &quot;issuer_permissions&quot;: 79,
+            &quot;flags&quot;: 0,
+            &quot;core_exchange_rate&quot;: {
+                &quot;base&quot;: {
+                    &quot;amount&quot;: 200000000,
+                    &quot;asset_id&quot;: &quot;1.3.0&quot;
+                },
+                &quot;quote&quot;: {
+                    &quot;amount&quot;: 1000000,
+                    &quot;asset_id&quot;: &quot;1.3.1&quot;
+                }
+            },
+            &quot;whitelist_authorities&quot;: [],
+            &quot;blacklist_authorities&quot;: [],
+            &quot;whitelist_markets&quot;: [],
+            &quot;blacklist_markets&quot;: [],
+            &quot;description&quot;: &quot;{\&quot;main\&quot;:\&quot;It&#39;s gateway name.\&quot;,\&quot;market\&quot;:\&quot;\&quot;}&quot;,
+            &quot;extensions&quot;: []
+        },
+        &quot;dynamic_asset_data_id&quot;: &quot;2.3.1&quot;
+    }]
+}
+</pre></div>
+
+
+</li>
+</ul>
+<h4 id="lookup95asset95symbols">lookup_asset_symbols<a class="headerlink" href="#lookup95asset95symbols" title="Permanent link">&para;</a></h4>
+<p><code>The assets corresponding to the provided symbols or IDs</code></p>
+<ul>
+<li>
+<p>Request:</p>
+<div class="codehilite"><pre><span></span>curl --data &#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;lookup_asset_symbols&quot;,&quot;params&quot;:[[&quot;CYB&quot;, &quot;JADE.ETH&quot;]],&quot;id&quot;:1}&#39; https://apihk.cybex.io
+</pre></div>
+
+
+</li>
+<li>
+<p>Parameters:</p>
+<div class="codehilite"><pre><span></span>asset_symbols: Symbols or stringified IDs of the assets to retrieve
+</pre></div>
+
+
+</li>
+<li>
+<p>Response:</p>
+<div class="codehilite"><pre><span></span>{
+    &quot;id&quot;: 1,
+    &quot;jsonrpc&quot;: &quot;2.0&quot;,
+    &quot;result&quot;: [{
+        &quot;id&quot;: &quot;1.3.0&quot;,
+        &quot;symbol&quot;: &quot;CYB&quot;,
+        &quot;precision&quot;: 5,
+        &quot;issuer&quot;: &quot;1.2.3&quot;,
+        &quot;options&quot;: {
+            &quot;max_supply&quot;: &quot;100000000000000&quot;,
+            &quot;market_fee_percent&quot;: 0,
+            &quot;max_market_fee&quot;: &quot;1000000000000000&quot;,
+            &quot;issuer_permissions&quot;: 0,
+            &quot;flags&quot;: 0,
+            &quot;core_exchange_rate&quot;: {
+                &quot;base&quot;: {
+                    &quot;amount&quot;: 1,
+                    &quot;asset_id&quot;: &quot;1.3.0&quot;
+                },
+                &quot;quote&quot;: {
+                    &quot;amount&quot;: 1,
+                    &quot;asset_id&quot;: &quot;1.3.0&quot;
+                }
+            },
+            &quot;whitelist_authorities&quot;: [],
+            &quot;blacklist_authorities&quot;: [],
+            &quot;whitelist_markets&quot;: [],
+            &quot;blacklist_markets&quot;: [],
+            &quot;description&quot;: &quot;&quot;,
+            &quot;extensions&quot;: []
+        },
+        &quot;dynamic_asset_data_id&quot;: &quot;2.3.0&quot;
+    }, {
+        &quot;id&quot;: &quot;1.3.2&quot;,
+        &quot;symbol&quot;: &quot;JADE.ETH&quot;,
+        &quot;precision&quot;: 6,
+        &quot;issuer&quot;: &quot;1.2.29&quot;,
+        &quot;options&quot;: {
+            &quot;max_supply&quot;: &quot;1000000000000000&quot;,
+            &quot;market_fee_percent&quot;: 0,
+            &quot;max_market_fee&quot;: 0,
+            &quot;issuer_permissions&quot;: 79,
+            &quot;flags&quot;: 0,
+            &quot;core_exchange_rate&quot;: {
+                &quot;base&quot;: {
+                    &quot;amount&quot;: 100000000,
+                    &quot;asset_id&quot;: &quot;1.3.0&quot;
+                },
+                &quot;quote&quot;: {
+                    &quot;amount&quot;: 1000000,
+                    &quot;asset_id&quot;: &quot;1.3.2&quot;
+                }
+            },
+            &quot;whitelist_authorities&quot;: [],
+            &quot;blacklist_authorities&quot;: [],
+            &quot;whitelist_markets&quot;: [],
+            &quot;blacklist_markets&quot;: [],
+            &quot;description&quot;: &quot;{\&quot;main\&quot;:\&quot;It&#39;s an ETH IOU of Jade gateway.\&quot;,\&quot;market\&quot;:\&quot;\&quot;}&quot;,
+            &quot;extensions&quot;: []
+        },
+        &quot;dynamic_asset_data_id&quot;: &quot;2.3.2&quot;
+    }]
+}
+</pre></div>
+
+
+</li>
+</ul>
+<h3 id="7">7. 市场/喂价<a class="headerlink" href="#7" title="Permanent link">&para;</a></h3>
+<h4 id="get95order95book">get_order_book<a class="headerlink" href="#get95order95book" title="Permanent link">&para;</a></h4>
+<p><code>Returns the order book for the market base:quote</code></p>
+<ul>
+<li>
+<p>Request:</p>
+<div class="codehilite"><pre><span></span>curl --data &#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;get_order_book&quot;,&quot;params&quot;:[&quot;CYB&quot;, &quot;JADE.ETH&quot;, 3],&quot;id&quot;:1}&#39; https://apihk.cybex.io
+</pre></div>
+
+
+</li>
+<li>
+<p>Parameters:</p>
+<div class="codehilite"><pre><span></span>base: String name of the first asset
+quote: String name of the second asset
+depth: of the order book. Up to depth of each asks and bids, capped at 50. Prioritizes most moderate of each
+</pre></div>
+
+
+</li>
+<li>
+<p>Response:</p>
+<div class="codehilite"><pre><span></span>{
+    &quot;id&quot;: 1,
+    &quot;jsonrpc&quot;: &quot;2.0&quot;,
+    &quot;result&quot;: {
+        &quot;base&quot;: &quot;CYB&quot;,
+        &quot;quote&quot;: &quot;JADE.ETH&quot;,
+        &quot;bids&quot;: [{
+            &quot;price&quot;: &quot;2003.106324701195219123&quot;,
+            &quot;quote&quot;: &quot;0.016065&quot;,
+            &quot;base&quot;: &quot;32.17991&quot;
+        }, {
+            &quot;price&quot;: &quot;2000&quot;,
+            &quot;quote&quot;: &quot;0.973636&quot;,
+            &quot;base&quot;: &quot;1947.27200&quot;
+        }, {
+            &quot;price&quot;: &quot;1983.700198370019837001&quot;,
+            &quot;quote&quot;: &quot;0.083682&quot;,
+            &quot;base&quot;: &quot;166&quot;
+        }],
+        &quot;asks&quot;: [{
+            &quot;price&quot;: &quot;2008.716065865598575878&quot;,
+            &quot;quote&quot;: &quot;0.000001&quot;,
+            &quot;base&quot;: &quot;0.00200&quot;
+        }, {
+            &quot;price&quot;: &quot;2173.865785526401599965&quot;,
+            &quot;quote&quot;: &quot;0.460010&quot;,
+            &quot;base&quot;: &quot;1000&quot;
+        }, {
+            &quot;price&quot;: &quot;2173.913043478260869565&quot;,
+            &quot;quote&quot;: &quot;0.920000&quot;,
+            &quot;base&quot;: &quot;2000&quot;
+        }]
+    }
+}
+</pre></div>
+
+
+</li>
+</ul>
+<h4 id="get95limit95orders">get_limit_orders<a class="headerlink" href="#get95limit95orders" title="Permanent link">&para;</a></h4>
+<p><code>Get limit orders in a given market</code></p>
+<ul>
+<li>
+<p>Request:</p>
+<div class="codehilite"><pre><span></span>curl --data &#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;get_limit_orders&quot;,&quot;params&quot;:[&quot;1.3.0&quot;, &quot;1.3.2&quot;, 1],&quot;id&quot;:1}&#39; https://apihk.cybex.io
+</pre></div>
+
+
+</li>
+<li>
+<p>Parameters:</p>
+<div class="codehilite"><pre><span></span>a: ID of asset being sold
+b: ID of asset being purchased
+limit: Maximum number of orders to retrieve
+</pre></div>
+
+
+</li>
+<li>
+<p>Response:</p>
+<div class="codehilite"><pre><span></span>{
+    &quot;id&quot;: 1,
+    &quot;jsonrpc&quot;: &quot;2.0&quot;,
+    &quot;result&quot;: [{
+        &quot;id&quot;: &quot;1.7.66979388&quot;,
+        &quot;expiration&quot;: &quot;2023-08-03T10:38:43&quot;,
+        &quot;seller&quot;: &quot;1.2.5132&quot;,
+        &quot;for_sale&quot;: 493347144,
+        &quot;sell_price&quot;: {
+            &quot;base&quot;: {
+                &quot;amount&quot;: 500000000,
+                &quot;asset_id&quot;: &quot;1.3.0&quot;
+            },
+            &quot;quote&quot;: {
+                &quot;amount&quot;: 2450000,
+                &quot;asset_id&quot;: &quot;1.3.2&quot;
+            }
+        },
+        &quot;deferred_fee&quot;: 0
+    }, {
+        &quot;id&quot;: &quot;1.7.66983772&quot;,
+        &quot;expiration&quot;: &quot;2023-08-03T10:48:20&quot;,
+        &quot;seller&quot;: &quot;1.2.19408&quot;,
+        &quot;for_sale&quot;: 1912008,
+        &quot;sell_price&quot;: {
+            &quot;base&quot;: {
+                &quot;amount&quot;: 1913687,
+                &quot;asset_id&quot;: &quot;1.3.2&quot;
+            },
+            &quot;quote&quot;: {
+                &quot;amount&quot;: 414200000,
+                &quot;asset_id&quot;: &quot;1.3.0&quot;
+            }
+        },
+        &quot;deferred_fee&quot;: 0
+    }]
+}
+</pre></div>
+
+
+</li>
+</ul>
+<h4 id="get95ticker">get_ticker<a class="headerlink" href="#get95ticker" title="Permanent link">&para;</a></h4>
+<p><code>Return the market ticker for the past 24 hours</code></p>
+<ul>
+<li>
+<p>Request:</p>
+<div class="codehilite"><pre><span></span>curl --data &#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;get_ticker&quot;,&quot;params&quot;:[&quot;JADE.ETH&quot;, &quot;CYB&quot;],&quot;id&quot;:1}&#39; https://apihk.cybex.io
+</pre></div>
+
+
+</li>
+<li>
+<p>Parameters:</p>
+<div class="codehilite"><pre><span></span>a: String name of the first asset
+b: String name of the second asset
+</pre></div>
+
+
+</li>
+<li>
+<p>Response:</p>
+<div class="codehilite"><pre><span></span>{
+    &quot;id&quot;: 1,
+    &quot;jsonrpc&quot;: &quot;2.0&quot;,
+    &quot;result&quot;: {
+        &quot;time&quot;: &quot;2018-08-06T03:08:16&quot;,
+        &quot;base&quot;: &quot;JADE.ETH&quot;,
+        &quot;quote&quot;: &quot;CYB&quot;,
+        &quot;latest&quot;: &quot;0.000487188654353562&quot;,
+        &quot;lowest_ask&quot;: &quot;0.000487188654353562&quot;,
+        &quot;highest_bid&quot;: &quot;0.00048&quot;,
+        &quot;percent_change&quot;: &quot;1.49&quot;,
+        &quot;base_volume&quot;: &quot;225.62666&quot;,
+        &quot;quote_volume&quot;: &quot;460960.32089&quot;
+    }
+}
+</pre></div>
+
+
+</li>
+</ul>
+<h4 id="get952495volume">get_24_volume<a class="headerlink" href="#get952495volume" title="Permanent link">&para;</a></h4>
+<p><code>The market volume over the past 24 hours</code></p>
+<ul>
+<li>
+<p>Request:</p>
+<div class="codehilite"><pre><span></span>curl --data &#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;get_24_volume&quot;,&quot;params&quot;:[&quot;CYB&quot;, &quot;JADE.ETH&quot;],&quot;id&quot;:1}&#39; https://apihk.cybex.io
+</pre></div>
+
+
+</li>
+<li>
+<p>Parameters:</p>
+<div class="codehilite"><pre><span></span>a: String name of the first asset
+b: String name of the second asset
+</pre></div>
+
+
+<ul>
+<li>
+<p>Response:</p>
+<p>{
+    "id": 1,
+    "jsonrpc": "2.0",
+    "result": {
+        "time": "2018-08-06T02:56:44",
+        "base": "CYB",
+        "quote": "JADE.ETH",
+        "base_volume": "462814.14025",
+        "quote_volume": "226.514174"
+    }
+}</p>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="get95trade95history">get_trade_history<a class="headerlink" href="#get95trade95history" title="Permanent link">&para;</a></h4>
+<p><code>Return recent transactions in the market</code></p>
+<ul>
+<li>
+<p>Request:</p>
+<div class="codehilite"><pre><span></span>curl --data &#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;get_trade_history&quot;,&quot;params&quot;:[&quot;CYB&quot;, &quot;JADE.ETH&quot;, &quot;2018-08-05T00:00:00&quot;, &quot;2018-08-04T00:00:00&quot;, 3],&quot;id&quot;:1}&#39; https://apihk.cybex.io
+</pre></div>
+
+
+</li>
+<li>
+<p>Parameters:</p>
+<div class="codehilite"><pre><span></span>a: String name of the first asset
+b: String name of the second asset
+stop: Stop time as a UNIX timestamp
+limit: Number of trasactions to retrieve, capped at 100
+start: Start time as a UNIX timestamp
+</pre></div>
+
+
+</li>
+<li>
+<p>Response:</p>
+<div class="codehilite"><pre><span></span>{
+    &quot;id&quot;: 1,
+    &quot;jsonrpc&quot;: &quot;2.0&quot;,
+    &quot;result&quot;: [{
+        &quot;sequence&quot;: 7757291,
+        &quot;date&quot;: &quot;2018-08-04T23:47:42&quot;,
+        &quot;price&quot;: &quot;2012.072434607645875251&quot;,
+        &quot;amount&quot;: &quot;0.019422&quot;,
+        &quot;value&quot;: &quot;39.07847&quot;,
+        &quot;side1_account_id&quot;: &quot;1.2.34536&quot;,
+        &quot;side2_account_id&quot;: &quot;1.2.34016&quot;
+    }, {
+        &quot;sequence&quot;: 7757289,
+        &quot;date&quot;: &quot;2018-08-04T23:46:48&quot;,
+        &quot;price&quot;: &quot;2012.072434607645875251&quot;,
+        &quot;amount&quot;: &quot;0.009148&quot;,
+        &quot;value&quot;: &quot;18.40643&quot;,
+        &quot;side1_account_id&quot;: &quot;1.2.34536&quot;,
+        &quot;side2_account_id&quot;: &quot;1.2.34007&quot;
+    }, {
+        &quot;sequence&quot;: 7757287,
+        &quot;date&quot;: &quot;2018-08-04T23:46:36&quot;,
+        &quot;price&quot;: &quot;2012.072434607645875251&quot;,
+        &quot;amount&quot;: &quot;0.004692&quot;,
+        &quot;value&quot;: &quot;9.44064&quot;,
+        &quot;side1_account_id&quot;: &quot;1.2.34536&quot;,
+        &quot;side2_account_id&quot;: &quot;1.2.8307&quot;
+    }]
+}
+</pre></div>
+
+
+</li>
+</ul>
+<h3 id="8">8. 见证人节点<a class="headerlink" href="#8" title="Permanent link">&para;</a></h3>
+<h4 id="get95witnesses">get_witnesses<a class="headerlink" href="#get95witnesses" title="Permanent link">&para;</a></h4>
+<p><code>Get a list of witnesses by ID</code></p>
+<ul>
+<li>
+<p>Request:</p>
+<div class="codehilite"><pre><span></span>curl --data &#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;get_witnesses&quot;,&quot;params&quot;:[[&quot;1.6.1&quot;]],&quot;id&quot;:1}&#39; https://apihk.cybex.io
+</pre></div>
+
+
+</li>
+<li>
+<p>Parameters:</p>
+<div class="codehilite"><pre><span></span>witness_ids: IDs of the witnesses to retrieve
+</pre></div>
+
+
+</li>
+<li>
+<p>Response:</p>
+<div class="codehilite"><pre><span></span>{
+    &quot;id&quot;: 1,
+    &quot;jsonrpc&quot;: &quot;2.0&quot;,
+    &quot;result&quot;: [{
+        &quot;id&quot;: &quot;1.6.1&quot;,
+        &quot;witness_account&quot;: &quot;1.2.6&quot;,
+        &quot;last_aslot&quot;: 10605553,
+        &quot;signing_key&quot;: &quot;CYB8iWrVHcBaq74mqA6Dd58yeN7pEgmvBLrhYB1HSQRj8UBrHec5u&quot;,
+        &quot;pay_vb&quot;: &quot;1.13.2&quot;,
+        &quot;vote_id&quot;: &quot;1:0&quot;,
+        &quot;total_votes&quot;: &quot;280493540206&quot;,
+        &quot;url&quot;: &quot;&quot;,
+        &quot;total_missed&quot;: 3096,
+        &quot;last_confirmed_block_num&quot;: 4621255
+    }]
+}
+</pre></div>
+
+
+</li>
+</ul>
+<h4 id="get95witness95by95account">get_witness_by_account<a class="headerlink" href="#get95witness95by95account" title="Permanent link">&para;</a></h4>
+<p><code>Return the witness object, or null if the account does not have a witness</code></p>
+<ul>
+<li>
+<p>Request:</p>
+<div class="codehilite"><pre><span></span>curl --data &#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;get_witness_by_account&quot;,&quot;params&quot;:[&quot;1.2.7&quot;],&quot;id&quot;:1}&#39; https://apihk.cybex.io
+</pre></div>
+
+
+</li>
+<li>
+<p>Parameters:</p>
+<div class="codehilite"><pre><span></span>account: The ID of the account whose witness should be retrieved
+</pre></div>
+
+
+</li>
+<li>
+<p>Response:</p>
+<div class="codehilite"><pre><span></span>{
+    &quot;id&quot;: 1,
+    &quot;jsonrpc&quot;: &quot;2.0&quot;,
+    &quot;result&quot;: {
+        &quot;id&quot;: &quot;1.6.2&quot;,
+        &quot;witness_account&quot;: &quot;1.2.7&quot;,
+        &quot;last_aslot&quot;: 10605630,
+        &quot;signing_key&quot;: &quot;CYB8Vfkpqn6B35xTMCwhqUuGDHuTfdmo368zDWT4xz2MZmy368Gvh&quot;,
+        &quot;pay_vb&quot;: &quot;1.13.10&quot;,
+        &quot;vote_id&quot;: &quot;1:1&quot;,
+        &quot;total_votes&quot;: &quot;280484687773&quot;,
+        &quot;url&quot;: &quot;&quot;,
+        &quot;total_missed&quot;: 542713,
+        &quot;last_confirmed_block_num&quot;: 4621332
+    }
+}
+</pre></div>
+
+
+</li>
+</ul>
+<h4 id="lookup95witness95accounts">lookup_witness_accounts<a class="headerlink" href="#lookup95witness95accounts" title="Permanent link">&para;</a></h4>
+<p><code>Get names and IDs for registered witnesses</code></p>
+<ul>
+<li>
+<p>Request:</p>
+<div class="codehilite"><pre><span></span>curl --data &#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;lookup_witness_accounts&quot;,&quot;params&quot;:[&quot;harley&quot;, 15],&quot;id&quot;:1}&#39; https://apihk.cybex.io
+</pre></div>
+
+
+</li>
+<li>
+<p>Parameters:</p>
+<div class="codehilite"><pre><span></span>lower_bound_name: Lower bound of the first name to return
+limit: Maximum number of results to return must not exceed 1000
+</pre></div>
+
+
+</li>
+<li>
+<p>Response:</p>
+<div class="codehilite"><pre><span></span>{
+    &quot;id&quot;: 1,
+    &quot;jsonrpc&quot;: &quot;2.0&quot;,
+    &quot;result&quot;: [
+        [&quot;harley&quot;, &quot;1.6.2&quot;],
+        [&quot;jupiter&quot;, &quot;1.6.3&quot;],
+        [&quot;mars&quot;, &quot;1.6.4&quot;],
+        [&quot;mercury&quot;, &quot;1.6.5&quot;],
+        [&quot;moon&quot;, &quot;1.6.6&quot;],
+        [&quot;neptune&quot;, &quot;1.6.7&quot;],
+        [&quot;saturn&quot;, &quot;1.6.8&quot;],
+        [&quot;sun&quot;, &quot;1.6.9&quot;],
+        [&quot;uranus&quot;, &quot;1.6.10&quot;],
+        [&quot;venus&quot;, &quot;1.6.11&quot;]
+    ]
+}
+</pre></div>
+
+
+</li>
+</ul>
+<h4 id="get95witness95count">get_witness_count<a class="headerlink" href="#get95witness95count" title="Permanent link">&para;</a></h4>
+<p><code>Get the total number of witnesses registered with the blockchain</code></p>
+<ul>
+<li>
+<p>Request:</p>
+<div class="codehilite"><pre><span></span>curl --data &#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;get_witness_count&quot;,&quot;params&quot;:[],&quot;id&quot;:1}&#39; https://apihk.cybex.io
+</pre></div>
+
+
+</li>
+<li>
+<p>Response:</p>
+<div class="codehilite"><pre><span></span>{
+    &quot;id&quot;: 1,
+    &quot;jsonrpc&quot;: &quot;2.0&quot;,
+    &quot;result&quot;: 11
+}
+</pre></div>
+
+
+</li>
+</ul>
+<h3 id="9">9. 理事会成员<a class="headerlink" href="#9" title="Permanent link">&para;</a></h3>
+<h4 id="get95committee95members">get_committee_members<a class="headerlink" href="#get95committee95members" title="Permanent link">&para;</a></h4>
+<p><code>Get a list of committee_members by ID</code></p>
+<ul>
+<li>
+<p>Request:</p>
+<div class="codehilite"><pre><span></span>curl --data &#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;get_committee_members&quot;,&quot;params&quot;:[[&quot;1.5.1&quot;]],&quot;id&quot;:1}&#39; https://apihk.cybex.io
+</pre></div>
+
+
+</li>
+<li>
+<p>Parameters:</p>
+<div class="codehilite"><pre><span></span>committee_member_ids: IDs of the committee_members to retrieve
+</pre></div>
+
+
+</li>
+<li>
+<p>Response:</p>
+<div class="codehilite"><pre><span></span>{
+    &quot;id&quot;: 1,
+    &quot;jsonrpc&quot;: &quot;2.0&quot;,
+    &quot;result&quot;: [{
+        &quot;id&quot;: &quot;1.5.1&quot;,
+        &quot;committee_member_account&quot;: &quot;1.2.17&quot;,
+        &quot;vote_id&quot;: &quot;0:12&quot;,
+        &quot;total_votes&quot;: &quot;241189234794&quot;,
+        &quot;url&quot;: &quot;&quot;
+    }]
+}
+</pre></div>
+
+
+</li>
+</ul>
+<h4 id="get95committee95member95by95account">get_committee_member_by_account<a class="headerlink" href="#get95committee95member95by95account" title="Permanent link">&para;</a></h4>
+<p><code>Get the committee_member owned by a given account</code></p>
+<ul>
+<li>
+<p>Request:</p>
+<div class="codehilite"><pre><span></span>curl --data &#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;get_committee_member_by_account&quot;,&quot;params&quot;:[&quot;1.2.7&quot;],&quot;id&quot;:1}&#39; https://apihk.cybex.io
+</pre></div>
+
+
+</li>
+<li>
+<p>Parameters:</p>
+<div class="codehilite"><pre><span></span>account: The ID of the account whose committee_member should be retrieved
+</pre></div>
+
+
+</li>
+<li>
+<p>Response:</p>
+<div class="codehilite"><pre><span></span>{
+    &quot;id&quot;: 1,
+    &quot;jsonrpc&quot;: &quot;2.0&quot;,
+    &quot;result&quot;: {
+        &quot;id&quot;: &quot;1.5.12&quot;,
+        &quot;committee_member_account&quot;: &quot;1.2.7&quot;,
+        &quot;vote_id&quot;: &quot;0:23&quot;,
+        &quot;total_votes&quot;: &quot;280482493905&quot;,
+        &quot;url&quot;: &quot;&quot;
+    }
+}
+</pre></div>
+
+
+</li>
+</ul>
+<h4 id="lookup95committee95member95accounts">lookup_committee_member_accounts<a class="headerlink" href="#lookup95committee95member95accounts" title="Permanent link">&para;</a></h4>
+<p><code>Get names and IDs for registered committee_members</code></p>
+<ul>
+<li>
+<p>Request:</p>
+<div class="codehilite"><pre><span></span>curl --data &#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;lookup_committee_member_accounts&quot;,&quot;params&quot;:[&quot;1.5.1&quot;, 22],&quot;id&quot;:1}&#39; https://apihk.cybex.io
+</pre></div>
+
+
+</li>
+<li>
+<p>Parameters:</p>
+<div class="codehilite"><pre><span></span>lower_bound_name: Lower bound of the first name to return
+limit: Maximum number of results to return must not exceed 1000
+</pre></div>
+
+
+</li>
+<li>
+<p>Response:</p>
+<div class="codehilite"><pre><span></span>{
+    &quot;id&quot;: 1,
+    &quot;jsonrpc&quot;: &quot;2.0&quot;,
+    &quot;result&quot;: [
+        [&quot;april&quot;, &quot;1.5.1&quot;],
+        [&quot;avir&quot;, &quot;1.5.2&quot;],
+        [&quot;bigerjoe&quot;, &quot;1.5.3&quot;],
+        [&quot;bigjoe&quot;, &quot;1.5.4&quot;],
+        [&quot;celtics-tatum&quot;, &quot;1.5.5&quot;],
+        [&quot;earth&quot;, &quot;1.5.11&quot;],
+        [&quot;fairystar&quot;, &quot;1.5.6&quot;],
+        [&quot;harley&quot;, &quot;1.5.12&quot;],
+        [&quot;jupiter&quot;, &quot;1.5.13&quot;],
+        [&quot;kvir&quot;, &quot;1.5.7&quot;],
+        [&quot;lucifer&quot;, &quot;1.5.8&quot;],
+        [&quot;mars&quot;, &quot;1.5.14&quot;],
+        [&quot;mercury&quot;, &quot;1.5.15&quot;],
+        [&quot;moon&quot;, &quot;1.5.16&quot;],
+        [&quot;nathan&quot;, &quot;1.5.0&quot;],
+        [&quot;neptune&quot;, &quot;1.5.17&quot;],
+        [&quot;processon&quot;, &quot;1.5.9&quot;],
+        [&quot;saturn&quot;, &quot;1.5.18&quot;],
+        [&quot;sun&quot;, &quot;1.5.19&quot;],
+        [&quot;tina&quot;, &quot;1.5.10&quot;],
+        [&quot;uranus&quot;, &quot;1.5.20&quot;],
+        [&quot;venus&quot;, &quot;1.5.21&quot;]
+    ]
+}
+</pre></div>
+
+
+</li>
+</ul>
+<h3 id="10">10. 授权和验证<a class="headerlink" href="#10" title="Permanent link">&para;</a></h3>
+<h4 id="get95required95fees">get_required_fees<a class="headerlink" href="#get95required95fees" title="Permanent link">&para;</a></h4>
+<p>For each operation calculate the required fee in the specified asset type.</p>
+<div class="codehilite"><pre><span></span>vector&lt;fc::variant&gt; graphene::app::database_api::get_required_fees(const vector&lt;operation&gt; &amp;ops, asset_id_type id) const
+</pre></div>
+
+
+<ul>
+<li>Parameters:</li>
+</ul>
+<div class="codehilite"><pre><span></span>ops: operation whose fee should be get
+id: asset id which the fee should be calculated in
+</pre></div>
+
+
+<p>The following sample is to get the fee of <code>limit_order_create</code> operation.</p>
+<ul>
+<li>Request:</li>
+</ul>
+<div class="codehilite"><pre><span></span>{
+    &quot;jsonrpc&quot;: &quot;2.0&quot;,
+    &quot;method&quot;: &quot;get_required_fees&quot;,
+    &quot;params&quot;: [
+        [
+            [
+                1,
+                {
+                    &quot;fee&quot;: {
+                        &quot;amount&quot;: 0,
+                        &quot;asset_id&quot;: &quot;1.3.0&quot;
+                    },
+                    &quot;seller&quot;: &quot;1.2.37471&quot;,
+                    &quot;amount_to_sell&quot;: {
+                        &quot;amount&quot;: 100,
+                        &quot;asset_id&quot;: &quot;1.3.0&quot;
+                    },
+                    &quot;min_to_receive&quot;: {
+                        &quot;amount&quot;: 1,
+                        &quot;asset_id&quot;: &quot;1.3.2&quot;
+                    },
+                    &quot;expiration&quot;: &quot;2018-10-25T08:58:48&quot;,
+                    &quot;fill_or_kill&quot;: false,
+                    &quot;extensions&quot;: []
+                }
+            ]
+        ],
+        &quot;1.3.0&quot;
+    ],
+    &quot;id&quot;: 1
+}
+</pre></div>
+
+
+<ul>
+<li>Response:</li>
+</ul>
+<div class="codehilite"><pre><span></span>{
+    &quot;id&quot;: 1,
+    &quot;jsonrpc&quot;: &quot;2.0&quot;,
+    &quot;result&quot;: [{
+        &quot;amount&quot;: 55,
+        &quot;asset_id&quot;: &quot;1.3.0&quot;
+    }]
+}
+</pre></div>
+
+
+<h2 id="api_4">其他API<a class="headerlink" href="#api_4" title="Permanent link">&para;</a></h2>
+<h3 id="api_5">账户历史API<a class="headerlink" href="#api_5" title="Permanent link">&para;</a></h3>
+<p><strong>Account History API</strong></p>
+<p>http://docs.bitshares.org/api/history.html#id1</p>
+<h3 id="api_6">网络广播API<a class="headerlink" href="#api_6" title="Permanent link">&para;</a></h3>
+<p><strong>NETWORK BROADCAST API</strong></p>
+<p>http://docs.bitshares.org/api/network_broadcast.html</p>
+<h3 id="api_7">网络节点API<a class="headerlink" href="#api_7" title="Permanent link">&para;</a></h3>
+<p><strong>NETWORK NODES API</strong></p>
+<p>http://docs.bitshares.org/api/network_node.html</p>
+<h1 id="_23">应用场景<a class="headerlink" href="#_23" title="Permanent link">&para;</a></h1>
+<h2 id="cybex">Cybex网关<a class="headerlink" href="#cybex" title="Permanent link">&para;</a></h2>
+<p><strong>网关是一个能够加快价值进出Cybex网络的可信任交易方。为实现这个目的，网关发行可赎回的借据，作为Cybex区块链上的可替代可分割资产。如果发行人可靠，这些借据将会以面值交易，从而在交易中产生作用。就像银行发行汇票那样， 第三方虽然不会了解彼此，但可以接受支付而无需担忧个人支票透支。由于可靠的协议能够加快第三方交易速度，使这项服务很有成效。和银行发行汇票的不同之处是，数字借据由网关发行，更加灵活好用。</strong></p>
+<p>Cybex网络允许任何人发行数字资产，即UIA。这些资产能够用于记录公司股份，存款，及其他用途。发行的资产可以跟Cybex网络上包括bitUSD等完全抵押市场锚定资产在内的其他类型资产自由交易。</p>
+<p>本文将概述运作Cybex网关的商业机会。网关起到引入外部资产（如法币、黄金、白银，比特币等）到Cybex网络的桥梁作用。绝大部分价值必须通过网关或交易所进出Cybex网络，因而网关成为了Cybex能否成功的关键因素。</p>
+<ul>
+<li>网关VS交易所</li>
+</ul>
+<p>大多数在加密货币圈中浸淫过一阵儿的人，对交易所都不会陌生。交易所允许两种类型资产的储蓄，维护订单本，使用存入的资金加快资产间交易。一单在交易所的存款，就是一份通往由交易所掌管的专用数据库的借据。</p>
+<p>网关只需行使交易所三项职能中的其中一项：接受存款并发行借据。网关不需要维护用来记录账户余额的内部数据库，也不用维护订单。网关的工作极度简化，从而最大限度地减少了有关各方的风险。</p>
+<p>时至今日，当你想用比特币兑换美元，你必须同时将这二者存到可靠的第三方手上。一旦第三方像Mt.Gox那样不靠谱，你就能明白自己账上的比特币会遭受些什么了：被偷，遗失，被盗用亦或被没收。如果Mt.Gox只是一个简单的美元网关，那么仅仅美元的存款会处于危险之中，因为所有的订单和Cybex都会在用户密钥的控制下保存在区块链上。</p>
+<p>正如你们从Mt.Gox上看到的，网关能够将交易所具有的弊端减少50%，同时用户能够从一份不限制Cybex取款的全球订单上获益。</p>
+<ul>
+<li>成为网关，创造收入</li>
+</ul>
+<p>通过为Cybex社区提供有价值的服务以赢得收益，这是成为网关的主要理由。网关有很多盈利方式，最简单的一种是每次使用服务时收取交易手续费。你也可以在用户每次转移你的资产到Cybex网络时收取费用，以及收取网络上面的市场费。除去各类交易费，网关还有机会代表他们的客户通过浮动收益创收。</p>
+<ul>
+<li>它是如何工作的</li>
+</ul>
+<p>每个单独的比特币交易所已经行使了类似网关的作用。用户传输资金到交易所，交易所记录其欠了用户多少，当用户要求提现的时候交易所就将资金返还。用户可以快速而安全的和自己同一间交易所的用户交易。</p>
+<p>Cybex网关的工作流程与之相同，唯一区别就是跟踪用户储蓄信息的数据库是Cybex区块链。当用户通过网关交易法币或比特币，网关会回应一个由自身发行的借据资产给用户。当用户返回借据给网关时，网关就会将法币或比特币还给用户。</p>
+<p>借据资产对Cybex生态圈内的用户而言非常有用，因为它能作为一个非常灵活的多方代管资产。用户可以通过你的网关使用美元借据来交易bitUSD或来自其他网关的借据。通常，用户会用几乎没有合约风险的bitUSD保值，但是当需要将bitUSD返还为法币的时候仍要通过网关来实现。</p>
+<ul>
+<li>合规性</li>
+</ul>
+<p>在绝大多数国家，任何运营存款和汇款业务的公司都会被严格管理。这些规章包括必要的许可证、契约、保险、KYC（了解你的客户），以及AML（反洗钱）合规等等。Cybex区块链提供了网关，包含遵守这些规定的全部工具。</p>
+<p>如果你已经开始了这庄生意，随即你需要维护一个追踪用户存款的数据库，它可能记录每个独立的交易和余额变化。你的数据库在任何时间点都能准确的知道谁欠了什么。在执法需求下，你也拥有扣押或冻结用户余额的能力。Cybex还提供包括以下特性：</p>
+<p>1）具有可以控制你资产余额的白名单公钥的能力。
+2）具有冻结所有资金和停止所有你资产交易的能力。
+3）具有从任意用户转移任何数量你资产余额到任意用户的能力。</p>
+<p>换句话说，如果你正在运营一间合法的加密货币交易所，你可以很容易扩展事业成为Cybex网关。</p>
+<ul>
+<li>安全性</li>
+</ul>
+<p>作为网关你应该很关心代表客户持有的资金的安全性。幸运的是从一个定制的内部系统转移你的数据库到Cybex网络会给你的生意带来很大的安全性提升，因为你所有的利润都来自区块链。每次转账都会记录在一个公共账簿上，每次资产转让被分布在全世界的签署和核对。开源代码在很多不同的网关中得到使用，可以得到整个行业的评审。你大可放心，没有资金会在未经所有人私钥的正确签署下就被转移。</p>
+<p>作为用户资产的创建者，你拥有完全的自由去兑现现金，或为社会工程及泄露用户密钥的偷窃进行反向交易。无人能够在没有交易历史记录的前提下取出真金白银。Cybex代码内的任何bug不会使你的网关丢失金钱，因为您保留着如何兑现您资产的权力。</p>
+<p>跟交易所比较，成为网关在安全性方面最大的进步或许是你只需要处理单个资产。不像在交易所要同时拥有用户的法币和加密资产，你可以仅允许法币存款并发行法币的借据。Cybex区块链能够让用户直接和其他用户交易，而无须给你转账资产并由此创造了额外的负担给你的交易所。</p>
+<p>作为网关你所面对的最大安全责任是严防控制用户发行资产的私钥访问。基于这个原因，所有的用户发行资产被同时拥有冷密钥和热密钥的N/M多重签名系统控制。在网关里，你能在大量不同的个体中分开访问控制以保证没有个人或一个被感染的机器能够入侵控制你的用户发行资产。这是媲美交易所保护代表客户的加密货币私钥的安全防范机制。仔细守护这些密钥并将其保存在冷存储中是至关重要的。</p>
+<p>访问用户发行资产，是和保证绝对控制、需要冷存储的主人密钥，及保存在安全热系统上的管理密钥分开的。每个管理密钥的动作都能被主人密钥撤销。这样的安排提供了控制的多级组织和灵活性的最大化。</p>
+<ul>
+<li>无限商机</li>
+</ul>
+<p>Cybex生态系统很年轻，在快速成长。能够建立起信任和提供可靠服务的早期网关，将有可能成为默认的人们常去的网关，拥有一个最大限度提高交易量的机会，由此收取手续费。在前期就参与进来的也会在我们的用户群中增加对网关公司的认识。可能开始作为一个网关，你也能发展其他的相关服务给Cybex生态系统，如托管钱包，或者甚至成为代理人。</p>
+<h3 id="_24">搭建网关<a class="headerlink" href="#_24" title="Permanent link">&para;</a></h3>
+<p><strong>网关是一个能够加快价值进出Cybex网络的可信任交易方。为实现这个目的，网关发行可赎回的借据（以下简称IOU），作为Cybex区块链上的可替代可分割资产。</strong></p>
+<p>由网关发行的IOU可以在Cybex网络内的交易中产生作用，并有网关负责承兑至持有人的外部网络账户。网关通过将外部资产（如比特币或在其他主链发行的通证）引入Cybex网络，起到了进出Cybex网络的桥梁作用。</p>
+<p>因此，网关的工作主要包含以下几个方面：</p>
+<p>1）<code>创建资产</code>，即Cybex内盘IOU；  <br />
+2）<code>发行资产</code>，将IOU发放至网关Cybex账户；  <br />
+3）接收用户外部资产，将对应外部资产的内盘IOU<code>转账</code>至用户Cybex账户；  <br />
+4）回收用户Cybex账户内盘IOU，<code>转账</code>相应的外部资产至用户外部账户。    </p>
+<p>其中，3、4）相当于用户发起的充值、提现操作。</p>
+<p>注意：Cybex网关是一个中心化的服务，上述与Cybex主链交互的操作之外，需要根据网关前置场景的业务逻辑，对内外盘资产的承兑汇率、交易黑白名单等进行设置。同时，为了确保内外盘资产的对应关系，建议网关设计中包含内外部审计的相关逻辑，以避免超发带来的承兑风险。</p>
+<h3 id="_25">创建资产<a class="headerlink" href="#_25" title="Permanent link">&para;</a></h3>
+<p>创建Cybex内盘IOU需要通过<a href="https://bitshares.org/doxygen/structgraphene_1_1chain_1_1asset__create__operation.html">asset_create</a>操作实现，操作说明如下：</p>
+<table>
+<thead>
+<tr>
+<th><strong>参数</strong></th>
+<th><strong>类型</strong></th>
+<th><strong>必填</strong></th>
+<th><strong>描述</strong></th>
+<th><strong>示例</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>fee</td>
+<td>asset</td>
+<td>Y</td>
+<td>手续费</td>
+<td>详见<a href="https://github.com/CybexDex/Cybex-node-doc/wiki/常见问题">如何获取手续费信息</a></td>
+</tr>
+<tr>
+<td>symbol</td>
+<td>string</td>
+<td>Y</td>
+<td>资产符号，大于等于5的资产，手续费为500CYB</td>
+<td>为了区别各网关发布的资产，建议命名格式遵循“网关简称.资产符号”的格式，如JADE.ETH，表示瑶池创建并负责承兑的ETH</td>
+</tr>
+<tr>
+<td>precision</td>
+<td>unit8_t</td>
+<td>Y</td>
+<td>资产精度，小数点后位数，填写小于等于12的正整数</td>
+<td>详见<a href="https://github.com/CybexDex/Cybex-node-doc/wiki/常见问题">金额和价格如何表示</a></td>
+</tr>
+<tr>
+<td>common_options</td>
+<td>asset_options</td>
+<td>Y</td>
+<td>资产设置</td>
+<td>详见下表“common_options参数”</td>
+</tr>
+<tr>
+<td>bitasset_opts</td>
+<td>bitasset_options</td>
+<td>N</td>
+<td>智能资产设置</td>
+<td>网关发行的IOU一般不使用智能资产</td>
+</tr>
+<tr>
+<td>is_prediction_market</td>
+<td>bool</td>
+<td>Y</td>
+<td>是否为预测市场</td>
+<td>如果该资产为<a href="https://github.com/CybexDex/Cybex-node-doc/wiki/资产-通证">预测市场的资产</a>则设置为true</td>
+</tr>
+<tr>
+<td>extensions</td>
+<td>extensions_type</td>
+<td>N</td>
+<td>扩展字段</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>common_options参数</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>参数</strong></th>
+<th><strong>类型</strong></th>
+<th><strong>必填</strong></th>
+<th><strong>描述</strong></th>
+<th><strong>示例</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>max_supply</td>
+<td>share_type</td>
+<td>Y</td>
+<td>最大发行量，所有发行操作的资产总和不能大于该值</td>
+<td>由于总量无法修改，Cybex也不支持发行符号相同的资产，建议将该参数设置的越大越好，如10000000000000，以便应对外部资产持续增加带来的内盘资产需求。</td>
+</tr>
+<tr>
+<td>market_fee_percent</td>
+<td>uint16_t</td>
+<td>Y</td>
+<td>交易手续费</td>
+<td>使用该资产进行交易时，除了交易操作本身的手续费外，是否需要额外收取手续费。手续费以交易额的百分比计算，如20，表示交易额的20%为手续费</td>
+</tr>
+<tr>
+<td>max_market_fee</td>
+<td>share_type</td>
+<td>Y</td>
+<td>交易手续费上限</td>
+<td></td>
+</tr>
+<tr>
+<td>issuer_permissions</td>
+<td>uint16_t</td>
+<td>Y</td>
+<td>发行人在发行操作后，可以对哪些权限进行调整</td>
+<td>详见下表“asset_issuer_permission_flags”</td>
+</tr>
+<tr>
+<td>flags</td>
+<td>uint16_t</td>
+<td>Y</td>
+<td>当前激活的flag</td>
+<td>详见下表“asset_issuer_permission_flags”</td>
+</tr>
+<tr>
+<td>core_exchange_rate</td>
+<td>price</td>
+<td>Y</td>
+<td>核心汇率</td>
+<td>详见下表“core_exchange_rate参数”</td>
+</tr>
+<tr>
+<td>whitelist_authorities</td>
+<td>flat_set<account_id_type></td>
+<td>Y</td>
+<td>资产持有账户ID白名单</td>
+<td>需要限制持有账户时使用，如1.2.4532</td>
+</tr>
+<tr>
+<td>blacklist_authorities</td>
+<td>flat_set<account_id_type></td>
+<td>Y</td>
+<td>资产持有账户ID黑名单</td>
+<td>需要排除持有账户时使用，如1.2.3442</td>
+</tr>
+<tr>
+<td>whitelist_markets</td>
+<td>flat_set<asset_id_type></td>
+<td>Y</td>
+<td>交易对手资产ID白名单</td>
+<td>需要限制交易市场时使用，如1.3.2，表示仅可以与1.3.2的资产进行交易</td>
+</tr>
+<tr>
+<td>blacklist_markets</td>
+<td>flat_set<asset_id_type></td>
+<td>Y</td>
+<td>交易对手资产ID黑名单</td>
+<td>需要排除交易市场时使用，如1.3.3，表示不能与1.3.3的资产进行交易</td>
+</tr>
+<tr>
+<td>description</td>
+<td>string</td>
+<td>Y</td>
+<td>资产描述</td>
+<td></td>
+</tr>
+<tr>
+<td>extensions</td>
+<td>extensions_type</td>
+<td>N</td>
+<td>扩展字段</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>asset_issuer_permission_flags</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>参数</strong></th>
+<th><strong>类型</strong></th>
+<th><strong>必填</strong></th>
+<th><strong>描述</strong></th>
+<th><strong>示例</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>charge_market_fee</td>
+<td>bool</td>
+<td>Y</td>
+<td>是否设置了交易手续费</td>
+<td></td>
+</tr>
+<tr>
+<td>white_list</td>
+<td>bool</td>
+<td>Y</td>
+<td>是否要求持有人加入白名单</td>
+<td></td>
+</tr>
+<tr>
+<td>override_authority</td>
+<td>bool</td>
+<td>Y</td>
+<td>是否允许资产发行人在未征得持有人同意的情况下，强制将资产从A账户转账至B账户</td>
+<td></td>
+</tr>
+<tr>
+<td>transfer_restricted</td>
+<td>bool</td>
+<td>Y</td>
+<td>是否强制资产发行人参与每笔交易，即每次转账操作中必须有一方为资产发行人</td>
+<td></td>
+</tr>
+<tr>
+<td>disable_force_settle</td>
+<td>bool</td>
+<td>Y</td>
+<td>是否禁用强制清算</td>
+<td></td>
+</tr>
+<tr>
+<td>global_settle</td>
+<td>bool</td>
+<td>Y</td>
+<td>是否允许全局清算</td>
+<td></td>
+</tr>
+<tr>
+<td>disable_confidential</td>
+<td>bool</td>
+<td>Y</td>
+<td>是否禁用隐私交易</td>
+<td></td>
+</tr>
+<tr>
+<td>witness_fed_asset</td>
+<td>bool</td>
+<td>Y</td>
+<td>是否由见证人节点喂价</td>
+<td></td>
+</tr>
+<tr>
+<td>committee_fed_asset</td>
+<td>bool</td>
+<td>Y</td>
+<td>是否由委员会喂价</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>core_exchange_rate参数</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>参数</strong></th>
+<th><strong>类型</strong></th>
+<th><strong>必填</strong></th>
+<th><strong>描述</strong></th>
+<th><strong>示例</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>base</td>
+<td>asset</td>
+<td>Y</td>
+<td>基准资产信息</td>
+<td></td>
+</tr>
+<tr>
+<td>amount</td>
+<td>share_type</td>
+<td>Y</td>
+<td>汇率计算的分母</td>
+<td>10</td>
+</tr>
+<tr>
+<td>asset_id</td>
+<td>asset_id_type</td>
+<td>Y</td>
+<td>基准资产ID，通常设置为Cybex的核心资产，即CYB</td>
+<td>1.3.0</td>
+</tr>
+<tr>
+<td>quote</td>
+<td>asset</td>
+<td>Y</td>
+<td>新建资产信息</td>
+<td></td>
+</tr>
+<tr>
+<td>amount</td>
+<td>share_type</td>
+<td>Y</td>
+<td>汇率计算的分子</td>
+<td>10</td>
+</tr>
+<tr>
+<td>asset_id</td>
+<td>asset_id_type</td>
+<td>Y</td>
+<td>新建资产ID，即当前资产的ID</td>
+<td>1.3.0</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Python示例</strong></p>
+<p>https://github.com/CybexDex/Cybex-node-doc/blob/master/transaction/python/advanced/create_asset.md</p>
+<h3 id="_26">发行资产<a class="headerlink" href="#_26" title="Permanent link">&para;</a></h3>
+<p>创建Cybex内盘IOU后，需要通过<a href="https://bitshares.org/doxygen/structgraphene_1_1chain_1_1asset__issue__operation.html">asset_issue</a>操作进行资产发行，操作说明如下：</p>
+<table>
+<thead>
+<tr>
+<th><strong>参数</strong></th>
+<th><strong>类型</strong></th>
+<th><strong>必填</strong></th>
+<th><strong>描述</strong></th>
+<th><strong>示例</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>fee</td>
+<td>asset</td>
+<td>Y</td>
+<td>手续费</td>
+<td></td>
+</tr>
+<tr>
+<td>issuer</td>
+<td>account_id_type</td>
+<td>Y</td>
+<td>资产发行人账户ID</td>
+<td></td>
+</tr>
+<tr>
+<td>asset_to_issue</td>
+<td>asset</td>
+<td>Y</td>
+<td>发行的资产（包含数量、资产ID）</td>
+<td></td>
+</tr>
+<tr>
+<td>issue_to_account</td>
+<td>account_id_type</td>
+<td>Y</td>
+<td>发行资产的初始归集账户，即操作执行后，本次发行的资产会由哪个账户持有。一般来说，由于网关负责承兑资产，内盘IOU的初始归集账户为网关账户</td>
+<td></td>
+</tr>
+<tr>
+<td>memo</td>
+<td>memo_data</td>
+<td>N</td>
+<td>备注</td>
+<td></td>
+</tr>
+<tr>
+<td>extensions</td>
+<td>extensions_type</td>
+<td>N</td>
+<td>扩展字段</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_27">普通转账<a class="headerlink" href="#_27" title="Permanent link">&para;</a></h3>
+<p>资产进出Cybex网络的过程，需要通过<a href="https://bitshares.org/doxygen/structgraphene_1_1chain_1_1transfer__operation.html">transfer</a>操作实现<code>网关账户</code>和<code>用户账户</code>的双向转账功能。操作参数如下：</p>
+<table>
+<thead>
+<tr>
+<th align="left"><strong>参数</strong></th>
+<th align="left"><strong>类型</strong></th>
+<th align="left"><strong>必填</strong></th>
+<th align="left"><strong>描述</strong></th>
+<th align="left"><strong>示例</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">fee</td>
+<td align="left">asset</td>
+<td align="left">Y</td>
+<td align="left">手续费</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">amount</td>
+<td align="left">share_type</td>
+<td align="left">Y</td>
+<td align="left">手续费金额</td>
+<td align="left">55</td>
+</tr>
+<tr>
+<td align="left">asset_id</td>
+<td align="left">asset_id_type</td>
+<td align="left">Y</td>
+<td align="left">资产ID</td>
+<td align="left">1.3.0</td>
+</tr>
+<tr>
+<td align="left">from</td>
+<td align="left">account_id_type</td>
+<td align="left">Y</td>
+<td align="left">付款账户ID</td>
+<td align="left">1.2.37471</td>
+</tr>
+<tr>
+<td align="left">to</td>
+<td align="left">account_id_type</td>
+<td align="left">Y</td>
+<td align="left">收款账户ID</td>
+<td align="left">1.2.83</td>
+</tr>
+<tr>
+<td align="left">amount</td>
+<td align="left">asset</td>
+<td align="left">Y</td>
+<td align="left">转账</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">amount</td>
+<td align="left">share_type</td>
+<td align="left">Y</td>
+<td align="left">转账金额</td>
+<td align="left">10000</td>
+</tr>
+<tr>
+<td align="left">asset_id</td>
+<td align="left">asset_id_type</td>
+<td align="left">Y</td>
+<td align="left">资产ID</td>
+<td align="left">1.3.0</td>
+</tr>
+<tr>
+<td align="left">memo</td>
+<td align="left">memo_data</td>
+<td align="left">N</td>
+<td align="left">备注</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">extension</td>
+<td align="left">extension_type</td>
+<td align="left">N</td>
+<td align="left">扩展字段</td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p>用户发起充值、提现操作后，网关需要根据操作上链的结果，执行后续流程。例如：用户将外部资产抵押给网关后，网关将IOU从网关Cybex账户转账至用户Cybex账户，基于到账情况，网关对该笔充值订单的状态进行更新。</p>
+<p><strong>重点关注</strong></p>
+<p>为完成正确的网关出入金操作，需要对网关账户的资金往来加以监控。监控网关账户交易状态有多种方法，较为经济可靠的方式之一，是在每次新区块生成后，调用 <a href="https://bitshares.org/doxygen/classgraphene_1_1app_1_1history__api.html#a70b3af7edeea81534a4db9e83b2cbd88">get_account_history</a> API来获取网关账户的操作记录的最新列表，对于其中新出现的操作记录加以处理。但在加以处理之前，最好确认该笔操作记录已经完全被链上确认。</p>
+<p>Cybex链遵循DPOS共识机制约束以产生和确认区块。任何一笔transaction交易由钱包发送至节点并加以广播后，虽会以较快的速度被打包上链，但此时刚刚上链的区块，仍属于待确认状态，该区块及其所含交易，仍有被回滚的可能。只有三分之二以上见证人节点确认此区块有效性后，才可认为该区块及其所含交易被正式记录在了Cybex链上。</p>
+<p>因此，在取得最新的操作记录后，要将该记录所在区块高度，与当前系统最新的<strong>不可逆区块高度</strong>进行比对。要查询当前不可逆区块高度，可通过<code>get_dynamic_global_properties</code>接口获得当前系统最新状态对象，该对象的<code>last_irreversible_block_num</code>字段即为当前链上不可逆区块高度。仅当操作所在区块高度<strong>低于</strong>不可逆区块高度时，才应对该笔操作进行处理。</p>
+<h3 id="_28">可选操作<a class="headerlink" href="#_28" title="Permanent link">&para;</a></h3>
+<ul>
+<li>注册Cybex账户</li>
+</ul>
+<p>用户（包括网关账户）可以通过Cybex前端页面或者水龙头服务进行Cybex账户注册，也可以由网关获取前置应用场景的信息，代用户完成账户注册。</p>
+<p>Cybex为所有第三方提供了一个公共的<a href="https://github.com/CybexDex/CybexFaucet">水龙头服务模板</a>，第三方可以选择直接使用公共水龙头，或者参考该模板的实现方式，基于前置应用加入自定义的逻辑。</p>
+<p>注意：使用水龙头服务中，填写的“注册人”账户需要成为<a href="https://github.com/CybexDex/Cybex-node-doc/wiki/会员等级">Cybex终生会员</a>，目前Cybex终生会员的手续费为1000CYB。</p>
+<h2 id="_29">加密数字资产托管<a class="headerlink" href="#_29" title="Permanent link">&para;</a></h2>
+<p>数字货币借贷平台为比特币、以太币等主流加密数字货币的持有人，提供了数字资产借贷的综合场景。基于数字货币的抵押与借贷，在为数字货币持有者提供流动性的同时，平台通过借款利息获得收益。在触发风控预警规则时，逾期或者质押物贬值但未追加抵押的资产可以自动出售，从而避免传统互联网借贷贷后执行难的弊端，更好地保障投资人的利益。</p>
+<p>Cybex网关及拓链的冷热钱包产品为借贷过程中涉及的平台及贷款人账户监管、抵押资产保管提供了完善的解决方案。同时，Cybex生态的交易所、RTE等产品也可以帮助平台加速抵押资产出售。</p>
+<p>注意：Cybex的所有产品均仅提供数字货币支付通道（不支持法币充值、提现）产品方案均基于“抵押数字货币，借入数字货币”的业务场景展开。</p>
+<h3 id="_30">中心化数字资产借贷<a class="headerlink" href="#_30" title="Permanent link">&para;</a></h3>
+<p><strong>借款申请</strong></p>
+<p>借款人选择抵押资产币种和借入资产币种，填写借款额度、选择借款期限。平台根据币种、额度、期限和借款人资质，计算出抵押率及借款利率。</p>
+<p>借款申请提交后，平台向借款人提供抵押币种的充值地址，用于接收借款人抵押资产的转账。同时，借款人向平台提交借入币种的打款地址。抵押转账完成后，借款人向平台发起申请确认。</p>
+<p><strong>放款确认</strong></p>
+<p>平台对抵押资产到账情况（币种、金额）及借款人资质（KYC、AML）进行核实后，对于审核通过的借款申请执行放款操作。</p>
+<p><strong>正常还款</strong></p>
+<p>平台向借款人提供借入币种的还款地址，借款人在还款日前（含当日）按照还款计划将当期应还本金及利息转入该地址。</p>
+<p><strong>抵押资产赎回</strong></p>
+<p>所有期数正常还款后，在借款到期日，平台将抵押资产返还抵押时的打款地址或其他借款人提交的接收地址。</p>
+<p><strong>逾期/抵押物贬值</strong></p>
+<p>由于数字货币抵押存在一定抵押物价值变化风险，对于触发LTV“预警线”的贷款，需要通知借款人追加抵押额或提前还款。当抵押物价值波动导致LTV到达“处置线”时，平台将采取强制平仓措施。
+同样的，对于逾期的借款人，在平台追讨未果的情况下，也将通过强制平仓的方式保障平台利益。</p>
+<h3 id="_31">去中心化数字资产借贷<a class="headerlink" href="#_31" title="Permanent link">&para;</a></h3>
+<p>基于C2C借贷平台的整体流程，Cybex可以通过以下环境对平台业务进行去中心化和资产托管：</p>
+<p><strong>抵押/还款</strong></p>
+<p>借款人在借贷平台进行注册时，由平台同时创建Cybex账户。瑶池针对借款人的每一笔贷款，生成一个独立的抵押资产转入地址，由网关将其与Cybex账户关联。用户通过对该地址充值，完成资产抵押操作。同时，每笔贷款也会关联至一个独立的还款地址，借款人可以将借入币种还款至该地址。
+平台通过订阅该地址的余额变动，确认抵押资产或每期还款的到账情况。避免不同用户在同一币种进行充值时，使用平台方提供的同一地址，到账金额和借款人的对应关系需要平台人为介入确认。</p>
+<p><strong>放款/赎回</strong></p>
+<p>Cybex网关可以帮助在用户完成平台注册时，授权平台注册Cybex（区块链）账户，从而简化业务逻辑。后续的的放款和赎回操作无需用户另行提供地址，可以直接由瑶池转账至Cybex账户，通过借款人可以通过余额提现将资产转出。</p>
+<p><strong>多币种支持</strong></p>
+<p>平台通过私有化部署的瑶池可以一次性实现多币种的收付款功能。
+由瑶池通过模块化接入各种加密数字货币，并根据各个区块链的地址规范生成、管理各个币种的地址及其私钥，节省了平台为了支持多币种借贷针对各个区块链的开发工作。</p>
+<p><strong>账户管理</strong></p>
+<p>对于集成网关的平台，仅需要保存平台账户与Cybex账户的关联，由网关负责建立、维护Cybex账户与各币种地址的对应关系。
+瑶池基于地址维度向平台输出各币种的出入金情况，并提供可视化的后台管理系统，对各个地址和往来交易加以监控和管理。</p>
+<p><strong>流动性管理</strong></p>
+<p>借款人抵押的资产将会真实放在瑶池内， 瑶池种子密钥的持有人将负责整个托管账户的资金管理工作。平台可以对用户抵押资产的存放地址设置阈值，将地址内的资产转移至（瑶池）托管账户。
+同时，平台可以根据流动性需求对托管账户余额设置阈值，瑶池内各币种均预留一定资产用于偿付借款人的日常赎回，其余金额均转出至冷钱包。</p>
+<p><strong>资产安全</strong></p>
+<p>通过在瑶池和悟空的软硬件对接，可以实现基于托管账户余额设置阈值实现冷热钱包的自动转账。在确保平台资金流动性的同时，将大额抵押资产存放在硬件冷钱包内。
+此外，悟空企业版的多签功能，还能够帮助平台多部门人员对资金进行协同管理，避免大额资金由个人保管带来的管理风险。</p>
+<h3 id="_32">资产托管方案<a class="headerlink" href="#_32" title="Permanent link">&para;</a></h3>
+<p>Cybex数字资产托管方案由三个部分组成：Cybex网关、拓链的瑶池系统及悟空硬件钱包（企业版）。</p>
+<ul>
+<li>网关：Cybex主链与区块链应用的中间层，资金通过网关转入或转出Cybex网络，可以基于主链及业务需求进行定制化开发；</li>
+<li>瑶池：热钱包，自动生成并管理充值地址，支持托管账户限额管理、限额内自动提现及超限人工审核等等；</li>
+<li>悟空：冷钱包，多签名私钥由硬件生成，各签名方支持助记词备份，支持Bitcoin，Ethereum和所有ERC20规范的Token的多签名交易。</li>
+</ul>
+<p>上述产品组合除了能够为C2C（Crypto-to-Crypto Lending）业务内大量的数字资产提供安全保障外，平台用户（含借款人和贷款人）通过授权由平台自动创建的Cybex账户，可以在Cybex交易所内利用RTE完成平仓、二次投资等资产处置环节。</p>
+<p><strong>目标架构</strong></p>
+<p><img alt="目标架构" src="https://raw.githubusercontent.com/GabrielleZhou/CybexWiki/master/C2CLendingArchitecture.jpg" /></p>
+<p><strong>资金/信息流</strong></p>
+<p><img alt="资金信息流" src="https://raw.githubusercontent.com/GabrielleZhou/CybexWiki/master/C2CLendingInfoFlow.jpg" /></p>
+<ul>
+<li>资金流</li>
+</ul>
+<p>Cybex账户相当于平台用户的多币种余额账户，由瑶池进行各币种的通道支持。余额账户内显示的金额，是网关基于用户存入的数字货币发行的存取凭证，真实的资产将抵押在瑶池内。因此，瑶池充当了平台资金池的角色。
+为了对平台资产进行监管，Cybex将为每个数字资产借贷平台独立部署一套瑶池系统，该套瑶池的主账号即为平台托管账号。托管账户内的资金由托管方负责管理，平台方可以设置保留在托管账户内的资金水位。托管账户的余额在确保流动性的同时，也是平台方向托管方缴纳的备付金。</p>
+<ul>
+<li>信息流</li>
+</ul>
+<p>Cybex账户内的各币种余额，通过信息流向平台同步。平台向Cybex账户执行转账操作时，仅仅是转移了网关发放的存取凭证，托管账户内的真实资金并未发生转移。只有在用户进行提现操作时，瑶池内的数字资产才会转入用户的提币地址。
+对于借款人而言，在Cybex账户余额变动时，虽然未执行提现操作，但抵押资产的赎回已经完成。因此，平台可以在后续创建的其他金融场景内引导用户使用余额。同时，Cybex社区的其他应用，如DEX交易所、RTE等，也可以为平台及平台用户提供服务。</p>
+<h2 id="_33">运营见证人节点<a class="headerlink" href="#_33" title="Permanent link">&para;</a></h2>
+<h3 id="_34">环境配置<a class="headerlink" href="#_34" title="Permanent link">&para;</a></h3>
+<ul>
+<li>4核及以上</li>
+<li>16GByte内存及以上</li>
+<li>500G文件系统存储及以上（随时间变化可能需要增加）</li>
+<li>10Mbit/s带宽及以上（随交易量增加可能需要增加）</li>
+<li>Linux操作系统（推荐使用Ubuntu最新发行版本）</li>
+<li>系统基础库</li>
+<li>libcurl</li>
+<li>libssl</li>
+<li>openssl</li>
+<li>libcrypto</li>
+<li>其他可能需要的库</li>
+</ul>
+<h3 id="_35">部署可执行程序及启动配置<a class="headerlink" href="#_35" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span>Bash
+# 建立运行目录
+mkdir Cybex; cd Cybex
+export Cybex_ROOT=`pwd`
+
+# 下载编译好的二进制程序映像
+mkdir bin
+wget https://github.com/CybexDEX/how-to-run-Cybex-node/raw/master/bin/witness_node -O ${Cybex_ROOT}/bin/witness_node
+wget https://github.com/CybexDEX/how-to-run-Cybex-node/raw/master/bin/cq_append_sbe -O ${Cybex_ROOT}/bin/cq_append_sbe
+wget https://github.com/CybexDEX/how-to-run-Cybex-node/raw/master/bin/cq_sync_server -O ${Cybex_ROOT}/bin/cq_sync_server
+wget https://github.com/CybexDEX/how-to-run-Cybex-node/raw/master/bin/cq_sync_client -O ${Cybex_ROOT}/bin/cq_sync_client
+
+# 下载genesis文件
+wget https://raw.githubusercontent.com/CybexDEX/how-to-run-Cybex-node/master/mainchain/genesis.json -O ${Cybex_ROOT}/genesis.json
+
+# 建立data目录并下载config.ini文件
+mkdir -p ${Cybex_ROOT}/data
+wget https://raw.githubusercontent.com/CybexDEX/how-to-run-Cybex-node/master/mainchain/config.ini -O ${Cybex_ROOT}/data/config.ini
+
+# 修改data/config.ini，将您提前注册好的witness-id和private-key配置到config.ini中
+# 增加以下两行（去掉行首的#符号）
+# witness-id = &quot;1.6.X&quot;
+# private-key = [&quot;your-signing-pubkey-in-base58-format&quot;, &quot;your-signing-privkey-in-wif-format&quot;]
+
+# 建立每日数据目录(这个目录需要配置到后面的server.xml和client.xml文件中)
+mkdir -p ${Cybex_ROOT}/daily
+
+# 建立CQ配置目录
+mkdir -p ${Cybex_ROOT}/config/cq
+
+# 编辑${Cybex_ROOT}/config/cq/server.xml文件
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot; ?&gt;
+&lt;config&gt;
+    &lt;cq_path&gt;full-path-to-your-daily-dir/${TODAY}/wn_in&lt;/cq_path&gt;
+    &lt;heartbeat_interval&gt;1000&lt;/heartbeat_interval&gt;
+    &lt;connection name=&quot;name-of-local-endpoint&quot; port=&quot;port-of-local-cq-server&quot; passphrase=&quot;passphrase-of-local-cq-server&quot;/&gt;
+&lt;/config&gt;
+
+# 编辑${Cybex_ROOT}/config/cq/client.xml文件
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot; ?&gt;
+&lt;config&gt;
+    &lt;cq_path&gt;full-path-to-your-daily-dir/${TODAY}/wn_out&lt;/cq_path&gt;
+    &lt;heartbeat_interval&gt;1000&lt;/heartbeat_interval&gt;
+    &lt;sleep_interval&gt;5&lt;/sleep_interval&gt;
+    &lt;connection server=&quot;ip-of-rte-cq-server&quot; port=&quot;port-of-rte-cq-server&quot; passphrase=&quot;passphrase-of-rte-cq&quot;/&gt;
+&lt;/config&gt;
+
+# 按UTC时间建立当日的CQ工作目录
+export TODAY=`date -u +&quot;%Y%m%d&quot;`
+mkdir -p ${Cybex_ROOT}/daily/${TODAY}/wn_in
+mkdir -p ${Cybex_ROOT}/daily/${TODAY}/wn_out
+mkdir -p ${Cybex_ROOT}/daily/${TODAY}/wn_in_temp
+mkdir -p ${Cybex_ROOT}/daily/${TODAY}/logs
+</pre></div>
+
+
+<h3 id="witness_nodecq">启动witness_node和cq<a class="headerlink" href="#witness_nodecq" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span>Bash
+# 启动witness_node
+${Cybex_ROOT}/bin/witness_node --data-dir=${Cybex_ROOT}/data --out-dir=${Cybex_ROOT}/daily/${TODAY}/wn_out --in-dir=${Cybex_ROOT}/daily/${TODAY}/wn_in --genesis-json=${Cybex_ROOT}/genesis.json --plugins &quot;witness&quot;
+
+# 启动cq_sync_server
+${Cybex_ROOT}/bin/cq_sync_server ${Cybex_ROOT}/config/cq/server.xml
+
+# 启动cq_sync_client
+${Cybex_ROOT}/bin/cq_sync_client ${Cybex_ROOT}/config/cq/client.xml
+</pre></div>
+
+
+<h3 id="_36">每日交易日换日操作<a class="headerlink" href="#_36" title="Permanent link">&para;</a></h3>
+<p>每个交易日换日时，需要重启cq。推荐使用crontab系统定时任务来操作交易日换日。需要在utc时间每天00:00后执行，推荐每日00:01执行此脚本</p>
+<p>换日脚本如下</p>
+<div class="codehilite"><pre><span></span>Bash
+#!/bin/bash
+
+export Cybex_ROOT=&#39;your path to root dir of witness node&#39;
+export YESTERDAY=`date -u -d &quot;24 hours ago&quot; +&quot;%Y%m%d&quot;`
+export TODAY=`date -u +&quot;%Y%m%d&quot;`
+
+mkdir -p ${Cybex_ROOT}/daily/${TODAY}/wn_in
+mkdir -p ${Cybex_ROOT}/daily/${TODAY}/wn_out
+mkdir -p ${Cybex_ROOT}/daily/${TODAY}/wn_in_temp
+mkdir -p ${Cybex_ROOT}/daily/${TODAY}/logs
+
+${Cybex_ROOT}/bin/cq_append_sbe ${Cybex_ROOT}/daily/${YESTERDAY}/wn_in \
+script sod ${Cybex_ROOT}/daily/${TODAY}/wn_in ${Cybex_ROOT}/daily/${TODAY}/wn_out
+
+sleep 3
+
+ps auxwww | grep `whoami` | egrep &quot;cq_sync_server&quot; | grep -v grep | awk &#39;{print &quot;kill -9 &quot;$2}&#39; | sh
+ps auxwww | grep `whoami` | egrep &quot;cq_sync_client&quot; | grep -v grep | awk &#39;{print &quot;kill -9 &quot;$2}&#39; | sh
+
+sleep 10
+
+nohup ${Cybex_ROOT}/bin/cq_sync_server ${Cybex_ROOT}/config/cq/server.xml \
+&gt;${Cybex_ROOT}/daily/${TODAY}/logs/cq_sync_server.log 2&gt;&amp;1 &amp;
+nohup ${Cybex_ROOT}/bin/cq_sync_client ${Cybex_ROOT}/config/cq/client.xml \
+&gt;${Cybex_ROOT}/daily/${TODAY}/logs/cq_sync_client.log 2&gt;&amp;1 &amp;
+</pre></div>
+
+
+<h3 id="_37">产品升级<a class="headerlink" href="#_37" title="Permanent link">&para;</a></h3>
+<p>在一些特定情况下（例如链上操作升级），运营方需要配合社区进行节点升级工作。</p>
+<h3 id="_38">日常维护和监控<a class="headerlink" href="#_38" title="Permanent link">&para;</a></h3>
+<p>安装监控插件,监控节点出块和系统运行情况
+* 下载zabbix_install.sh（接入时提供下载方式）
+* 执行zabbix_install.sh</p>
+<h3 id="_39">维护升级<a class="headerlink" href="#_39" title="Permanent link">&para;</a></h3>
+<ul>
+<li>停止 cq和witnessnode （慎用kill -9）</li>
+<li>替换程序</li>
+<li>启动 cq和witnessnode</li>
+<li>核对区块和其他数据及状态是否一致健康</li>
+</ul>
+<h3 id="_40">安全<a class="headerlink" href="#_40" title="Permanent link">&para;</a></h3>
+<ul>
+<li>开放5000端口给所有见证人节点（接入时提供见证人节点列表）</li>
+<li>开放CQ端口给RTE服务器</li>
+<li>封闭其他所有端口</li>
+</ul>
+<p>机房选择建议
+* 中国大陆推荐使用阿里云
+* 海外及港澳台推荐使用aws</p>
+<h2 id="_41">自动交易程序<a class="headerlink" href="#_41" title="Permanent link">&para;</a></h2>
+<p>本文以Cybex交易所为例，旨在说明我们开发的自动交易程序的操作方法。通过运行此程序，可以使用指定账户进行自动挂单、撤单操作，并根据需要设定相关的策略，包括行情获取、下单间隔、价格设定、风控规则等等。</p>
+<h3 id="_42">一、运行环境<a class="headerlink" href="#_42" title="Permanent link">&para;</a></h3>
+<ol>
+<li>安装Docker</li>
+</ol>
+<p>创建的Json配置文件可以通过终端使用Docker运行，可至官网 https://docs.docker.com/install/ 进行下载安装。</p>
+<ol>
+<li>获取镜像</li>
+</ol>
+<p>启动Docker服务，通过Docker pull命令从阿里云的公共镜像库中拉下创建好的镜像，详细命令：</p>
+<p><code>Docker pull registry.cn-hangzhou.aliyuncs.com/Cybex/robot:0.1.20181128</code></p>
+<h3 id="_43">二、创建配置文件<a class="headerlink" href="#_43" title="Permanent link">&para;</a></h3>
+<p>参照附件中的config.json.examples文件创建所需的配置文件YYY.json，相关参数配置详解：</p>
+<ol>
+<li>markets: //行情模块</li>
+</ol>
+<p>当交易对可通过cryptocompare获取行情信息时，配置如下：</p>
+<div class="codehilite"><pre><span></span>{
+  &quot;name&quot;: &quot;cryptocompare&quot;,   //行情实例名
+  &quot;params&quot;: {
+    &quot;url&quot;: &quot;https://min-api.cryptocompare.com/data/price?fsym={}&amp;tsyms={}&quot;,
+    &quot;market_expiration&quot;: 60,  //行情有效期，单位秒
+    &quot;trading_pairs&quot;: [
+      {&quot;base&quot;: &quot;USDT&quot;, &quot;quote&quot;: &quot;ETH&quot;},
+      {&quot;base&quot;: &quot;BTC&quot;, &quot;quote&quot;: &quot;ETH&quot;}
+  ]
+}
+</pre></div>
+
+
+<p>当交易对无法通过cryptocompare获取行情信息时，例如KEY/CYB，CYB无外盘价格，配置如下：</p>
+<div class="codehilite"><pre><span></span>{
+  &quot;name&quot;: &quot;Cybex&quot;,     //行情实例名
+  &quot;params&quot;: {
+    &quot;url&quot;: &quot;https://shanghai.51nebula.com&quot;,  //Cybex生产链访问节点
+    &quot;market_expiration&quot;: 60,  //行情有效期，单位秒
+    &quot;trading_pairs&quot;: [
+      {&quot;base&quot;: &quot;CYB&quot;, &quot;quote&quot;: &quot;JADE.KEY&quot;}
+  ]
+}
+</pre></div>
+
+
+<ol>
+<li>strategies: //下单策略模块</li>
+</ol>
+<div class="codehilite"><pre><span></span>{
+  &quot;name&quot;: &quot;robot_ETH_USDT&quot;,  //下单策略实例名
+  &quot;type&quot;: &quot;robot_strategy&quot;, //下单策略模块类型
+  &quot;params&quot;: {
+    &quot;base&quot;: &quot;USDT&quot;,
+    &quot;quote&quot;: &quot;ETH&quot;,
+    &quot;price_positive_floating&quot;: 0.001,   //价格向促进成交方向浮动比例
+    &quot;price_nagtive_floating&quot;: 0.01,      //价格向不促进成交方向浮动比例
+    &quot;amount&quot;: 0.05,                            //以quote计价的下单量，此处意为挂单量为0.05ETH
+    &quot;amount_floating&quot;: 0.5,    //下单量可以浮动比，此处意为：0.075ETH&gt;=下单&gt;=0,025ETH
+    &quot;expiration&quot;: 180             //下单超时，单位秒，此处意为超过180秒自动撤单
+  }
+}
+</pre></div>
+
+
+<ol>
+<li>risk: //风控模块</li>
+</ol>
+<div class="codehilite"><pre><span></span>{
+  &quot;name&quot;: &quot;robot_position&quot;, //风控实例名
+  &quot;type&quot;: &quot;max_position_risk&quot;, // 风控模块类型
+  &quot;params&quot;: {
+  &quot;max_position&quot;: 0.05  //可用于下单的持仓量比，此处意为超过百分之五的仓位既停止下单
+  }
+}
+</pre></div>
+
+
+<ol>
+<li>stoplosses: //止损模块</li>
+</ol>
+<div class="codehilite"><pre><span></span>{
+  &quot;name&quot;: &quot;simple_robot&quot;,  //止损实例名
+  &quot;type&quot;: &quot;price_stoploss_cancel&quot;, //止损模块类型
+  &quot;params&quot;: {
+    &quot;order_cancel_ratio&quot;: 0.01  //自动撤单的价格浮动比例，此处意为当所下单价格与当前成交价格浮动比超过百分之一即自动撤单
+  }
+}
+</pre></div>
+
+
+<ol>
+<li>account: //账户模块</li>
+</ol>
+<p>当为配置Cybex交易所的账户时:</p>
+<div class="codehilite"><pre><span></span>  &quot;name&quot;: &quot;pytest1&quot;,  //账户实例名
+  &quot;type&quot;: &quot;Cybex&quot;,  //账户模块类型
+  &quot;params&quot;: {
+    &quot;name&quot;: &quot;rbt-test01&quot;,   //下单账户的账户名
+    &quot;url&quot;: &quot;https://shanghai .51nebula.com&quot;, //Cybex交易所生产访问方式
+    &quot;wif&quot;:&quot;wif-priv-key-here&quot;  //下单账户的私钥
+</pre></div>
+
+
+<p>当为配置其他交易所的账户时:</p>
+<div class="codehilite"><pre><span></span>待完善
+</pre></div>
+
+
+<ol>
+<li>instances: //调用以上配置</li>
+</ol>
+<div class="codehilite"><pre><span></span>{
+  &quot;strategy&quot;: &quot;robot_ETH_USDT&quot;, //调用名为robot_ETH_USDT的下单策略实例
+  &quot;account&quot;: &quot;pytest1&quot;,    //调用名为pytest1的账户实例
+  &quot;market&quot;: [&quot;cryptocompare&quot;],  //调用[ ]中的所有行情实例，此处可配置调用一组多个行情实例
+  &quot;risk&quot;: [&quot;robot_position&quot;],   //调用[ ]中的所有风险实例，此处可配置调用一组多个风险实例
+  &quot;stoploss&quot;: &quot;simple_robot&quot;,  //调用名为simple_robot的止损实例
+  &quot;gap_sec&quot;: 1        //下单频率，单位秒
+},
+{
+  &quot;strategy&quot;: &quot;robot_KEY_CYB&quot;,
+  &quot;account&quot;: &quot;pytest4&quot;,
+  &quot;market&quot;: [&quot;Cybex&quot;],
+  &quot;risk&quot;: [&quot;robot_position&quot;],
+  &quot;stoploss&quot;: &quot;simple_robot&quot;,
+  &quot;gap_sec&quot;: 3      
+}    //可重复配置调用多个下单策略实例
+</pre></div>
+
+
+<h3 id="_44">三、运行配置文件<a class="headerlink" href="#_44" title="Permanent link">&para;</a></h3>
+<p>通过docker run命令运行所创建的YYY.json</p>
+<p><code>Docker run -it -v ${ABSOLUTE_PATH_OF_YOUR_CFG_JSON}:/config.json egistry.cn-hangzhou.aliyuncs.com/Cybex/robot:0.1.20181128</code></p>
+<p>注：其中ABSOLUTE_PATH_OF_YOUR_CFG_JSON为YYY.json为在你本地的绝对路径，如需在后台自动运行，将命令行中的-it替换成-itd</p>
+<h3 id="_45">四、账户监测<a class="headerlink" href="#_45" title="Permanent link">&para;</a></h3>
+<p>运行成功后，登录交易所核实所配置账户是否根据要求在自动挂单和撤单操作，以及及时观察是否需要为账户进行补仓等操作。</p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="cybex/" title="Cybex" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Cybex
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="paper/" title="Paper" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Paper
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2017 - 2019 Cybex
+          </div>
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+  <div class="md-footer-social">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.css">
+    
+      <a href="https://github.com/CybexDex" class="md-footer-social__link fa fa-github"></a>
+    
+      <a href="https://twitter.com/CYBEXExchange" class="md-footer-social__link fa fa-twitter"></a>
+    
+      <a href="https://t.me/joinchat/Gmz68UScWa3dbskAG2hUug" class="md-footer-social__link fa fa-telegram"></a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="assets/javascripts/application.245445c6.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"."}})</script>
+      
+    
+  </body>
+</html>
