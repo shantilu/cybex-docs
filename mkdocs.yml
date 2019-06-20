@@ -1,0 +1,39 @@
+site_name: Cybex使用手册
+nav:
+  - Cybex: cybex.md
+  - API: index.md
+  - Paper: paper.md
+
+theme:
+  name: 'material'
+  language: 'en'
+  palette:
+    primary: 'deep orange'
+    accent: 'grey'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+
+# Customization
+extra:
+  manifest: 'manifest.webmanifest'
+  social:
+    - type: 'github'
+      link: 'https://github.com/CybexDex'
+    - type: 'twitter'
+      link: 'https://twitter.com/CYBEXExchange'
+    - type: 'telegram'
+      link: 'https://t.me/joinchat/Gmz68UScWa3dbskAG2hUug'
+
+extra_css:
+  - 'css/extra.css'
+
+# Copyright
+copyright: 'Copyright &copy; 2017 - 2019 Cybex'
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true

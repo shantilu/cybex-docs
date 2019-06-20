@@ -1,0 +1,9 @@
+article p img {
+    box-shadow: 0 8px 20px rgba(143, 168, 191, 0.35);
+}
+
+.md-typeset h3{
+    border-left: 3px solid #ff7043;
+    padding-left: 15px;
+    padding-bottom: 8px;
+}
